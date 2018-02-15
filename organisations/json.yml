@@ -1,0 +1,46 @@
+---
+- organisations get: |
+    <Response>
+      <Organisations>
+        <Organisation>
+          <Name>Demo Company (NZ)</Name>
+          <LegalName>Demo Company (NZ)</LegalName>
+          <PaysTax>true</PaysTax>
+          <Version>NZ</Version>
+          <OrganisationType>COMPANY</OrganisationType>
+          <BaseCurrency>NZD</BaseCurrency>
+          <CountryCode>NZ</CountryCode>
+          <IsDemoCompany>true</IsDemoCompany>
+          <OrganisationStatus>ACTIVE</OrganisationStatus>
+          <TaxNumber>111-111-111</TaxNumber>
+          <FinancialYearEndDay>31</FinancialYearEndDay>
+          <FinancialYearEndMonth>3</FinancialYearEndMonth>
+          <SalesTaxBasis>PAYMENTS</SalesTaxBasis>
+          <SalesTaxPeriod>TWOMONTHS</SalesTaxPeriod>
+          <DefaultSalesTax>Remember previous</DefaultSalesTax>
+          <DefaultPurchasesTax>Remember previous</DefaultPurchasesTax>
+          <PeriodLockDate>2009-09-30T00:00:00</PeriodLockDate>
+          <CreatedDateUTC>2017-03-01T03:22:23.217Z</CreatedDateUTC>
+          <OrganisationEntityType>COMPANY</OrganisationEntityType>
+          <Timezone>NEWZEALANDSTANDARDTIME</Timezone>
+          <ShortCode>!0KPy5</ShortCode>
+          <OrganisationID>752beb82-678f-47f3-9555-23cc19d6b1e5</OrganisationID>
+          <Addresses>
+            <Address>
+              <AddressType>POBOX</AddressType>
+              <AddressLine1>23 Main Street</AddressLine1>
+              <AddressLine2>Central City</AddressLine2>
+              <City>Marineville</City>
+              <PostalCode>1234</PostalCode>
+            </Address>
+          </Addresses>
+          <Phones>
+            <Phone>
+              <PhoneType>OFFICE</PhoneType>
+              <PhoneNumber>1234 5678</PhoneNumber>
+              <PhoneAreaCode>0800</PhoneAreaCode>
+            </Phone>
+          </Phones>
+        </Organisation>
+      </Organisations>
+    </Response>
