@@ -1,5 +1,5 @@
 ---
-- get-all: |
+get-all: |
     <Response>
       <BrandingThemes>
         <BrandingTheme>
@@ -22,7 +22,7 @@
         </BrandingTheme>
       </BrandingThemes>
     </Response>
-- get-single: |
+get-single: |
     <Response>
       <BrandingThemes>
         <BrandingTheme>
