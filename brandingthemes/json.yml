@@ -6,8 +6,7 @@ get-all: |
         "Name": "Standard",
         "SortOrder": 0,
         "CreatedDateUTC": "\/Date(1277835396270+0000)\/"
-      },
-      {
+      },{
         "BrandingThemeID": "dfe23d27-a3a6-4ef3-a5ca-b9e02b142dde",
         "Name": "Special Projects",
         "SortOrder": 1,
