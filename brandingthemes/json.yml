@@ -1,5 +1,5 @@
 ---
-- get-all: |
+get-all: |
     {
     "BrandingThemes": [
         {
@@ -22,7 +22,7 @@
         }
     ]
     }
-- get-single: |
+get-single: |
     {
     "BrandingThemes": [
         {
