@@ -1,3 +1,3 @@
 # Api.Documentation
 
-Documentation for the Xero API. Presented at https://developer.xero.com/documentation.
+Documentation for the Xero API, presented at https://developer.xero.com/documentation.
