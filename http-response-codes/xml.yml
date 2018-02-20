@@ -1,10 +1,6 @@
 ---
 400-bad-request: |
   <Response>
-    <Id>622b854f-021b-4b82-8323-390bb8ceaae8</Id>
-    <Status>OK</Status>
-    <ProviderName>Xero API Previewer</ProviderName>
-    <DateTimeUTC>2018-02-20T00:31:44.9544567Z</DateTimeUTC>
     <BrandingThemes>
       <BrandingTheme>
         <BrandingThemeID>7889a0ac-262a-40e3-8a63-9a769b1a18af</BrandingThemeID>
