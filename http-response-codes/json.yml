@@ -1,10 +1,6 @@
 ---
 400-bad-request: |
   {
-    "Id": "effa4c64-7198-4725-824c-e9188d04ae63",
-    "Status": "OK",
-    "ProviderName": "Xero API Previewer",
-    "DateTimeUTC": "\/Date(1519086952071)\/",
     "BrandingThemes": [
       {
         "BrandingThemeID": "7889a0ac-262a-40e3-8a63-9a769b1a18af",
