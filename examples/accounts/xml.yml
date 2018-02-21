@@ -1,0 +1,78 @@
+---
+response-get-all: |
+  <Response>
+    <Accounts>
+      <Account>
+        <AccountID>ebd06280-af70-4bed-97c6-7451a454ad85</AccountID>
+        <Code>091</Code>
+        <Name>Business Savings Account</Name>
+        <Type>BANK</Type>
+        <TaxType>NONE</TaxType>
+        <EnablePaymentsToAccount>false</EnablePaymentsToAccount>
+        <BankAccountNumber>0209087654321050</BankAccountNumber>
+        <BankAccountType>BANK</BankAccountType>
+        <CurrencyCode>NZD</CurrencyCode>
+      </Account>
+      <Account>
+        <AccountID>7d05a53d-613d-4eb2-a2fc-dcb6adb80b80</AccountID>
+        <Code>200</Code>
+        <Name>Sales</Name>
+        <Type>REVENUE</Type>
+        <TaxType>OUTPUT2</TaxType>
+        <Description>Income from any normal business activity</Description>
+        <EnablePaymentsToAccount>false</EnablePaymentsToAccount>
+      </Account>
+    </Accounts>
+  </Response>
+response-get-single: |
+  <Response>
+    <Accounts>
+      <Account>
+        <AccountID>573a170b-6792-4cfa-b8ce-6f8fd27f5458</AccountID>
+        <Code>300</Code>
+        <Name>Purchases</Name>
+        <Type>DIRECTCOSTS</Type>
+        <TaxType>INPUT2</TaxType>
+        <Description>Goods purchased with the intention of selling these to customers</Description>
+        <EnablePaymentsToAccount>false</EnablePaymentsToAccount>
+      </Account>
+    </Accounts>
+  </Response>
+request-create-sales: |
+  <Account>
+    <Code>201</Code>
+    <Name>Sales - clearance lines</Name>
+    <Type>SALES</Type>
+  </Account>
+request-create-asset: |
+  <Account>
+    <Code>304</Code>
+    <Name>Clearing - EFTPOS</Name>
+    <Type>CURRENT</Type>
+  </Account>
+request-create-bank: |
+  <Account>
+    <Name>Cheque Account</Name>
+    <Type>BANK</Type>
+    <BankAccountNumber>121-121-1234567</BankAccountNumber>
+  </Account>
+request-update: |
+  <Accounts>
+    <Account>
+      <AccountID>297c2dc5-cc47-4afd-8ec8-74990b8761e9</AccountID>
+      <Code>200</Code>
+      <Name>Sales account</Name>
+      <Type>REVENUE</Type>
+      <TaxType>OUTPUT2</TaxType>
+      <Description>Income from any normal business trading activity</Description>
+      <EnablePaymentsToAccount>false</EnablePaymentsToAccount>
+      <ShowInExpenseClaims>false</ShowInExpenseClaims>
+    </Account>
+  </Accounts>
+request-archive: |
+  <Accounts>
+    <Account>
+      <AccountID>297c2dc5-cc47-4afd-8ec8-74990b8761e9</AccountID>
+      <Status>ARCHIVED</Status>
+    </Account>
+  </Accounts>

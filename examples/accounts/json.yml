@@ -1,0 +1,69 @@
+---
+response-get-all: |
+  {
+    "Accounts": [{
+      "AccountID": "ebd06280-af70-4bed-97c6-7451a454ad85",
+      "Code": "091",
+      "Name": "Business Savings Account",
+      "Type": "BANK",
+      "TaxType": "NONE",
+      "EnablePaymentsToAccount": false,
+      "BankAccountNumber": "0209087654321050",
+      "BankAccountType": "BANK",
+      "CurrencyCode": "NZD",
+    },{
+      "AccountID": "7d05a53d-613d-4eb2-a2fc-dcb6adb80b80",
+      "Code": "200",
+      "Name": "Sales",
+      "Type": "REVENUE",
+      "TaxType": "OUTPUT2",
+      "Description": "Income from any normal business activity",
+      "EnablePaymentsToAccount": false,
+    }]
+  }
+response-get-single: |
+  {
+    "Accounts": [{
+      "AccountID": "573a170b-6792-4cfa-b8ce-6f8fd27f5458",
+      "Code": "300",
+      "Name": "Purchases",
+      "Type": "DIRECTCOSTS",
+      "TaxType": "INPUT2",
+      "Description": "Goods purchased with the intention of selling these to customers",
+      "EnablePaymentsToAccount": false,
+    }]
+  }
+request-create-sales: |
+  {
+    "Code": "201",
+    "Name": "Sales - clearance lines",
+    "Type": "SALES"
+  }
+request-create-asset: |
+  {
+    "Code": "304",
+    "Name": "Clearing - EFTPOS",
+    "Type": "CURRENT"
+  }
+request-create-bank: |
+  {
+    "Name": "Cheque Account",
+    "Type": "BANK",
+    "BankAccountNumber": "121-121-1234567"
+  }
+request-update: |
+  {
+    "AccountID": "297c2dc5-cc47-4afd-8ec8-74990b8761e9",
+    "Code": "200",
+    "Name": "Sales account",
+    "Type": "REVENUE",
+    "TaxType": "OUTPUT2",
+    "Description": "Income from any normal business trading activity",
+    "EnablePaymentsToAccount": "false",
+    "ShowInExpenseClaims": "false"
+  }
+request-archive: |
+  {
+    "AccountID": "297c2dc5-cc47-4afd-8ec8-74990b8761e9",
+    "Status": "ARCHIVED"
+  }
