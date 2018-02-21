@@ -1,0 +1,12 @@
+---
+400-bad-request: |
+  {
+    "ErrorNumber": 10,
+    "Type": "ValidationException",
+    "Message": "A validation exception occurred",
+    "Elements": [{
+      "ValidationErrors": [{
+        "Message": "Email address must be valid"
+      }] 
+    }] 
+  }

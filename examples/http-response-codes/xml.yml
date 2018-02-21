@@ -1,0 +1,16 @@
+---
+400-bad-request: |
+  <ApiException>
+    <ErrorNumber>10</ErrorNumber>
+    <Type>ValidationException</Type>
+    <Message>A validation exception occurred</Message>
+    <Elements>
+      <DataContractBase xsi:type="Invoice">
+        <ValidationErrors>
+          <ValidationError>
+            <Message>Email address must be valid.</Message>
+          </ValidationError>
+        </ValidationErrors>
+     </DataContractBase>
+    </Elements>
+  </ApiException>
