@@ -1,0 +1,84 @@
+---
+get-tracking-categories: |
+  {
+    "TrackingCategories": [
+      {
+        "Name": "Region",
+        "Status": "ACTIVE",
+        "TrackingCategoryID": "351953c4-8127-4009-88c3-f9cd8c9cbe9f",
+        "Options": [
+          {
+            "TrackingOptionID": "ce205173-7387-4651-9726-2cf4c5405ba2",
+            "Name": "Eastside",
+            "Status": "ACTIVE"
+          },
+          {
+            "TrackingOptionID": "6eb12fdf-63de-4033-98df-be679d84e3c2",
+            "Name": "North",
+            "Status": "ACTIVE"
+          },
+          {
+            "TrackingOptionID": "6159bdd4-b634-4338-a664-e929aa73f70f",
+            "Name": "South",
+            "Status": "ACTIVE"
+          },
+          {
+            "TrackingOptionID": "161ad543-97ab-4436-8213-e0d794b1ea90",
+            "Name": "West Coast",
+            "Status": "ACTIVE"
+          }
+        ]
+      }
+    ]
+  }
+create-tracking-category: |
+  {
+    "TrackingCategories": [
+      {
+        "Name": "New Category"
+      }
+    ]
+  }
+create-tracking-option: |
+  {
+    "Options": [
+      {
+        "Name": "New Option"
+      },
+      {
+        "Name": "New Option"
+      }
+    ]
+  }
+update-tracking-category-name: |
+  {
+    "TrackingCategories": [
+      {
+        "Name": "New Name"
+      }
+    ]
+  }
+update-tracking-category-status: |
+  {
+    "TrackingCategories": [
+      {
+        "Status": "ARCHIVED"
+      }
+    ]
+  }
+update-tracking-option-name: |
+  {
+    "Options": [
+      {
+        "Name": "New Name"
+      }
+    ]
+  }
+update-tracking-option-status: |
+  {
+    "Options": [
+      {
+        "Status": "ARCHIVED"
+      }
+    ]
+  }

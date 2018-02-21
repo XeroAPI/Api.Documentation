@@ -1,0 +1,72 @@
+---
+get-tracking-categories:
+  <Response>
+    <TrackingCategories>
+      <TrackingCategory>
+        <Name>Region</Name>
+        <Status>ACTIVE</Status>
+        <TrackingCategoryID>351953c4-8127-4009-88c3-f9cd8c9cbe9f</TrackingCategoryID>
+        <Options>
+          <Option>
+            <TrackingOptionID>ce205173-7387-4651-9726-2cf4c5405ba2</TrackingOptionID>
+            <Name>Eastside</Name>
+            <Status>ACTIVE</Status>
+          </Option>
+          <Option>
+            <TrackingOptionID>6eb12fdf-63de-4033-98df-be679d84e3c2</TrackingOptionID>
+            <Name>North</Name>
+            <Status>ACTIVE</Status>
+          </Option>
+          <Option>
+            <TrackingOptionID>6159bdd4-b634-4338-a664-e929aa73f70f</TrackingOptionID>
+            <Name>South</Name>
+            <Status>ACTIVE</Status>
+          </Option>
+          <Option>
+            <TrackingOptionID>161ad543-97ab-4436-8213-e0d794b1ea90</TrackingOptionID>
+            <Name>West Coast</Name>
+            <Status>ACTIVE</Status>
+          </Option>
+        </Options>
+      </TrackingCategory>
+    </TrackingCategories>
+  </Response>
+create-tracking-category: |
+  <TrackingCategories>
+    <TrackingCategory>
+      <Name>New Category</Name>
+    </TrackingCategory>
+  </TrackingCategories>
+create-tracking-option: |
+  <Options>
+    <Option>
+      <Name>New Option</Name>
+    </Option>
+    <Option>
+      <Name>Another New Option</Name>
+    </Option>
+  </Options>
+update-tracking-category-name: |
+  <TrackingCategories>
+    <TrackingCategory>
+      <Name>New Name</Name>
+    </TrackingCategory>
+  </TrackingCategories>
+update-tracking-category-status: |
+  <TrackingCategories>
+    <TrackingCategory>
+      <Status>ARCHIVED</Status>
+    </TrackingCategory>
+  </TrackingCategories>
+update-tracking-option-name: |
+  <Options>
+    <Option>
+      <Name>New Name</Name>
+    </Option>
+  </Options>
+update-tracking-option-status: |
+  <Options>
+    <Option>
+      <Status>ARCHIVED</Status>
+    </Option>
+  </Options>
