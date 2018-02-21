@@ -1,0 +1,14 @@
+---
+get: |
+  {
+    "Employees": [
+      {
+        "EmployeeID": "54021264-9ebc-4702-8456-2c358d633168",
+        "Status": "ACTIVE",
+        "FirstName": "Oliver",
+        "LastName": "Gray",
+        "UpdatedDateUTC": "\/Date(1513048641113+0000)\/"
+      },
+    ...
+    ]
+  }
