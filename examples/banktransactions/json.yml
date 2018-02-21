@@ -1,0 +1,146 @@
+response-get-single: |
+  "BankTransactions": [{
+    "Contact": {
+      "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92",
+      "Name": "Wilson Periodicals"
+    },
+    "Date": "2017-02-25T00:00:00",
+    "Status": "AUTHORISED",
+    "LineAmountTypes": "Inclusive",
+    "LineItems": [{
+      "Description": "Monthly account fee",
+      "UnitAmount": "49.90",
+      "TaxType": "NONE",
+      "TaxAmount": "0.00",
+      "LineAmount": "49.90",
+      "AccountCode": "404",
+      "Quantity": "1.0000",
+      "LineItemID": "52208ff9-528a-4985-a9ad-b2b1d4210e38"
+    }],
+    "SubTotal": "49.90",
+    "TotalTax": "0.00",
+    "Total": "49.90",
+    "UpdatedDateUTC": "2010-11-22T00:00:00",
+    "CurrencyCode": "NZD",
+    "BankTransactionID": "63d47b99-e1ef-4b46-84db-034f2205f8fb",
+    "BankAccount": {
+      "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c",
+      "Code": "090",
+      "Name": "Business Bank Account"
+    },
+    "Type": "SPEND",
+    "Reference": "Sub 098801",
+    "IsReconciled": "true",
+  }]
+response-get-all: |
+  {
+    "BankTransactions": [{
+      "Contact": {
+        "ContactID": "c09661a2-a954-4e34-98df-f8b6d1dc9b19",
+        "Name": "BNZ"
+      },
+      "Date": "2010-07-30T00:00:00",
+      "LineAmountTypes": "Inclusive",
+      "SubTotal": "15.00",
+      "TotalTax": "0.00",
+      "Total": "15.00",
+      "UpdatedDateUTC": "2008-02-20T12:19:56.657",
+      "FullyPaidOnDate": "2010-07-30T00:00:00",
+      "BankTransactionID": "d20b6c54-7f5d-4ce6-ab83-55f609719126",
+      "BankAccount": {
+        "AccountID": "297c2dc5-cc47-4afd-8ec8-74990b8761e9",
+        "Code": "BANK"
+      },
+      "Type": "SPEND",
+      "IsReconciled": "true"
+    },{
+      ...
+    }]
+  }
+request-add-spendmoney: |
+  {
+    "Type": "SPEND",
+    "Contact": { 
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+    },
+    "LineItems": [{
+      "Description": "Yearly Bank Account Fee",
+      "UnitAmount": "20.00",
+      "AccountCode": "404"
+    }],
+    "BankAccount": { 
+      "Code": "BANK-ABC" 
+    }
+  }
+request-add-receivemoney: |
+  {
+    "Type": "RECEIVE",
+    "Contact": { 
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+    },
+    "Date": "2014-05-26T00:00:00",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [{
+      "Description": "Golf balls - white single",
+      "Quantity": "5",
+      "ItemCode": "GB1-White"
+    }],
+    "BankAccount": { 
+      "Code": "090" 
+    }
+  }
+request-add-receivemoney-trackingcategory: |
+  {
+    "Type": "RECEIVE",
+    "Contact": { 
+      "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92" 
+    },
+    "LineAmountTypes": "Inclusive",
+    "LineItems": [{
+      "Description": "Monthly Retainer",
+      "UnitAmount": "575.00",
+      "AccountCode": "200",
+      "Tracking": [{
+          "Name": "Activity/Workstream",
+          "Option": "Website management"
+      }]
+    }],
+    "BankAccount": { 
+      "Code": "091" 
+      },
+    "Url": "http://www.accounting20.com"
+  }
+request-add-receiveprepayment: |
+  {
+    "Type": "RECEIVE-PREPAYMENT",
+    "Contact": { "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92" },
+    "BankAccount": { "Code": "090" },
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [{
+      "Description": "Prepayment for Kitchen Designs",
+      "Quantity": "1",
+      "UnitAmount": "500.00",
+      "AccountCode": "200"
+    },{
+      "Description": "Prepayment for Kitchen materials",
+      "Quantity": "1",
+      "UnitAmount": "1000.00",
+      "AccountCode": "200"
+    }]
+  }
+request-add-receiveoverpayment: |
+  {
+    "Type": "RECEIVE-OVERPAYMENT",
+    "Contact": { "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92" },
+    "BankAccount": { "Code": "090" },
+    "LineAmountTypes": "NoTax",
+    "LineItems": [{
+      "Description": "Forgot to cancel annual sub payment",
+      "LineAmount": "100.00"
+    }]
+  }
+request-delete: |
+  {
+    "BankTransactionID": "a4725b2f-87a1-4917-abd5-6a8905c54de5",
+    "Status": "DELETED"
+  }
