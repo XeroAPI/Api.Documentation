@@ -1,0 +1,40 @@
+---
+get: |
+    <Response>
+      <Journals>
+        <Journal>
+          <JournalID>23ff0b88-a141-4770-8537-0dd505873b1e</JournalID>
+          <JournalDate>2016-10-05T00:00:00</JournalDate>
+          <JournalNumber>281</JournalNumber>
+          <CreatedDateUTC>2017-11-07T21:46:20.51</CreatedDateUTC>
+          <JournalLines>
+            <JournalLine>
+              <JournalLineID>2e38d2d7-d2e4-4894-89e4-bb25737cb677</JournalLineID>
+              <AccountID>dd517756-1b24-4db3-8aee-51d331039012</AccountID>
+              <AccountCode>255</AccountCode>
+              <AccountType>CURRLIAB</AccountType>
+              <AccountName>Historical Adjustment</AccountName>
+              <NetAmount>-4130.98</NetAmount>
+              <GrossAmount>-4130.98</GrossAmount>
+              <TaxAmount>0.00</TaxAmount>
+              <TaxType>NONE</TaxType>
+              <TaxName>Tax Exempt</TaxName>
+            </JournalLine>
+            <JournalLine>
+              <JournalLineID>7be9db36-3598-4755-ba5c-c2dbc8c4a7a2</JournalLineID>
+              <AccountID>ceef66a5-a545-413b-9312-78a53caadbc4</AccountID>
+              <AccountCode>090</AccountCode>
+              <AccountType>BANK</AccountType>
+              <AccountName>Checking Account</AccountName>
+              <NetAmount>4130.98</NetAmount>
+              <GrossAmount>4130.98</GrossAmount>
+              <TaxAmount>0.00</TaxAmount>
+              <TaxType>NONE</TaxType>
+              <TaxName>Tax Exempt</TaxName>
+            </JournalLine>
+          </JournalLines>
+        </Journal>
+      ...
+      <Journals>
+    </Response>
+

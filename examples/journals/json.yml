@@ -1,0 +1,43 @@
+---
+get-all: |
+  {
+    "Journals": [
+      {
+        "JournalID": "23ff0b88-a141-4770-8537-0dd505873b1e",
+        "JournalDate": "\/Date(1475625600000+0000)\/",
+        "JournalNumber": 281,
+        "CreatedDateUTC": "\/Date(1510091180510+0000)\/",
+        "JournalLines": [
+          {
+            "JournalLineID": "2e38d2d7-d2e4-4894-89e4-bb25737cb677",
+            "AccountID": "dd517756-1b24-4db3-8aee-51d331039012",
+            "AccountCode": "255",
+            "AccountType": "CURRLIAB",
+            "AccountName": "Historical Adjustment",
+            "Description": "",
+            "NetAmount": -4130.98,
+            "GrossAmount": -4130.98,
+            "TaxAmount": 0.00,
+            "TaxType": "NONE",
+            "TaxName": "Tax Exempt",
+            "TrackingCategories": []
+          },
+          {
+            "JournalLineID": "7be9db36-3598-4755-ba5c-c2dbc8c4a7a2",
+            "AccountID": "ceef66a5-a545-413b-9312-78a53caadbc4",
+            "AccountCode": "090",
+            "AccountType": "BANK",
+            "AccountName": "Checking Account",
+            "Description": "",
+            "NetAmount": 4130.98,
+            "GrossAmount": 4130.98,
+            "TaxAmount": 0.00,
+            "TaxType": "NONE",
+            "TaxName": "Tax Exempt",
+            "TrackingCategories": []
+          }
+        ]
+      },
+    ...
+    ]
+  }
