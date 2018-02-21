@@ -329,7 +329,7 @@ post-single-every-element: |
       <Total>98.00</Total>
       <LineItems>
         <LineItem>
-          <ItemCode>Test 01<<ItemCode>
+          <ItemCode>Test 01<ItemCode>
           <Description>3 copies of OS X 10.6 Snow Leopard</Description>
           <Quantity>3.0000</Quantity>
           <UnitAmount>59.00</UnitAmount>
@@ -346,7 +346,7 @@ post-single-every-element: |
           </Tracking>
         </LineItem>
         <LineItem>
-          <ItemCode>Test 02<<ItemCode>
+          <ItemCode>Test 02<ItemCode>
           <Description>Returned Apple Keyboard with Numeric Keypad (faulty)</Description>
           <Quantity>1.0000</Quantity>
           <UnitAmount>-79.00</UnitAmount>
