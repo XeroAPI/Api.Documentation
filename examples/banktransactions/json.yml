@@ -30,7 +30,7 @@ response-get-single: |
     },
     "Type": "SPEND",
     "Reference": "Sub 098801",
-    "IsReconciled": "true",
+    "IsReconciled": "true"
   }]
 response-get-all: |
   {
@@ -54,7 +54,7 @@ response-get-all: |
       "Type": "SPEND",
       "IsReconciled": "true"
     },{
-      ...
+      
     }]
   }
 request-add-spendmoney: |
