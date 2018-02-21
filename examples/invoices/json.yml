@@ -412,18 +412,16 @@ post-single-sent: |
 post-multiple-sumarize-errors: |
   {
     "Response": {
-      "Invoices": {
-        "Invoice": [
+      "Invoices": [
           ...
           {
             "ValidationErrors": {
               "ValidationError": {
                 "Message": "...."
               }
-            },
-          },
+            }
+          }
           ...
         ]
       }
-    }
   }
