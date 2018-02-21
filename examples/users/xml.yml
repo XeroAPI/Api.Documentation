@@ -1,0 +1,14 @@
+---
+users-get: |
+  <Users>
+    <User>
+      <UserID>7cf47fe2-c3dd-4c6b-9895-7ba767ba529c</UserID>
+      <EmailAddress>john.smith@mail.com</EmailAddress>
+      <FirstName>John</FirstName>
+      <LastName>Smith</LastName>
+      <UpdatedDateUTC>2010-03-03T22:23:26.94</UpdatedDateUTC>
+      <IsSubscriber>true</IsSubscriber>
+      <OrganisationRole>ADMIN</OrganisationRole>
+    </User>
+    ....
+  </Users>

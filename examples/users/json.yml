@@ -1,0 +1,16 @@
+---
+users-get: |
+  {
+    "Users": [
+      {
+        "UserID": "7cf47fe2-c3dd-4c6b-9895-7ba767ba529c",
+        "EmailAddress": "john.smith@mail.com",
+        "FirstName": "John",
+        "LastName": "Smith",
+        "UpdatedDateUTC": "\/Date(1516230549137+0000)\/",
+        "IsSubscriber": false,
+        "OrganisationRole": "ADMIN"
+      },
+      ...
+    ]
+  }
