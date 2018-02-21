@@ -10,7 +10,7 @@ response-get-all: |
       "EnablePaymentsToAccount": false,
       "BankAccountNumber": "0209087654321050",
       "BankAccountType": "BANK",
-      "CurrencyCode": "NZD",
+      "CurrencyCode": "NZD"
     },{
       "AccountID": "7d05a53d-613d-4eb2-a2fc-dcb6adb80b80",
       "Code": "200",
@@ -18,7 +18,7 @@ response-get-all: |
       "Type": "REVENUE",
       "TaxType": "OUTPUT2",
       "Description": "Income from any normal business activity",
-      "EnablePaymentsToAccount": false,
+      "EnablePaymentsToAccount": false
     }]
   }
 response-get-single: |
@@ -30,7 +30,7 @@ response-get-single: |
       "Type": "DIRECTCOSTS",
       "TaxType": "INPUT2",
       "Description": "Goods purchased with the intention of selling these to customers",
-      "EnablePaymentsToAccount": false,
+      "EnablePaymentsToAccount": false
     }]
   }
 request-create-sales: |
