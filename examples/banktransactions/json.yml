@@ -32,7 +32,7 @@ response-get-single: |
       },
       "Type": "SPEND",
       "Reference": "Sub 098801",
-      "IsReconciled": "true",
+      "IsReconciled": "true"
     }]
   }
 response-get-all: |
