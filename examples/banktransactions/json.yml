@@ -5,7 +5,8 @@ response-get-single: |
         "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92",
         "Name": "Wilson Periodicals"
       },
-      "Date": "2017-02-25T00:00:00",
+      "DateString": "2014-05-26T00:00:00",
+      "Date": "\/Date(1401062400000+0000)\/",
       "Status": "AUTHORISED",
       "LineAmountTypes": "Inclusive",
       "LineItems": [{
@@ -21,7 +22,7 @@ response-get-single: |
       "SubTotal": "49.90",
       "TotalTax": "0.00",
       "Total": "49.90",
-      "UpdatedDateUTC": "2010-11-22T00:00:00",
+      "UpdatedDateUTC": "\/Date(1439434356790+0000)\/",
       "CurrencyCode": "NZD",
       "BankTransactionID": "63d47b99-e1ef-4b46-84db-034f2205f8fb",
       "BankAccount": {
@@ -41,13 +42,14 @@ response-get-all: |
         "ContactID": "c09661a2-a954-4e34-98df-f8b6d1dc9b19",
         "Name": "BNZ"
       },
-      "Date": "2010-07-30T00:00:00",
+      "DateString": "2014-05-26T00:00:00",
+      "Date": "\/Date(1401062400000+0000)\/",
       "LineAmountTypes": "Inclusive",
       "SubTotal": "15.00",
       "TotalTax": "0.00",
       "Total": "15.00",
-      "UpdatedDateUTC": "2008-02-20T12:19:56.657",
-      "FullyPaidOnDate": "2010-07-30T00:00:00",
+      "UpdatedDateUTC": "\/Date(1519250319570+0000)\/",
+      "FullyPaidOnDate": "\/Date(1439434356790+0000)\/",
       "BankTransactionID": "d20b6c54-7f5d-4ce6-ab83-55f609719126",
       "BankAccount": {
         "AccountID": "297c2dc5-cc47-4afd-8ec8-74990b8761e9",
@@ -56,7 +58,7 @@ response-get-all: |
       "Type": "SPEND",
       "IsReconciled": "true"
     },{
-      
+      ...
     }]
   }
 request-add-spendmoney: |
@@ -78,7 +80,7 @@ request-add-receivemoney: |
   {
     "Type": "RECEIVE",
     "Contact": { 
-      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+      "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92" 
     },
     "Date": "2014-05-26T00:00:00",
     "LineAmountTypes": "Exclusive",
