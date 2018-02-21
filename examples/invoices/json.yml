@@ -217,7 +217,7 @@ get-multiple-page1: |
           "AmountCredited": "0.00",
           "CurrencyRate": "1.000000"
         }
-      ],
+      ]
       ...
     }
   }
