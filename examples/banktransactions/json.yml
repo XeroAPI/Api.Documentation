@@ -56,7 +56,7 @@ response-get-all: |
       "Type": "SPEND",
       "IsReconciled": "true"
     },{
-      
+      ...
     }]
   }
 request-add-spendmoney: |
