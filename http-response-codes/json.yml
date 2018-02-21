@@ -1,24 +1,12 @@
 ---
 400-bad-request: |
   {
-    "BrandingThemes": [
-      {
-        "BrandingThemeID": "7889a0ac-262a-40e3-8a63-9a769b1a18af",
-        "Name": "Standard",
-        "SortOrder": 0,
-        "CreatedDateUTC": "\/Date(946684800000+0000)\/"
-      },
-      {
-        "BrandingThemeID": "ec97a880-4b4f-4abb-be11-5e1d75b81b57",
-        "Name": "Special Projects",
-        "SortOrder": 1,
-        "CreatedDateUTC": "\/Date(946684800000+0000)\/"
-      },
-      {
-        "BrandingThemeID": "4c82c365-35cb-467f-bb11-dce1f2f2f67c",
-        "Name": "Very orange invoice!",
-        "SortOrder": 2,
-        "CreatedDateUTC": "\/Date(1292546159853+0000)\/"
-      }
-    ]
+    ErrorNumber: 10,
+    Type: 'ValidationException',
+    Message: 'A validation exception occurred',
+    Elements: [{
+      ValidationErrors: [{
+        Message: 'Email address must be valid'
+      }] 
+    }] 
   }
