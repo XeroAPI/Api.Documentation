@@ -1,0 +1,58 @@
+---
+get-all: |
+  {
+    "BankTransfers": [
+      ...
+      {
+        "BankTransferID": "d79f3e07-5f11-45e4-9d1a-30be536d0e13",
+        "CreatedDateUTCString": "2018-02-15T04:22:42",
+        "CreatedDateUTC": "\/Date(1518668562850+0000)\/",
+        "DateString": "2018-01-25T00:00:00",
+        "Date": "\/Date(1516838400000+0000)\/",
+        "FromBankAccount": {
+          "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c",
+          "Name": "Business Bank Account"
+        },
+        "ToBankAccount": {
+          "AccountID": "ebd06280-af70-4bed-97c6-7451a454ad85",
+          "Name": "Business Savings Account"
+        },
+        "Amount": "20.00",
+        "FromBankTransactionID": "b11794bc-775b-4f78-9b28-8f13240082ff",
+        "ToBankTransactionID": "f589fb5e-34b3-4392-8207-4ba5a093eae"
+      }
+    ...
+    ]
+  }
+get-single: |
+  {
+    "BankTransfers": [{
+        "BankTransferID": "f589fb5e-34b3-4392-8207-4ba5a093ea6e",
+        "CreatedDateUTCString": "2018-02-15T04:22:42",
+        "CreatedDateUTC": "\/Date(1518668562850+0000)\/",
+        "DateString": "2018-01-25T00:00:00",
+        "Date": "\/Date(1516838400000+0000)\/",
+        "FromBankAccount": {
+          "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c",
+          "Code": "090",
+          "Name": "Business Bank Account"
+        },
+        "ToBankAccount": {
+          "AccountID": "ebd06280-af70-4bed-97c6-7451a454ad85",
+          "Code": "091",
+          "Name": "Business Savings Account"
+        },
+        "Amount": "20.00",
+        "FromBankTransactionID": "b11794bc-775b-4f78-9b28-8f13240082ff",
+        "ToBankTransactionID": "f589fb5e-34b3-4392-8207-4ba5a093ea6e",
+        "CurrencyRate": "1.000000"
+      }]
+  }
+put: |
+  {
+  "BankTransfers": [{
+    "FromBankAccount": { "Code": "090" },
+    "ToBankAccount": { "Code": "091" },
+    "Amount": 20.00
+  }]
+}
