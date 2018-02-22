@@ -41,7 +41,7 @@ request-create: |
   }
 request-rename: |
   {
-    "ContactGroupID": "cccbcf41-7336-4321-95d5-4efc072fc17c",
+    "ContactGroupID": "679382fd-7a71-4281-b013-0ff811ca87ab",
     "Name": "New Name Here"
   }
 request-delete: |

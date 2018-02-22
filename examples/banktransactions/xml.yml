@@ -27,7 +27,7 @@ response-get-single: |
         <Total>49.90</Total>
         <UpdatedDateUTC>2010-11-22T00:00:00</UpdatedDateUTC>
         <CurrencyCode>NZD</CurrencyCode>
-        <BankTransactionID>63d47b99-e1ef-4b46-84db-034f2205f8fb</BankTransactionID>
+        <BankTransactionID>d20b6c54-7f5d-4ce6-ab83-55f609719126</BankTransactionID>
         <BankAccount>
           <AccountID>ac993f75-035b-433c-82e0-7b7a2d40802c</AccountID>
           <Code>090</Code>
@@ -168,6 +168,6 @@ request-add-receiveoverpayment: |
   </BankTransaction>
 request-delete: |
   <BankTransaction>
-    <BankTransactionID>a4725b2f-87a1-4917-abd5-6a8905c54de5</BankTransactionID>
+    <BankTransactionID>4af93d54-0d13-459a-9d8a-d570982e2fb2</BankTransactionID>
     <Status>DELETED</Status>
   </BankTransaction>

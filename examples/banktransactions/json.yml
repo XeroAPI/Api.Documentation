@@ -25,7 +25,7 @@ response-get-single: |
       "Total": "49.90",
       "UpdatedDateUTC": "\/Date(1439434356790+0000)\/",
       "CurrencyCode": "NZD",
-      "BankTransactionID": "63d47b99-e1ef-4b46-84db-034f2205f8fb",
+      "BankTransactionID": "d20b6c54-7f5d-4ce6-ab83-55f609719126",
       "BankAccount": {
         "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c",
         "Code": "090",
@@ -146,6 +146,6 @@ request-add-receiveoverpayment: |
   }
 request-delete: |
   {
-    "BankTransactionID": "a4725b2f-87a1-4917-abd5-6a8905c54de5",
+    "BankTransactionID": "4af93d54-0d13-459a-9d8a-d570982e2fb2",
     "Status": "DELETED"
   }

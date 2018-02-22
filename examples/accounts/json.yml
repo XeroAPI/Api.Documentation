@@ -24,7 +24,7 @@ response-get-all: |
 response-get-single: |
   {
     "Accounts": [{
-      "AccountID": "573a170b-6792-4cfa-b8ce-6f8fd27f5458",
+      "AccountID": "297c2dc5-cc47-4afd-8ec8-74990b8761e9",
       "Code": "300",
       "Name": "Purchases",
       "Type": "DIRECTCOSTS",
