@@ -1,0 +1,117 @@
+---
+response-get-single: |
+  <Response>
+    <Items>
+      <Item>
+        <ItemID>9a59ea90-942e-484d-9b71-d00ab607e03b</ItemID>
+        <Code>Merino-2011-LG</Code>
+        <Description>2011 Merino Sweater - LARGE</Description>
+        <UpdatedDateUTC>2015-07-30T05:37:54.623</UpdatedDateUTC>
+        <PurchaseDetails>
+          <UnitPrice>149.0000</UnitPrice>
+          <AccountCode>300</AccountCode>
+        </PurchaseDetails>
+        <SalesDetails>
+          <UnitPrice>299.0000</UnitPrice>
+          <AccountCode>200</AccountCode>
+        </SalesDetails>
+      </Item>
+    </Items>
+  </Response>
+response-get-all: |
+  <Response>
+    <Items>
+      <Item>
+        <ItemID>19b79d12-0ae1-496e-9649-cbd04b15c7c5</ItemID>
+        <Code>UnTrackedThing</Code>
+        <Description>I sell this untracked thing</Description>
+        <PurchaseDescription>I buy this untracked thing</PurchaseDescription>
+        <UpdatedDateUTC>2015-09-22T22:37:55.527</UpdatedDateUTC>
+        <PurchaseDetails>
+          <UnitPrice>20.0000</UnitPrice>
+          <AccountCode>400</AccountCode>
+          <TaxType>NONE</TaxType>
+        </PurchaseDetails>
+        <SalesDetails>
+          <UnitPrice>40.0000</UnitPrice>
+          <AccountCode>200</AccountCode>
+          <TaxType>OUTPUT2</TaxType>
+        </SalesDetails>
+        <Name>An Untracked Item</Name>
+        <IsTrackedAsInventory>false</IsTrackedAsInventory>
+        <IsSold>true</IsSold>
+        <IsPurchased>true</IsPurchased>
+      </Item>
+      <Item>
+        <ItemID>90a72d44-43e4-410d-a68b-1139ef0c0c07</ItemID>
+        <Code>TrackedThing</Code>
+        <Description>I sell this tracked thing</Description>
+        <PurchaseDescription>I purchase this tracked thing</PurchaseDescription>
+        <UpdatedDateUTC>2015-09-22T22:42:30.547</UpdatedDateUTC>
+        <PurchaseDetails>
+          <UnitPrice>20.0000</UnitPrice>
+          <COGSAccountCode>430</COGSAccountCode>
+          <TaxType>NONE</TaxType>
+        </PurchaseDetails>
+        <SalesDetails>
+          <UnitPrice>40.0000</UnitPrice>
+          <AccountCode>200</AccountCode>
+          <TaxType>OUTPUT2</TaxType>
+        </SalesDetails>
+        <Name>Tracked Thing</Name>
+        <IsTrackedAsInventory>true</IsTrackedAsInventory>
+        <InventoryAssetAccountCode>630</InventoryAssetAccountCode>
+        <TotalCostPool>200.00</TotalCostPool>
+        <QuantityOnHand>10.0000</QuantityOnHand>
+        <IsSold>true</IsSold>
+        <IsPurchased>true</IsPurchased>
+      </Item>
+    </Items>
+  </Response>
+request-create-untracked: |
+  <Item>
+    <Code>Item-1</Code>
+  </Item>
+request-create-untracked-detailed: |
+  <Item>
+    <Code>Merino-2011-LG</Code>
+    <Name>Full Tracked Item</Name>
+    <Description>2011 Merino Sweater - LARGE</Description>
+    <PurchaseDescription>2011 Merino Sweater - LARGE</PurchaseDescription>
+    <PurchaseDetails>
+      <UnitPrice>149.0000</UnitPrice>
+      <AccountCode>300</AccountCode>
+    </PurchaseDetails>
+    <SalesDetails>
+      <UnitPrice>299.0000</UnitPrice>
+      <AccountCode>200</AccountCode>
+    </SalesDetails>
+  </Item>
+request-create-tracked: |
+  <Item>
+    <Code>TrackedItem</Code>
+    <PurchaseDetails>
+    <COGSAccountCode>300</COGSAccountCode>
+    </PurchaseDetails>
+    <InventoryAssetAccountCode>630</InventoryAssetAccountCode>
+  </Item>
+request-create-tracked-detailed: |
+  <Item>
+    <Code>FullTracked</Code>
+    <Description>Sell me</Description>
+    <PurchaseDescription>Purchase me</PurchaseDescription>
+    <PurchaseDetails>
+      <UnitPrice>75.5555</UnitPrice>
+      <COGSAccountCode>300</COGSAccountCode>
+      <TaxType>INPUT2</TaxType>
+    </PurchaseDetails>
+    <SalesDetails>
+      <UnitPrice>1020.5555</UnitPrice>
+      <AccountCode>260</AccountCode>
+      <TaxType>OUTPUT2</TaxType>
+    </SalesDetails>
+    <Name>Full Tracked Item</Name>
+    <InventoryAssetAccountCode>630</InventoryAssetAccountCode>
+    <IsSold>true</IsSold>
+    <IsPurchased>true</IsPurchased>
+  </Item>
