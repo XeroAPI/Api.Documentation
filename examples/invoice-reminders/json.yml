@@ -1,0 +1,7 @@
+---
+get-settings: |
+{ 
+  "InvoiceReminders": [{ 
+    "Enabled": false 
+    }] 
+}

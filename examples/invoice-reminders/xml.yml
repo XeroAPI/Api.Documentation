@@ -1,0 +1,7 @@
+---
+get-settings: |
+  <InvoiceReminders>
+    <InvoiceReminder>
+      <Enabled>false</Enabled>
+    </InvoiceReminder>
+  </InvoiceReminders>
