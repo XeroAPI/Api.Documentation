@@ -16,5 +16,6 @@ put: |
         "Code": 'SGD', 
         "Description": 'Singapore Dollar' 
       }, 
+    ...
     ]
   }
