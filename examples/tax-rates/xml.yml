@@ -66,24 +66,24 @@ get: |
     </TaxRates>
   </Response>
 post-create: |
-<Response>
-  <TaxRate>
-    <Name>Oakdale Sales Tax</Name>
-    <TaxComponents>
-      <TaxComponent>
-        <Name>State Tax</Name>
-        <Rate>7.5</Rate>
-        <IsCompound>false</IsCompound>
-        <IsNonRecoverable>false</IsNonRecoverable>
-      </TaxComponent>
-      <TaxComponent>
-        <Name>Local Sales Tax</Name>
-        <Rate>0.625</Rate>
-        <IsCompound>false</IsCompound>
-        <IsNonRecoverable>false</IsNonRecoverable>
-      </TaxComponent>
-    </TaxComponents>
-  </TaxRate>
+  <Response>
+    <TaxRate>
+      <Name>Oakdale Sales Tax</Name>
+      <TaxComponents>
+        <TaxComponent>
+          <Name>State Tax</Name>
+          <Rate>7.5</Rate>
+          <IsCompound>false</IsCompound>
+          <IsNonRecoverable>false</IsNonRecoverable>
+        </TaxComponent>
+        <TaxComponent>
+          <Name>Local Sales Tax</Name>
+          <Rate>0.625</Rate>
+          <IsCompound>false</IsCompound>
+          <IsNonRecoverable>false</IsNonRecoverable>
+        </TaxComponent>
+      </TaxComponents>
+    </TaxRate>
   </Response>
 post-delete: |
   <Response>
