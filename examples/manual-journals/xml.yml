@@ -1,0 +1,103 @@
+---
+response-get-all: |
+  <Response>
+    <ManualJournals>
+      <ManualJournal>
+        <Date>2014-01-21T00:00:00</Date>
+        <Status>DRAFT</Status>
+        <LineAmountTypes>NoTax</LineAmountTypes>
+        <UpdatedDateUTC>2014-01-21T01:35:38.077</UpdatedDateUTC>
+        <ManualJournalID>99ff1108-2d9a-4955-ac7e-e705aa1b9547</ManualJournalID>
+        <Narration>Prepaid our insurance a year in advance</Narration>
+        <ShowOnCashBasisReports>true</ShowOnCashBasisReports>
+      </ManualJournal>
+      <ManualJournal>
+        <Date>2014-01-21T00:00:00</Date>
+        <Status>POSTED</Status>
+        <LineAmountTypes>NoTax</LineAmountTypes>
+        <UpdatedDateUTC>2014-01-21T01:37:07.92</UpdatedDateUTC>
+        <ManualJournalID>e5f09a63-62db-4739-af7c-1deda351ed5a</ManualJournalID>
+        <Narration>Prepaid our phone a year in advance</Narration>
+        <ShowOnCashBasisReports>true</ShowOnCashBasisReports>
+      </ManualJournal>
+    </ManualJournals>
+  </Response>
+response-get-single: |
+  <Response>
+    <ManualJournals>
+      <ManualJournal>
+        <Date>2015-06-29T00:00:00</Date>
+        <Status>POSTED</Status>
+        <LineAmountTypes>Exclusive</LineAmountTypes>
+        <UpdatedDateUTC>2015-06-28T22:10:27.377</UpdatedDateUTC>
+        <ManualJournalID>c53ebb10-c046-471b-9919-29ac6b9fb977</ManualJournalID>
+        <Narration>Everything Journal</Narration>
+        <JournalLines>
+          <JournalLine>
+            <Description>Everything Journal</Description>
+            <TaxType>INPUT2</TaxType>
+            <TaxAmount>15.00</TaxAmount>
+            <LineAmount>100.00</LineAmount>
+            <AccountCode>310</AccountCode>
+          </JournalLine>
+          <JournalLine>
+            <Description>Everything Journal</Description>
+            <TaxType>INPUT2</TaxType>
+            <TaxAmount>-15.00</TaxAmount>
+            <LineAmount>-100.00</LineAmount>
+            <AccountCode>404</AccountCode>
+          </JournalLine>
+        </JournalLines>
+        <ShowOnCashBasisReports>true</ShowOnCashBasisReports>
+        <HasAttachments>false</HasAttachments>
+      </ManualJournal>
+    </ManualJournals>
+  </Response>
+request-add-draft: |
+  <ManualJournal>
+    <Narration>Accrued expenses - prepaid insurance adjustment for January 2011</Narration>
+    <JournalLines>
+      <JournalLine>
+        <LineAmount>55.00</LineAmount>
+        <AccountCode>433</AccountCode>
+      </JournalLine>
+      <JournalLine>
+        <LineAmount>-55.00</LineAmount>
+        <AccountCode>620</AccountCode>
+      </JournalLine>
+    </JournalLines>
+  </ManualJournal>
+request-add-draft-detailed: |
+  <ManualJournal>
+    <Date>2014-08-13</Date>
+    <Status>DRAFT</Status>
+    <Narration>Prepaid our phone a year in advance</Narration>
+    <LineAmountTypes>NoTax</LineAmountTypes>
+    <JournalLines>
+      <JournalLine>
+        <Description>Prepaid Annual Phone</Description>
+        <LineAmount>-1000.00</LineAmount>
+        <AccountCode>489</AccountCode>
+        <TaxType>NONE</TaxType>
+        <Tracking>
+          <TrackingCategory>
+            <Name>Region</Name>
+            <Option>South</Option>
+          </TrackingCategory>
+        </Tracking>
+      </JournalLine>
+      <JournalLine>
+        <Description>Prepayment</Description>
+        <LineAmount>1000.00</LineAmount>
+        <AccountCode>620</AccountCode>
+        <TaxType>NONE</TaxType>
+        <Tracking>
+          <TrackingCategory>
+            <Name>Region</Name>
+            <Option>North</Option>
+          </TrackingCategory>
+        </Tracking>
+      </JournalLine>
+    </JournalLines>
+    <ShowOnCashBasisReports>false</ShowOnCashBasisReports>
+  </ManualJournal>
