@@ -50,9 +50,9 @@ get-single: |
   }
 put: |
   {
-  "BankTransfers": [{
-    "FromBankAccount": { "Code": "090" },
-    "ToBankAccount": { "Code": "091" },
-    "Amount": 20.00
-  }]
-}
+    "BankTransfers": [{
+      "FromBankAccount": { "Code": "090" },
+      "ToBankAccount": { "Code": "091" },
+      "Amount": 20.00
+    }]
+  }

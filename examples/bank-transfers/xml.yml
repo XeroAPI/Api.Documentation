@@ -45,14 +45,14 @@ get-single: |
     </BankTransfers>
   </Response>
 put: |
-<BankTransfers>
-  <BankTransfer>
-    <FromBankAccount>
-      <Code>090</Code>
-    </FromBankAccount>
-    <ToBankAccount>
-      <Code>091</Code>
-    </ToBankAccount>
-    <Amount>20.00</Amount>
-  </BankTransfer>
-</BankTransfers>
+  <BankTransfers>
+    <BankTransfer>
+      <FromBankAccount>
+        <Code>090</Code>
+      </FromBankAccount>
+      <ToBankAccount>
+        <Code>091</Code>
+      </ToBankAccount>
+      <Amount>20.00</Amount>
+    </BankTransfer>
+  </BankTransfers>
