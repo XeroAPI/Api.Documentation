@@ -1,0 +1,96 @@
+---
+get: |
+  <Response>
+    <TaxRates>
+      <TaxRate>
+        <Name>15% GST on Expenses</Name>
+        <TaxType>INPUT2</TaxType>
+        <CanApplyToAssets>true</CanApplyToAssets>
+        <CanApplyToEquity>true</CanApplyToEquity>
+        <CanApplyToExpenses>true</CanApplyToExpenses>
+        <CanApplyToLiabilities>true</CanApplyToLiabilities>
+        <CanApplyToRevenue>false</CanApplyToRevenue>
+        <DisplayTaxRate>15.0000</DisplayTaxRate>
+        <EffectiveRate>15.0000</EffectiveRate>
+        <Status>ACTIVE</Status>
+        <TaxComponents>
+          <TaxComponent>
+            <Name>GST</Name>
+            <Rate>15.0000</Rate>
+            <IsCompound>false</IsCompound>
+            <IsNonRecoverable>false</IsNonRecoverable>
+          </TaxComponent>
+        </TaxComponents>
+      </TaxRate>
+      <TaxRate>
+        <Name>15% GST on Income</Name>
+        <TaxType>OUTPUT2</TaxType>
+        <CanApplyToAssets>true</CanApplyToAssets>
+        <CanApplyToEquity>true</CanApplyToEquity>
+        <CanApplyToExpenses>false</CanApplyToExpenses>
+        <CanApplyToLiabilities>true</CanApplyToLiabilities>
+        <CanApplyToRevenue>true</CanApplyToRevenue>
+        <DisplayTaxRate>15.0000</DisplayTaxRate>
+        <EffectiveRate>15.0000</EffectiveRate>
+        <Status>ACTIVE</Status>
+        <TaxComponents>
+          <TaxComponent>
+            <Name>GST</Name>
+            <Rate>15.0000</Rate>
+            <IsCompound>false</IsCompound>
+            <IsNonRecoverable>false</IsNonRecoverable>
+          </TaxComponent>
+        </TaxComponents>
+      </TaxRate>
+      <TaxRate>
+        <Name>GST on Imports</Name>
+        <TaxType>GSTONIMPORTS</TaxType>
+        <CanApplyToAssets>false</CanApplyToAssets>
+        <CanApplyToEquity>false</CanApplyToEquity>
+        <CanApplyToExpenses>false</CanApplyToExpenses>
+        <CanApplyToLiabilities>true</CanApplyToLiabilities>
+        <CanApplyToRevenue>false</CanApplyToRevenue>
+        <DisplayTaxRate>0.0000</DisplayTaxRate>
+        <EffectiveRate>0.0000</EffectiveRate>
+        <Status>ACTIVE</Status>
+        <TaxComponents>
+          <TaxComponent>
+            <Name>GST</Name>
+            <Rate>0.0000</Rate>
+            <IsCompound>false</IsCompound>
+            <IsNonRecoverable>false</IsNonRecoverable>
+          </TaxComponent>
+        </TaxComponents>
+      </TaxRate>
+      ...
+    </TaxRates>
+  </Response>
+post-create: |
+<Response>
+  <TaxRate>
+    <Name>Oakdale Sales Tax</Name>
+    <TaxComponents>
+      <TaxComponent>
+        <Name>State Tax</Name>
+        <Rate>7.5</Rate>
+        <IsCompound>false</IsCompound>
+        <IsNonRecoverable>false</IsNonRecoverable>
+      </TaxComponent>
+      <TaxComponent>
+        <Name>Local Sales Tax</Name>
+        <Rate>0.625</Rate>
+        <IsCompound>false</IsCompound>
+        <IsNonRecoverable>false</IsNonRecoverable>
+      </TaxComponent>
+    </TaxComponents>
+  </TaxRate>
+  </Response>
+post-delete: |
+  <Response>
+    <TaxRates>
+      <TaxRate>
+        <Name>Sales Tax</Name>
+        <Status>DELETED</Status>
+      </TaxRate>
+    </TaxRates>
+  </Response>

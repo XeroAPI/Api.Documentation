@@ -1,0 +1,101 @@
+---
+get: |
+  {
+    "TaxRates": {
+      "TaxRate": [
+        {
+          "Name": "15% GST on Expenses",
+          "TaxType": "INPUT2",
+          "CanApplyToAssets": "true",
+          "CanApplyToEquity": "true",
+          "CanApplyToExpenses": "true",
+          "CanApplyToLiabilities": "true",
+          "CanApplyToRevenue": "false",
+          "DisplayTaxRate": "15.0000",
+          "EffectiveRate": "15.0000",
+          "Status": "ACTIVE",
+          "TaxComponents": {
+            "TaxComponent": {
+              "Name": "GST",
+              "Rate": "15.0000",
+              "IsCompound": "false",
+              "IsNonRecoverable": "false"
+            }
+          }
+        },
+        {
+          "Name": "15% GST on Income",
+          "TaxType": "OUTPUT2",
+          "CanApplyToAssets": "true",
+          "CanApplyToEquity": "true",
+          "CanApplyToExpenses": "false",
+          "CanApplyToLiabilities": "true",
+          "CanApplyToRevenue": "true",
+          "DisplayTaxRate": "15.0000",
+          "EffectiveRate": "15.0000",
+          "Status": "ACTIVE",
+          "TaxComponents": {
+            "TaxComponent": {
+              "Name": "GST",
+              "Rate": "15.0000",
+              "IsCompound": "false",
+              "IsNonRecoverable": "false"
+            }
+          }
+        },
+        {
+          "Name": "GST on Imports",
+          "TaxType": "GSTONIMPORTS",
+          "CanApplyToAssets": "false",
+          "CanApplyToEquity": "false",
+          "CanApplyToExpenses": "false",
+          "CanApplyToLiabilities": "true",
+          "CanApplyToRevenue": "false",
+          "DisplayTaxRate": "0.0000",
+          "EffectiveRate": "0.0000",
+          "Status": "ACTIVE",
+          "TaxComponents": {
+            "TaxComponent": {
+              "Name": "GST",
+              "Rate": "0.0000",
+              "IsCompound": "false",
+              "IsNonRecoverable": "false"
+            }
+          }
+        }
+      ],
+      ...
+    }
+  }
+post-create: |
+  {
+    "TaxRate": {
+      "Name": "Oakdale Sales Tax",
+      "TaxComponents": {
+        "TaxComponent": [
+          {
+            "Name": "State Tax",
+            "Rate": "7.5",
+            "IsCompound": "false",
+            "IsNonRecoverable": "false"
+          },
+          {
+            "Name": "Local Sales Tax",
+            "Rate": "0.625",
+            "IsCompound": "false",
+            "IsNonRecoverable": "false"
+          }
+        ]
+      }
+    }
+  }
+post-delete: |
+  {
+    "TaxRates": {
+      "TaxRate": {
+        "Name": "Sales Tax",
+        "Status": "DELETED"
+      }
+    }
+  }
+
