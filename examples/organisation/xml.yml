@@ -1,0 +1,77 @@
+---
+response-get: |
+  <Response>
+    <Organisations>
+      <Organisation>
+        <APIKey>PV1PS57LYQ7VDJYTGCUI99A6YJI1WZ</APIKey>
+        <Name>Demo Company (NZ)</Name>
+        <LegalName>Demo Company (NZ)</LegalName>
+        <PaysTax>true</PaysTax>
+        <Version>NZ</Version>
+        <OrganisationType>COMPANY</OrganisationType>
+        <BaseCurrency>NZD</BaseCurrency>
+        <CountryCode>NZ</CountryCode>
+        <IsDemoCompany>true</IsDemoCompany>
+        <OrganisationStatus>ACTIVE</OrganisationStatus>
+        <TaxNumber>101-2-303</TaxNumber>
+        <FinancialYearEndDay>31</FinancialYearEndDay>
+        <FinancialYearEndMonth>3</FinancialYearEndMonth>
+        <SalesTaxBasis>PAYMENTS</SalesTaxBasis>
+        <SalesTaxPeriod>TWOMONTHS</SalesTaxPeriod>
+        <PeriodLockDate>2009-09-30T00:00:00</PeriodLockDate>
+        <CreatedDateUTC>2012-02-19T18:31:02.66</CreatedDateUTC>
+        <OrganisationEntityType>COMPANY</OrganisationEntityType>
+        <Timezone>NEWZEALANDSTANDARDTIME</Timezone>
+        <ShortCode>!23eYt</ShortCode>
+        <OrganisationID>c3d5e782-2153-4cda-bdb4-cec791ceb90d</OrganisationID>
+        <Addresses>
+          <Address>
+            <AddressType>POBOX</AddressType>
+            <AddressLine1>3 Market Place</AddressLine1>
+            <AddressLine2>Twizel 7901</AddressLine2>
+            <City>Twizel</City>
+            <PostalCode>7901</PostalCode>
+            <Country>New Zealand</Country>
+            <AttentionTo>Bentley Rhythm Ace</AttentionTo>
+          </Address>
+        </Addresses>
+        <ExternalLinks>
+          <ExternalLink>
+            <LinkType>Facebook</LinkType>
+            <Url>http://facebook.com/Xero.Accounting</Url>
+          </ExternalLink>
+          <ExternalLink>
+            <LinkType>Twitter</LinkType>
+            <Url>http://twitter.com/xeroapi</Url>
+          </ExternalLink>
+          <ExternalLink>
+            <LinkType>GooglePlus</LinkType>
+            <Url>https://plus.google.com/u/0/105727595143346068928/</Url>
+          </ExternalLink>
+          <ExternalLink>
+            <LinkType>LinkedIn</LinkType>
+            <Url>http://www.linkedin.com/company/xero</Url>
+          </ExternalLink>
+        </ExternalLinks>
+        <PaymentTerms>
+          <Bills>
+            <Day>5</Day>
+            <Type>OFCURRENTMONTH</Type>
+          </Bills>
+          <Sales>
+            <Day>20</Day>
+            <Type>OFFOLLOWINGMONTH</Type>
+          </Sales>
+        </PaymentTerms>
+      </Organisation>
+    </Organisations>
+  </Response>
+response-get-cis-settings: |
+  <Response>
+    <CISSettings>
+      <CISSetting>
+        <CISContractorEnabled>true</CISContractorEnabled>
+        <CISSubContractorEnabled>true</CISSubContractorEnabled>
+      </CISSetting>
+    </CISSettings>
+  </Response>
