@@ -1,0 +1,18 @@
+---
+build-upload: |
+  <Response>
+  <Invoices>
+      <Invoice status="OK">
+        ...
+      </Invoice>
+      <Invoice status="OK">
+        ...
+      </Invoice>
+      <Invoice status="WARNING">
+        ...
+      </Invoice>
+      <Invoice status="ERROR">
+        ...
+      </Invoice>
+    </Invoices>
+  </Response>
