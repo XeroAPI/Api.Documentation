@@ -1,0 +1,143 @@
+---
+response-get-all: |
+  {
+    "CreditNotes": [
+      {
+        "Contact": {
+          "ContactID": "c6c7b870-bb4d-489a-921e-2f0ee4192ff9",
+          "Name": "Test Apply Credit Note"
+        },
+        "DateString": "2016-12-16T00:00:00",
+        "Date": "\/Date(1481846400000+0000)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Inclusive",
+        "SubTotal": 86.96,
+        "TotalTax": 13.04,
+        "Total": 100.00,
+        "UpdatedDateUTC": "\/Date(1290168061547+0000)\/",
+        "CurrencyCode": "NZD",
+        "FullyPaidOnDate": "\/Date(1481846400000+0000)\/",
+        "Type": "ACCRECCREDIT",
+        "CreditNoteID": "aea95d78-ea48-456b-9b08-6bc012600072",
+        "CreditNoteNumber": "CN-0002",
+        "CurrencyRate": 1.000000,
+        "RemainingCredit": 0.00,
+        "Allocations": [
+          {
+            "AppliedAmount": 100.00,
+            "Date": "\/Date(1481846400000+0000)\/",
+            "Invoice": {
+              "InvoiceID": "87cfa39f-136c-4df9-a70d-bb80d8ddb975",
+              "InvoiceNumber": "INV-0001"
+            }
+          }
+        ]
+      }
+    ]
+  }
+response-get-single: |
+  {
+    "CreditNotes": [
+      {
+        "Contact": {
+          "ContactID": "d0cd2c4f-18a0-4f7c-a32a-2db00f29d298",
+          "ContactStatus": "ACTIVE",
+          "Name": "PC Complete"
+          ...
+        },
+        "DateString": "2017-02-07T00:00:00",
+        "Date": "\/Date(1486425600000+0000)\/",
+        "DueDate": "\/Date(1486425600000+0000)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [
+          {
+            "Description": "Internal DVD drive couldn't be supplied, backorder (Oliver laptop)",
+            "UnitAmount": 199.00,
+            "TaxType": "INPUT",
+            "TaxAmount": 19.90,
+            "LineAmount": 199.00,
+            "AccountCode": "453",
+            "Tracking": [
+              {
+                "Name": "Region",
+                "Option": "North",
+                "TrackingCategoryID": "093af706-c2aa-4d97-a4ce-2d205a017eac",
+                "TrackingOptionID": "3f05cdf9-246b-46a2-bf6f-441da1b09b89"
+              }
+            ],
+            "Quantity": 1.0000
+          }
+        ],
+        "SubTotal": 199.00,
+        "TotalTax": 19.90,
+        "Total": 218.90,
+        "UpdatedDateUTC": "\/Date(1290777947340+0000)\/",
+        "CurrencyCode": "AUD",
+        "FullyPaidOnDate": "\/Date(1486425600000+0000)\/",
+        "Type": "ACCPAYCREDIT",
+        "RemainingCredit": 0.00,
+        "Allocations": [
+          {
+            "AppliedAmount": 218.90,
+            "Date": "\/Date(1486425600000+0000)\/",
+            "Invoice": {
+              "InvoiceID": "673dd7cc-beb7-4697-83d4-0c47cb400cc2"
+            }
+          }
+        ],
+        "HasAttachments": false,
+        "CreditNoteID": "7df8949c-b71f-40c0-bbcf-39f2f450f286",
+        "CreditNoteNumber": "03391"
+      }
+    ]
+  }
+request-create-draft: |
+  {
+    "Type": "ACCPAYCREDIT",
+    "Contact": {
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+    }
+  }
+request-create-draft-detailed: |
+  {
+    "Type": "ACCPAYCREDIT",
+    "Contact": {
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc"
+    },
+    "Date": "2009-03-29",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "Description": "MacBook - White",
+        "Quantity": 1.0000,
+        "UnitAmount": 1995.00,
+        "AccountCode": "720"
+      }
+    ]
+  }
+request-create-approved: |
+  {
+    "Type": "ACCPAYCREDIT",
+    "Status": "AUTHORISED",
+    "Contact": { 
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+    },
+    "Date": "2009-03-29",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "Description": "MacBook - White",
+        "Quantity": 1.0000,
+        "UnitAmount": 1995.00,
+        "AccountCode": "720"
+      }
+    ]
+  }
+request-allocate: |
+  {
+    "AppliedAmount": 60.50,
+    "Invoice": { 
+      "InvoiceID": "f5832195-5cd3-4660-ad3f-b73d9c64f263" 
+    }
+  }
