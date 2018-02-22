@@ -1,0 +1,69 @@
+---
+response-get-all: |
+  <Response>
+    <ContactGroups>
+        <ContactGroup>
+          <ContactGroupID>97bbd0e6-ab4d-4117-9304-d90dd4779199</ContactGroupID>
+          <Name>VIP Customers</Name>
+          <Status>ACTIVE</Status>
+        </ContactGroup>
+        <ContactGroup>
+          <ContactGroupID>d0c68f1a-e5dd-4a45-aa02-27d8fdbfd562</ContactGroupID>
+          <Name>Preferred Suppliers</Name>
+          <Status>ACTIVE</Status>
+        </ContactGroup>
+    </ContactGroups>
+  </Response>
+response-get-single: |
+  <Response>
+    <ContactGroups>
+      <ContactGroup>
+        <ContactGroupID>97bbd0e6-ab4d-4117-9304-d90dd4779199</ContactGroupID>
+        <Name>Adam's Contacts</Name>
+        <Status>ACTIVE</Status>
+        <Contacts>
+          <Contact>
+            <ContactID>9ce626d2-14ea-463c-9fff-6785ab5f9bfb</ContactID>
+            <Name>Boom FM</Name>
+          </Contact>
+          <Contact>
+            <ContactID>b9d4332a-26a3-4577-8db2-6e830d4b07cd</ContactID>
+            <Name>Berry Brew</Name>
+          </Contact>
+          <Contact>
+            <ContactID>2dc0ef7c-582f-4542-963b-dbdc069e4819</ContactID>
+            <Name>Bayside Wholesale</Name>
+          </Contact>
+        </Contacts>
+      </ContactGroup>
+    </ContactGroups>
+  </Response>
+request-create: |
+  <ContactGroups>
+    <ContactGroup>
+      <Name>VIP Customers</Name>
+    </ContactGroup>
+  </ContactGroups>
+request-rename: |
+  <ContactGroups>
+    <ContactGroup>
+      <ContactGroupID>679382fd-7a71-4281-b013-0ff811ca87ab</ContactGroupID>
+      <Name>New Name Here</Name>
+    </ContactGroup>
+  </ContactGroups>
+request-delete: |
+  <ContactGroups>
+    <ContactGroup>
+      <ContactGroupID>679382fd-7a71-4281-b013-0ff811ca87ab</ContactGroupID>
+      <Status>DELETED</Status>
+    </ContactGroup>
+  </ContactGroups>
+request-add-contacts: |
+  <Contacts>
+    <Contact>
+      <ContactID>7f01ac80-bd2a-4aad-acaa-80b4b606ae49</ContactID>
+    </Contact>
+    <Contact>
+      <ContactID>4bfd2f5b-f211-4240-ac6f-635543fb68e6</ContactID>
+    </Contact>
+  </Contacts>

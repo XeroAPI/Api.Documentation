@@ -1,0 +1,61 @@
+---
+response-get-all: |
+  {
+    "ContactGroups": [
+      {
+        "ContactGroupID": "97bbd0e6-ab4d-4117-9304-d90dd4779199",
+        "Name": "VIP Customers",
+        "Status": "ACTIVE"
+      },{
+        "ContactGroupID": "d0c68f1a-e5dd-4a45-aa02-27d8fdbfd562",
+        "Name": "Preferred Suppliers",
+        "Status": "ACTIVE"
+      }
+    ]
+  }
+response-get-single: |
+  {
+    "ContactGroups": [
+      {
+        "ContactGroupID": "97bbd0e6-ab4d-4117-9304-d90dd4779199",
+        "Name": "Adam's Contacts",
+        "Status": "ACTIVE",
+        "Contacts": [
+          {
+            "ContactID": "9ce626d2-14ea-463c-9fff-6785ab5f9bfb",
+            "Name": "Boom FM"
+          },{
+            "ContactID": "b9d4332a-26a3-4577-8db2-6e830d4b07cd",
+            "Name": "Berry Brew"
+          },{
+            "ContactID": "2dc0ef7c-582f-4542-963b-dbdc069e4819",
+            "Name": "Bayside Wholesale"
+          }
+        ]
+      }
+    ]
+  }
+request-create: |
+  {
+    "Name": "VIP Customers"
+  }
+request-rename: |
+  {
+    "ContactGroupID": "cccbcf41-7336-4321-95d5-4efc072fc17c",
+    "Name": "New Name Here"
+  }
+request-delete: |
+  {
+    "ContactGroupID": "679382fd-7a71-4281-b013-0ff811ca87ab",
+    "Status": "DELETED"
+  }
+request-add-contacts: |
+  {
+    "Contacts": [
+      { 
+        "ContactID": "7f01ac80-bd2a-4aad-acaa-80b4b606ae49"
+      },{ 
+        "ContactID": "4bfd2f5b-f211-4240-ac6f-635543fb68e6"
+      }
+    ]
+  }
