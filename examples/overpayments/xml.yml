@@ -1,34 +1,35 @@
 ---
 get: |
   <Response>
-    <Overpayment>
-      <Contact>
-        <ContactID>c6c7b870-bb4d-489a-921e-2f0ee4192ff9</ContactID>
-        <Name>Mr Contact</Name>
-      </Contact>
-      <Date>2015-03-30T00:00:00</Date>
-      <Status>PAID</Status>
-      <LineAmountTypes>Inclusive</LineAmountTypes>
-      <SubTotal>86.96</SubTotal>
-      <TotalTax>13.04</TotalTax>
-      <Total>100.00</Total>
-      <UpdatedDateUTC>2015-03-29T23:43:01.097</UpdatedDateUTC>
-      <CurrencyCode>NZD</CurrencyCode>
-      <Type>RECEIVE-OVERPAYMENT</Type>
-      <OverpaymentID>aea95d78-ea48-456b-9b08-6bc012600072</OverpaymentID>
-      <CurrencyRate>1.000000</CurrencyRate>
-      <RemainingCredit>0.00</RemainingCredit>
-      <Allocations>
-        <Allocation>
-          <AppliedAmount>100.00</AppliedAmount>
-          <Date>2015-03-30T00:00:00</Date>
-          <Invoice>
-            <InvoiceID>87cfa39f-136c-4df9-a70d-bb80d8ddb975</InvoiceID>
-            <InvoiceNumber>INV-0001</InvoiceNumber>
-          </Invoice>
-        </Allocation>
-      </Allocations>
-      <HasAttachments>false</HasAttachments>
+    <Overpayments>
+      <Overpayment>
+        <Contact>
+          <ContactID>c6c7b870-bb4d-489a-921e-2f0ee4192ff9</ContactID>
+          <Name>Mr Contact</Name>
+        </Contact>
+        <Date>2015-03-30T00:00:00</Date>
+        <Status>PAID</Status>
+        <LineAmountTypes>Inclusive</LineAmountTypes>
+        <SubTotal>86.96</SubTotal>
+        <TotalTax>13.04</TotalTax>
+        <Total>100.00</Total>
+        <UpdatedDateUTC>2015-03-29T23:43:01.097</UpdatedDateUTC>
+        <CurrencyCode>NZD</CurrencyCode>
+        <Type>RECEIVE-OVERPAYMENT</Type>
+        <OverpaymentID>aea95d78-ea48-456b-9b08-6bc012600072</OverpaymentID>
+        <CurrencyRate>1.000000</CurrencyRate>
+        <RemainingCredit>0.00</RemainingCredit>
+        <Allocations>
+          <Allocation>
+            <AppliedAmount>100.00</AppliedAmount>
+            <Date>2015-03-30T00:00:00</Date>
+            <Invoice>
+              <InvoiceID>87cfa39f-136c-4df9-a70d-bb80d8ddb975</InvoiceID>
+              <InvoiceNumber>INV-0001</InvoiceNumber>
+            </Invoice>
+          </Allocation>
+        </Allocations>
+        <HasAttachments>false</HasAttachments>
       </Overpayment>
     </Overpayments>
   </Response>
