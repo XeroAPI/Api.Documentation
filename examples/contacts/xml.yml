@@ -105,12 +105,14 @@ response-get-single: |
     </Contacts>
   </Response>
 response-get-cis-settings: |
-  <CISSettings>
-    <CISSetting>
-      <CISEnabled>true</CISEnabled>
-      <Rate>20</Rate>
-    </CISSetting>
-  </CISSettings>
+  <Response>
+    <CISSettings>
+      <CISSetting>
+        <CISEnabled>true</CISEnabled>
+        <Rate>20</Rate>
+      </CISSetting>
+    </CISSettings>
+  </Response>
 request-add-single: |
   <Contact>
     <Name>ABC Limited</Name>
