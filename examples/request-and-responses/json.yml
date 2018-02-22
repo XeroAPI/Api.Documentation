@@ -2,26 +2,26 @@
 build-upload: |
   {
     "Invoices": [{ 
-      "InvoiceID": '5ceffde5-6786-4987-b03a-bf88d262c286',
+      "InvoiceID": "5ceffde5-6786-4987-b03a-bf88d262c286",
       ...
-      "StatusAttributeString": 'OK',
+      "StatusAttributeString": "OK",
     },{ 
-      "InvoiceID": '5ceffde5-6786-4987-b03a-bf88d262c286',
+      "InvoiceID": "5ceffde5-6786-4987-b03a-bf88d262c286",
       ...
-      "StatusAttributeString": 'OK',
+      "StatusAttributeString": "OK",
     },{ 
-      "InvoiceID": '5ceffde5-6786-4987-b03a-bf88d262c286',
+      "InvoiceID": "5ceffde5-6786-4987-b03a-bf88d262c286",
       ...
-      "StatusAttributeString": 'WARNING',
+      "StatusAttributeString": "WARNING",
       "Warnings": [{ 
-        "Message": 'Only AUTHORISED invoices may have SentToContact updated.'
+        "Message": "Only AUTHORISED invoices may have SentToContact updated."
         }]
     },{ 
-      "InvoiceID": '5ceffde5-6786-4987-b03a-bf88d262c286',
+      "InvoiceID": "5ceffde5-6786-4987-b03a-bf88d262c286",
       ...
-      "StatusAttributeString": 'ERROR',
+      "StatusAttributeString": "ERROR",
       "ValidationErrors": [{ 
-        "Description": 'Invoice not of valid type for creation'
+        "Description": "Invoice not of valid type for creation"
         }]
     }]
   }
