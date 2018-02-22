@@ -1,0 +1,108 @@
+---
+response-get-all: |
+  {
+    "ManualJournals": [
+      {
+        "Date": "\/Date(1486166400000+0000)\/",
+        "Status": "DRAFT",
+        "LineAmountTypes": "NoTax",
+        "UpdatedDateUTC": "\/Date(1291226902527+0000)\/",
+        "ManualJournalID": "99ff1108-2d9a-4955-ac7e-e705aa1b9547",
+        "Narration": "Prepaid our insurance a year in advance",
+        "ShowOnCashBasisReports": true
+      },{
+        "Date": "\/Date(1488240000000+0000)\/",
+        "Status": "POSTED",
+        "LineAmountTypes": "NoTax",
+        "UpdatedDateUTC": "\/Date(1291227505357+0000)\/",
+        "ManualJournalID": "e5f09a63-62db-4739-af7c-1deda351ed5a",
+        "Narration": "Prepaid our phone a year in advance",
+        "ShowOnCashBasisReports": true
+      }
+    ]
+  }
+response-get-single: |
+  {
+    "ManualJournals": [
+      {
+        "Date": "\/Date(1486166400000+0000)\/",
+        "Status": "POSTED",
+        "LineAmountTypes": "NoTax",
+        "UpdatedDateUTC": "\/Date(1291226902527+0000)\/",
+        "ManualJournalID": "c53ebb10-c046-471b-9919-29ac6b9fb977",
+        "Narration": "Coded incorrectly Office Equipment should be Computer Equipment",
+        "JournalLines": [
+          {
+            "Description": "Coded incorrectly Office Equipment should be Computer Equipment",
+            "TaxType": "NONE",
+            "TaxAmount": 0.00,
+            "LineAmount": -2569.00,
+            "AccountCode": "720",
+            "Tracking": [],
+            "IsBlank": false
+          },
+          {
+            "Description": "Coded incorrectly Computer Equipment should be Office Equipment",
+            "TaxType": "NONE",
+            "TaxAmount": 0.00,
+            "LineAmount": 2569.00,
+            "AccountCode": "710",
+            "Tracking": [],
+            "IsBlank": false
+          }
+        ],
+        "ShowOnCashBasisReports": true,
+        "HasAttachments": false
+      }
+    ]
+  }
+request-add-draft: |
+  {
+    "Narration": "Accrued expenses - prepaid insurance adjustment for January 2011",
+    "JournalLines": [
+      {
+        "LineAmount": 55.00,
+        "AccountCode": "433"
+      },
+      {
+        "LineAmount": -55.00,
+        "AccountCode": "620"
+      }
+    ]
+  }
+request-add-draft-detailed: |
+  {
+    "Date": "2014-08-13",
+    "Status": "DRAFT",
+    "Narration": "Prepaid our phone a year in advance",
+    "LineAmountTypes": "NoTax",
+    "JournalLines": {
+      "JournalLine": [
+        {
+          "Description": "Prepaid Annual Phone",
+          "LineAmount": -1000.00,
+          "AccountCode": "489",
+          "TaxType": "NONE",
+          "Tracking": {
+            "TrackingCategory": {
+              "Name": "Region",
+              "Option": "South"
+            }
+          }
+        },
+        {
+          "Description": "Prepayment",
+          "LineAmount": 1000.00,
+          "AccountCode": "620",
+          "TaxType": "NONE",
+          "Tracking": {
+            "TrackingCategory": {
+              "Name": "Region",
+              "Option": "North"
+            }
+          }
+        }
+      ]
+    },
+    "ShowOnCashBasisReports": "false"
+  }
