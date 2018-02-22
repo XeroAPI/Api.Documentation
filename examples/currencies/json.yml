@@ -1,0 +1,20 @@
+---
+get-all: |
+  {
+    "Currencies": [
+      {
+        "Code": "NZD",
+        "Description": "New Zealand Dollar"
+      },
+    ...
+    ]
+  }
+put: |
+  {
+    "Currencies": [ 
+      { 
+        "Code": 'SGD', 
+        "Description": 'Singapore Dollar' 
+      }, 
+    ]
+  }
