@@ -1,7 +1,6 @@
 ---
 get: |
   <Response>
-    <Overpayments>
     <Overpayment>
       <Contact>
         <ContactID>c6c7b870-bb4d-489a-921e-2f0ee4192ff9</ContactID>
@@ -30,6 +29,6 @@ get: |
         </Allocation>
       </Allocations>
       <HasAttachments>false</HasAttachments>
-    </Overpayment>
-  </Overpayments>
-</Response>
+      </Overpayment>
+    </Overpayments>
+  </Response>
