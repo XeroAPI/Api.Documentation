@@ -3,12 +3,50 @@ get: |
   {
     "Employees": [
       {
-        "EmployeeID": "54021264-9ebc-4702-8456-2c358d633168",
+        "EmployeeID": "6515d052-b3f7-4de4-b0a3-e4c12caba8b2",
         "Status": "ACTIVE",
-        "FirstName": "Oliver",
-        "LastName": "Gray",
-        "UpdatedDateUTC": "\/Date(1513048641113+0000)\/"
+        "FirstName": "Joey",
+        "LastName": "Bloggs",
+        "ExternalLink": {
+          "Url": "http://twitter.com/#!/search/Joey+Bloggs",
+          "Description": "Go to external link"
+        },
+        "UpdatedDateUTC": "\/Date(1519351730117+0000)\/"
       },
     ...
+    ]
+  }
+  post-single-minimum: |
+  {
+    "Employees": [ 
+      {
+        "FirstName": "Joey",
+        "LastName": "Bloggs"
+      }
+    ]
+  }
+  post-single-full: |
+  {
+    "Employees": [ 
+      {
+        "FirstName": "Joey",
+        "LastName": "Bloggs",
+        "ExternalLink": {
+          "Url": "http://twitter.com/#!/search/Joey+Bloggs",
+        }
+      }
+    ]
+  }
+  post-multiple-minimum: |
+  {
+    "Employees": [ 
+      {
+        "FirstName": "Joey",
+        "LastName": "Bloggs"
+      },
+     {
+        "FirstName": "Rachel",
+        "LastName": "Redman"
+      }
     ]
   }

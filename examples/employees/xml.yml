@@ -3,11 +3,15 @@ get: |
   <Response>
     <Employees>
       <Employee>
-        <EmployeeID>54021264-9ebc-4702-8456-2c358d633168</EmployeeID>
+        <EmployeeID>6515d052-b3f7-4de4-b0a3-e4c12caba8b2</EmployeeID>
         <Status>ACTIVE</Status>
-        <FirstName>Oliver</FirstName>
-        <LastName>Gray</LastName>
-        <UpdatedDateUTC>2017-12-12T03:17:21.113</UpdatedDateUTC>
+        <FirstName>Joey</FirstName>
+        <LastName>Bloggs</LastName>
+        <ExternalLink>
+          <Url>http://twitter.com/#!/search/Joe+Bloggs</Url>
+          <Description>Go to external link</Description>
+        </ExternalLink>
+        <UpdatedDateUTC>2018-02-23T02:08:50.117</UpdatedDateUTC>
       </Employee>
     ...
     </Employees>
