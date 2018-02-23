@@ -33,52 +33,25 @@ get-tracking-categories: |
   }
 create-tracking-category: |
   {
-    "TrackingCategories": [
-      {
-        "Name": "New Category"
-      }
-    ]
+    "Name": "New Category"
   }
 create-tracking-option: |
   {
-    "Options": [
-      {
-        "Name": "New Option"
-      },
-      {
-        "Name": "New Option"
-      }
-    ]
+    "Name": "New Option"
   }
 update-tracking-category-name: |
   {
-    "TrackingCategories": [
-      {
-        "Name": "New Name"
-      }
-    ]
+    "Name": "New Name"
   }
 update-tracking-category-status: |
   {
-    "TrackingCategories": [
-      {
-        "Status": "ARCHIVED"
-      }
-    ]
+    "Status": "ARCHIVED"
   }
 update-tracking-option-name: |
   {
-    "Options": [
-      {
-        "Name": "New Name"
-      }
-    ]
+    "Name": "New Name"
   }
 update-tracking-option-status: |
   {
-    "Options": [
-      {
-        "Status": "ARCHIVED"
-      }
-    ]
+    "Status": "ARCHIVED"
   }
