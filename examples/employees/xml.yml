@@ -16,14 +16,14 @@ get: |
     ...
     </Employees>
   </Response>
-post-employee-single-minimum: |
+post-single-minimum: |
   <Employees>
     <Employee>
       <FirstName>Joe</FirstName>
       <LastName>Bloggs</LastName>
     </Employee>
   </Employees>
-post-employee-single-full: |
+post-single-full: |
   <Employees>
     <Employee>
       <FirstName>Joe</FirstName>
@@ -33,7 +33,7 @@ post-employee-single-full: |
       </ExternalLink>
     </Employee>
   </Employees>
-post-employee-many-minimum: |
+post-multiple-minimum: |
   <Employees>
     <Employee>
       <FirstName>Joe</FirstName>

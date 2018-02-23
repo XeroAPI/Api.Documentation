@@ -16,37 +16,37 @@ get: |
     ...
     ]
   }
-  post-single-minimum: |
-  {
-    "Employees": [ 
-      {
-        "FirstName": "Joey",
-        "LastName": "Bloggs"
+post-single-minimum: |
+{
+  "Employees": [ 
+    {
+      "FirstName": "Joey",
+      "LastName": "Bloggs"
+    }
+  ]
+}
+post-single-full: |
+{
+  "Employees": [ 
+    {
+      "FirstName": "Joey",
+      "LastName": "Bloggs",
+      "ExternalLink": {
+        "Url": "http://twitter.com/#!/search/Joey+Bloggs",
       }
-    ]
-  }
-  post-single-full: |
-  {
-    "Employees": [ 
-      {
-        "FirstName": "Joey",
-        "LastName": "Bloggs",
-        "ExternalLink": {
-          "Url": "http://twitter.com/#!/search/Joey+Bloggs",
-        }
-      }
-    ]
-  }
-  post-multiple-minimum: |
-  {
-    "Employees": [ 
-      {
-        "FirstName": "Joey",
-        "LastName": "Bloggs"
-      },
-     {
-        "FirstName": "Rachel",
-        "LastName": "Redman"
-      }
-    ]
-  }
+    }
+  ]
+}
+post-multiple-minimum: |
+{
+  "Employees": [ 
+    {
+      "FirstName": "Joey",
+      "LastName": "Bloggs"
+    },
+    {
+      "FirstName": "Rachel",
+      "LastName": "Redman"
+    }
+  ]
+}
