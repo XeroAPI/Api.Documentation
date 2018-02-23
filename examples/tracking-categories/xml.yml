@@ -1,5 +1,5 @@
 ---
-get-tracking-categories:
+get-tracking-categories: |
   <Response>
     <TrackingCategories>
       <TrackingCategory>
