@@ -18,7 +18,7 @@ get: |
   }
 post-single-minimum: |
 {
-  "Employees": [ 
+  "Employees": [
     {
       "FirstName": "Joey",
       "LastName": "Bloggs"
@@ -27,19 +27,19 @@ post-single-minimum: |
 }
 post-single-full: |
 {
-  "Employees": [ 
+  "Employees": [
     {
       "FirstName": "Joey",
       "LastName": "Bloggs",
       "ExternalLink": {
-        "Url": "http://twitter.com/#!/search/Joey+Bloggs",
+        "Url": "http://twitter.com/#!/search/Joey+Bloggs"
       }
     }
   ]
 }
 post-multiple-minimum: |
 {
-  "Employees": [ 
+  "Employees": [
     {
       "FirstName": "Joey",
       "LastName": "Bloggs"
