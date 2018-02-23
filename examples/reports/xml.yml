@@ -1,0 +1,774 @@
+---
+response-get-agedpayables: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>AgedPayablesByContact</ReportID>
+        <ReportName>Aged Payables By Contact</ReportName>
+        <ReportType>AgedPayablesByContact</ReportType>
+        <ReportTitles>
+          <ReportTitle>Invoices</ReportTitle>
+          <ReportTitle>132 Collins</ReportTitle>
+          <ReportTitle>To 28 February 2017</ReportTitle>
+          <ReportTitle>Showing payments to 28 February 2017</ReportTitle>
+        </ReportTitles>
+        <ReportDate>8 February 2017</ReportDate>
+        <UpdatedDateUTC>2017-02-08T02:26:05.7297462Z</UpdatedDateUTC>
+        <Rows>
+          <Row>
+            <RowType>Header</RowType>
+            <Cells>
+              <Cell>
+                <Value>Date</Value>
+              </Cell>
+              <Cell>
+                <Value>Reference</Value>
+              </Cell>
+              <Cell>
+                <Value>Due Date</Value>
+              </Cell>
+              <Cell />
+              <Cell>
+                <Value>Total</Value>
+              </Cell>
+              <Cell>
+                <Value>Paid</Value>
+              </Cell>
+              <Cell>
+                <Value>Credited</Value>
+              </Cell>
+              <Cell>
+                <Value>Due</Value>
+              </Cell>
+            </Cells>
+          </Row>
+          <Row>
+            <RowType>Section</RowType>
+            <Rows>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>2017-01-16T00:00:00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>2017-01-23T00:00:00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>16 days overdue</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>1885.73</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>1885.73</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>fe8642da-df06-43c9-ab97-ce41d6000554</Value>
+                        <Id>invoiceID</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>SummaryRow</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Total</Value>
+                  </Cell>
+                  <Cell />
+                  <Cell />
+                  <Cell />
+                  <Cell>
+                    <Value>1885.73</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>1885.73</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+        </Rows>
+      </Report>
+    </Reports>
+  </Response>
+response-get-balancesheet: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>BalanceSheet</ReportID>
+        <ReportName>Balance Sheet</ReportName>
+        <ReportType>BalanceSheet</ReportType>
+        <ReportTitles>
+          <ReportTitle>Balance Sheet</ReportTitle>
+          <ReportTitle>Demo Company (AU)</ReportTitle>
+          <ReportTitle>As at 28 February 2017</ReportTitle>
+        </ReportTitles>
+        <ReportDate>8 February 2017</ReportDate>
+        <UpdatedDateUTC>2017-02-08T02:36:40.5192682Z</UpdatedDateUTC>
+        <Rows>
+          <Row>
+            <RowType>Header</RowType>
+            <Cells>
+              <Cell />
+              <Cell>
+                <Value>28 Feb 2017</Value>
+              </Cell>
+              <Cell>
+                <Value>29 Feb 2016</Value>
+              </Cell>
+            </Cells>
+          </Row>
+          <Row>
+            <RowType>Section</RowType>
+            <Title>Assets</Title>
+          </Row>
+          <Row>
+            <RowType>Section</RowType>
+            <Title>Bank</Title>
+            <Rows>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Business Bank Account</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>13918178-849a-4823-9a31-57b7eac713d7</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>4241.52</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>13918178-849a-4823-9a31-57b7eac713d7</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>13918178-849a-4823-9a31-57b7eac713d7</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Business Savings Account</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>26028d3a-f981-44d6-a9ed-a522198870f8</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>-51.72</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>26028d3a-f981-44d6-a9ed-a522198870f8</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>26028d3a-f981-44d6-a9ed-a522198870f8</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>SummaryRow</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Total Bank</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>4189.80</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+          ...
+        </Rows>
+      </Report>
+      </Reports>
+  </Response>
+response-get-bankstatement: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>BankStatement</ReportID>
+        <ReportName>Bank Statement</ReportName>
+        <ReportType>BankStatement</ReportType>
+        <ReportTitles>
+          <ReportTitle>Bank Statement</ReportTitle>
+          <ReportTitle>Business Bank Account</ReportTitle>
+          <ReportTitle>Demo Company (AU)</ReportTitle>
+          <ReportTitle>From 1 August 2013 to 20 August 2013</ReportTitle>
+        </ReportTitles>
+        <ReportDate>20 August 2013</ReportDate>
+        <UpdatedDateUTC>2013-08-20T03:39:39.5658282Z</UpdatedDateUTC>
+        <Rows>
+          <Row>
+            <RowType>Header</RowType>
+            <Cells>
+              <Cell>
+                <Value>Date</Value>
+              </Cell>
+              <Cell>
+                <Value>Description</Value>
+              </Cell>
+              <Cell>
+                <Value>Reference</Value>
+              </Cell>
+              <Cell>
+                <Value>Reconciled</Value>
+              </Cell>
+              <Cell>
+                <Value>Source</Value>
+              </Cell>
+              <Cell>
+                <Value>Amount</Value>
+              </Cell>
+              <Cell>
+                <Value>Balance</Value>
+              </Cell>
+            </Cells>
+          </Row>
+          <Row>
+            <RowType>Section</RowType>
+            <Rows>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>2013-08-01T00:00:00</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>Opening Balance</Value>
+                  </Cell>
+                  <Cell />
+                  <Cell />
+                  <Cell />
+                  <Cell />
+                  <Cell>
+                    <Value>-1792.15</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>2013-08-04T00:00:00</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>Melbourne Mags</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>Eft</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>Yes</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>Import</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>-21.90</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>-1814.05</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>2013-08-04T00:00:00</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>MCO Cleaning</Value>
+                  </Cell>
+                  <Cell />
+                  <Cell>
+                    <Value>Yes</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>Import</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>-170.50</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>-1984.55</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+          ...
+        </Rows>
+      </Report>
+    </Reports>
+  </Response>
+response-get-bas: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>3d0a1240-e606-4fae-a823-77bcf79d5e79</ReportID>
+        <ReportName>Activity Statement</ReportName>
+        <ReportType>SalesTaxReturn</ReportType>
+        <ReportDate>1 Nov 2011 to 30 Nov 2011</ReportDate>
+        <UpdatedDateUTC>2011-12-18T19:59:27.84</UpdatedDateUTC>
+        <Attributes>
+          <ReportAttribute>
+            <Name>fromDate</Name>
+            <Description>From</Description>
+            <Value>2011-11-01T00:00:00</Value>
+          </ReportAttribute>
+          <ReportAttribute>
+            <Name>dateTo</Name>
+            <Description>To</Description>
+            <Value>2011-11-30T00:00:00</Value>
+          </ReportAttribute>
+        </Attributes>
+        <Fields>
+          <ReportField>
+            <FieldID>ABN</FieldID>
+            <Description>ABN</Description>
+            <Value>53003086616</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>GSTBasis</FieldID>
+            <Description>GST Accounting Method</Description>
+            <Value>Accruals Basis</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>W1</FieldID>
+            <Description>Total salary, wages and other payments</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>W2</FieldID>
+            <Description>Amount withheld from payments shown at W1</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>W4</FieldID>
+            <Description>Amount withheld where no ABN is quoted</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>W3</FieldID>
+            <Description>Other amounts withheld (excluding any amount shown in W2 or W4)</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>W5</FieldID>
+            <Description>Total amounts withheld (W2 + W4 + W3)</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>4</FieldID>
+            <Description>PAYG tax withheld</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>7</FieldID>
+            <Description>Deferred company/fund instalment</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>8A</FieldID>
+            <Description>4+7</Description>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>8B</FieldID>
+            <Value>0</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>9</FieldID>
+            <Description>Your refund</Description>
+            <Value>0</Value>
+          </ReportField>
+        </Fields>
+      </Report>
+    </Reports>
+  </Response>
+response-get-gst: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>2be4a28b-467a-4bd1-baf8-8d6622a5b930</ReportID>
+        <ReportName>GST and Provisional Tax Return</ReportName>
+        <ReportType>OtherReport</ReportType>
+        <ReportDate>1 Dec 2010 to 31 Jan 2011</ReportDate>
+        <UpdatedDateUTC>2011-02-02T03:49:10.397</UpdatedDateUTC>
+        <Fields>
+          <ReportField>
+            <FieldID>1</FieldID>
+            <Description>Registration number</Description>
+            <Value>98-765-043</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>GSTBasis</FieldID>
+            <Description>GST basis</Description>
+            <Value>Invoice Basis</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>PeriodCovered</FieldID>
+            <Description>Period covered by the return</Description>
+            <Value>2 Monthly</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>From</FieldID>
+            <Description>From</Description>
+            <Value>2010-12-01T00:00:00</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>2</FieldID>
+            <Description>To</Description>
+            <Value>2011-01-31T00:00:00</Value>
+          </ReportField>
+          <ReportField>
+            <FieldID>5</FieldID>
+            <Description>Total sales and income for the period (including GST and zero-rated Supplies)</Description>
+            <Value>115.00</Value>
+          </ReportField>
+          ...
+        </Fields>
+      </Report>
+    </Reports>
+  </Response>
+response-get-profitandloss: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>ProfitAndLoss</ReportID>
+        <ReportName>Profit and Loss</ReportName>
+        <ReportType>ProfitAndLoss</ReportType>
+        <ReportTitles>
+          <ReportTitle>Profit & Loss</ReportTitle>
+          <ReportTitle>Demo Company (AU)</ReportTitle>
+          <ReportTitle>1 February 2017 to 28 February 2017</ReportTitle>
+        </ReportTitles>
+        <ReportDate>8 February 2017</ReportDate>
+        <UpdatedDateUTC>2017-02-08T05:54:22.3317243Z</UpdatedDateUTC>
+        <Rows>
+          <Row>
+            <RowType>Header</RowType>
+            <Cells>
+              <Cell />
+              <Cell>
+                <Value>28 Feb 17</Value>
+              </Cell>
+            </Cells>
+          </Row>
+          <Row>
+            <RowType>Section</RowType>
+            <Title> Income</Title>
+            <Rows>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Sales</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e2bacdc6-2006-43c2-a5da-3c0e5f43b452</Value>
+                          <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>47396.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e2bacdc6-2006-43c2-a5da-3c0e5f43b452</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>SummaryRow</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Total Income</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>47396.00</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+          ...
+          <Row>
+            <RowType>Section</RowType>
+            <Rows>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>NET PROFIT</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>95.89</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+        </Rows>
+      </Report>
+    </Reports>
+  </Response>
+response-get-trialbalance: |
+  <Response>
+    <Reports>
+      <Report>
+        <ReportID>TrialBalance</ReportID>
+        <ReportName>Trial Balance</ReportName>
+        <ReportType>TrialBalance</ReportType>
+        <ReportTitles>
+          <ReportTitle>Trial Balance</ReportTitle>
+          <ReportTitle>Demo Company (NZ)</ReportTitle>
+          <ReportTitle>As at 30 August 2010</ReportTitle>
+        </ReportTitles>
+        <ReportDate>21 February 2011</ReportDate>
+        <UpdatedDateUTC>2011-02-20T21:50:43.6129168Z</UpdatedDateUTC>
+        <Rows>
+          <Row>
+            <RowType>Header</RowType>
+            <Cells>
+              <Cell>
+                <Value>Account</Value>
+              </Cell>
+              <Cell>
+                <Value>Debit</Value>
+              </Cell>
+              <Cell>
+                <Value>Credit</Value>
+              </Cell>
+              <Cell>
+                <Value>YTD Debit</Value>
+              </Cell>
+              <Cell>
+                <Value>YTD Credit</Value>
+              </Cell>
+            </Cells>
+          </Row>
+          <Row>
+            <RowType>Section</RowType>
+            <Title>Revenue</Title>
+            <Rows>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Interest Income (270)</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e9482110-7245-4a76-bfe2-14500495a076</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e9482110-7245-4a76-bfe2-14500495a076</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>0.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e9482110-7245-4a76-bfe2-14500495a076</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e9482110-7245-4a76-bfe2-14500495a076</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>500.00</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>e9482110-7245-4a76-bfe2-14500495a076</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                </Cells>
+              </Row>
+              <Row>
+                <RowType>Row</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Sales (200)</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>5040915e-8ce7-4177-8d08-fde416232f18</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Attributes>
+                      <Attribute>
+                        <Value>5040915e-8ce7-4177-8d08-fde416232f18</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>12180.25</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>5040915e-8ce7-4177-8d08-fde416232f18</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Attributes>
+                      <Attribute>
+                        <Value>5040915e-8ce7-4177-8d08-fde416232f18</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                  <Cell>
+                    <Value>20775.53</Value>
+                    <Attributes>
+                      <Attribute>
+                        <Value>5040915e-8ce7-4177-8d08-fde416232f18</Value>
+                        <Id>account</Id>
+                      </Attribute>
+                    </Attributes>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+          ...
+          <Row>
+            <RowType>Section</RowType>
+            <Rows>
+              <Row>
+                <RowType>SummaryRow</RowType>
+                <Cells>
+                  <Cell>
+                    <Value>Total</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>17447.02</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>17447.02</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>33459.76</Value>
+                  </Cell>
+                  <Cell>
+                    <Value>33459.76</Value>
+                  </Cell>
+                </Cells>
+              </Row>
+            </Rows>
+          </Row>
+        </Rows>
+      </Report>
+    </Reports>
+  </Response>

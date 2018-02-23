@@ -1,0 +1,703 @@
+---
+response-get-agedpayables: |
+  {
+    "Reports": [
+      {
+        "ReportID": "AgedPayablesByContact",
+        "ReportName": "Aged Payables By Contact",
+        "ReportType": "AgedPayablesByContact",
+        "ReportTitles": [
+          "Invoices",
+          "Xero",
+          "To 28 February 2018",
+          "Showing payments to 28 February 2018"
+        ],
+        "ReportDate": "23 February 2018",
+        "UpdatedDateUTC": "/Date(1519357171249)/",
+        "Rows": [
+          {
+            "RowType": "Header",
+            "Cells": [
+              { "Value": "Date" },
+              { "Value": "Reference" },
+              { "Value": "Due Date" },
+              { "Value": "" },
+              { "Value": "Total" },
+              { "Value": "Paid" },
+              { "Value": "Credited" },
+              { "Value": "Due" }
+            ]
+          },{
+            "RowType": "Section",
+            "Rows": [
+              {
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "2018-01-15T00:00:00",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },
+                  {
+                    "Value": "",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "2018-01-15T00:00:00",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "53.90",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "53.90",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "0.00",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "0.00",
+                    "Attributes": [
+                      {
+                        "Value": "935fc854-8037-4111-8d91-993010c331cc",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  }
+                ]
+              },{
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "2018-02-14T00:00:00",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "2018-02-14T00:00:00",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "53.90",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "53.90",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "0.00",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  },{
+                    "Value": "0.00",
+                    "Attributes": [
+                      {
+                        "Value": "024d7994-a26c-4c20-9894-13934840fc31",
+                        "Id": "invoiceID"
+                      }
+                    ]
+                  }
+                ]
+              },{
+                "RowType": "SummaryRow",
+                "Cells": [
+                  { "Value": "Total" },
+                  { "Value": "" },
+                  { "Value": "" },
+                  { "Value": "" },
+                  { "Value": "107.80" },
+                  { "Value": "107.80" },
+                  { "Value": "0.00" },
+                  { "Value": "0.00" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+response-get-balancesheet: |
+  {
+    "Reports": [
+      {
+        "ReportID": "BalanceSheet",
+        "ReportName": "Balance Sheet",
+        "ReportType": "BalanceSheet",
+        "ReportTitles": [
+          "Balance Sheet",
+          "Demo Company (AU)",
+          "As at 28 February 2018"
+        ],
+        "ReportDate": "23 February 2018",
+        "UpdatedDateUTC": "/Date(1519358515899)/",
+        "Rows": [
+          {
+            "RowType": "Header",
+            "Cells": [
+              { "Value": "" },
+              { "Value": "28 Feb 2018" },
+              { "Value": "28 Feb 2017" }
+            ]
+          },
+          {
+            "RowType": "Section",
+            "Title": "Assets"
+          },
+          {
+            "RowType": "Section",
+            "Title": "Bank",
+            "Rows": [
+              {
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "Business Bank Account",
+                    "Attributes": [
+                      {
+                        "Value": "13918178-849a-4823-9a31-57b7eac713d7",
+                        "Id": "account"
+                      }
+                    ]
+                  },{
+                    "Value": "-2894.08",
+                    "Attributes": [
+                      {
+                        "Value": "13918178-849a-4823-9a31-57b7eac713d7",
+                        "Id": "account"
+                      }
+                    ]
+                  },{
+                    "Value": "0.00",
+                    "Attributes": [
+                      {
+                        "Value": "13918178-849a-4823-9a31-57b7eac713d7",
+                        "Id": "account"
+                      }
+                    ]
+                  }
+                ]
+              },{
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "Business Savings Account",
+                    "Attributes": [
+                      {
+                        "Value": "26028d3a-f981-44d6-a9ed-a522198870f8",
+                        "Id": "account"
+                      }
+                    ]
+                  },{
+                    "Value": "6878.28",
+                    "Attributes": [
+                      {
+                        "Value": "26028d3a-f981-44d6-a9ed-a522198870f8",
+                        "Id": "account"
+                      }
+                    ]
+                  },{
+                    "Value": "0.00",
+                    "Attributes": [
+                      {
+                        "Value": "26028d3a-f981-44d6-a9ed-a522198870f8",
+                        "Id": "account"
+                      }
+                    ]
+                  }
+                ]
+              },{
+                "RowType": "SummaryRow",
+                "Cells": [
+                  { "Value": "Total Bank" },
+                  { "Value": "3984.20" },
+                  { "Value": "0.00" }
+                ]
+              }
+            ]
+          },{
+            ...
+          }
+        ]
+      }
+    ]
+  }
+response-get-bankstatement: |
+  {
+    "Reports": [
+      {
+        "ReportID": "BankStatement",
+        "ReportName": "Bank Statement",
+        "ReportType": "BankStatement",
+        "ReportTitles": [
+          "Bank Statement",
+          "Business Bank Account",
+          "Demo Company (AU)",
+          "From 1 February 2018 to 26 February 2018"
+        ],
+        "ReportDate": "25 February 2018",
+        "UpdatedDateUTC": "/Date(1519591742098)/",
+        "Rows": [
+          {
+            "RowType": "Header",
+            "Cells": [
+              { "Value": "Date" },
+              { "Value": "Description" },
+              { "Value": "Reference" },
+              { "Value": "Reconciled" },
+              { "Value": "Source" },
+              { "Value": "Amount" },
+              { "Value": "Balance" }
+            ]
+          },
+          {
+            "RowType": "Section",
+            "Rows": [
+              {
+                "RowType": "Row",
+                "Cells": [
+                  { "Value": "2018-02-01T00:00:00" },
+                  { "Value": "Opening Balance" },
+                  { "Value": "" },
+                  { "Value": "" },
+                  { "Value": "" },
+                  { "Value": "" },
+                  { "Value": "-1984.55" }
+                ]
+              },
+              {
+                "RowType": "Row",
+                "Cells": [
+                  { "Value": "2018-02-04T00:00:00" },
+                  { "Value": "Woolworths" },
+                  { "Value": "Eft  " },
+                  { "Value": "Yes" },
+                  { "Value": "Imported" },
+                  { "Value": "-17.23" },
+                  { "Value": "-2001.78" }
+                ]
+              },{
+                "RowType": "Row",
+                "Cells": [
+                  { "Value": "2018-02-04T00:00:00" },
+                  { "Value": "Rex Media" },
+                  { "Value": "1023  " },
+                  { "Value": "Yes" },
+                  { "Value": "Imported" },
+                  { "Value": "550.00" },
+                  { "Value": "-1451.78" }
+                ]
+              },{
+                ...
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+response-get-bas: |
+  {
+    "Reports": [
+      {
+        "ReportID": "3d0a1240-e606-4fae-a823-77bcf79d5e79",
+        "ReportName": "Activity Statement",
+        "ReportType": "SalesTaxReturn",
+        "ReportDate": "1 Nov 2011 to 30 Nov 2011",
+        "UpdatedDateUTC": "2011-12-18T19:59:27.84",
+        "Attributes": [
+          {
+            "Name": "fromDate",
+            "Description": "From",
+            "Value": "2011-11-01T00:00:00"
+          },
+          {
+            "Name": "dateTo",
+            "Description": "To",
+            "Value": "2011-11-30T00:00:00"
+          }
+        ],
+        "Fields": [
+          {
+            "FieldID": "ABN",
+            "Description": "ABN",
+            "Value": "53003086616"
+          },{
+            "FieldID": "GSTBasis",
+            "Description": "GST Accounting Method",
+            "Value": "Accruals Basis"
+          },{
+            "FieldID": "W1",
+            "Description": "Total salary, wages and other payments",
+            "Value": "0"
+          },{
+            "FieldID": "W2",
+            "Description": "Amount withheld from payments shown at W1",
+            "Value": "0"
+          },{
+            "FieldID": "W4",
+            "Description": "Amount withheld where no ABN is quoted",
+            "Value": "0"
+          },{
+            "FieldID": "W3",
+            "Description": "Other amounts withheld (excluding any amount shown in W2 or W4)",
+            "Value": "0"
+          },{
+            "FieldID": "W5",
+            "Description": "Total amounts withheld (W2 + W4 + W3)",
+            "Value": "0"
+          },{
+            "FieldID": "4",
+            "Description": "PAYG tax withheld",
+            "Value": "0"
+          },{
+            "FieldID": "7",
+            "Description": "Deferred company/fund instalment",
+            "Value": "0"
+          },{
+            "FieldID": "8A",
+            "Description": "4+7",
+            "Value": "0"
+          },{
+            "FieldID": "8B",
+            "Value": "0"
+          },{
+            "FieldID": "9",
+            "Description": "Your refund",
+            "Value": "0"
+          }
+        ]
+      }
+    ]
+  }
+response-get-gst: |
+  {
+    "Reports": [
+      {
+        "ReportID": "2be4a28b-467a-4bd1-baf8-8d6622a5b930",
+        "ReportName": "GST and Provisional Tax Return",
+        "ReportType": "OtherReport",
+        "ReportDate": "1 Dec 2010 to 31 Jan 2011",
+        "UpdatedDateUTC": "2011-02-02T03:49:10.397",
+        "Fields": [
+          {
+            "FieldID": "1",
+            "Description": "Registration number",
+            "Value": "98-765-043"
+          },{
+            "FieldID": "GSTBasis",
+            "Description": "GST basis",
+            "Value": "Invoice Basis"
+          },{
+            "FieldID": "PeriodCovered",
+            "Description": "Period covered by the return",
+            "Value": "2 Monthly"
+          },{
+            "FieldID": "From",
+            "Description": "From",
+            "Value": "2010-12-01T00:00:00"
+          },{
+            "FieldID": "2",
+            "Description": "To",
+            "Value": "2011-01-31T00:00:00"
+          },{
+            "FieldID": "5",
+            "Description": "Total sales and income for the period (including GST and zero-rated Supplies)",
+            "Value": "115.00"
+          },{
+            ...
+          }
+        ]
+      }
+    ]
+  }
+response-get-profitandloss: |
+  {
+    "Reports": [
+      {
+        "ReportID": "ProfitAndLoss",
+        "ReportName": "Profit and Loss",
+        "ReportType": "ProfitAndLoss",
+        "ReportTitles": [
+          "Profit & Loss",
+          "Demo Company (AU)",
+          "1 February 2018 to 28 February 2018"
+        ],
+        "ReportDate": "25 February 2018",
+        "UpdatedDateUTC": "/Date(1519593468971)/",
+        "Rows": [
+          {
+            "RowType": "Header",
+            "Cells": [
+              { "Value": "" },
+              { "Value": "28 Feb 18" }
+            ]
+          },
+          {
+            "RowType": "Section",
+            "Title": " Income",
+            "Rows": [
+              {
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "Sales",
+                    "Attributes": [
+                      {
+                        "Value": "e2bacdc6-2006-43c2-a5da-3c0e5f43b452",
+                        "Id": "account"
+                      }
+                    ]
+                  },{
+                    "Value": "9220.05",
+                    "Attributes": [
+                      {
+                        "Value": "e2bacdc6-2006-43c2-a5da-3c0e5f43b452",
+                        "Id": "account"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "RowType": "SummaryRow",
+                "Cells": [
+                  { "Value": "Total Income" },
+                  { "Value": "9220.05" }
+                ]
+              }
+            ]
+          },{
+            ...
+          },{
+            "RowType": "Section",
+            "Rows": [
+              {
+                "RowType": "Row",
+                "Cells": [
+                  { "Value": "NET PROFIT" },
+                  { "Value": "-6250.09" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+response-get-trialbalance: |
+  {
+    "Reports": [
+      {
+        "ReportID": "TrialBalance",
+        "ReportName": "Trial Balance",
+        "ReportType": "TrialBalance",
+        "ReportTitles": [
+          "Trial Balance",
+          "Demo Company (NZ)",
+          "As at 30 August 2010"
+        ],
+        "ReportDate": "21 February 2011",
+        "UpdatedDateUTC": "2011-02-20T21:50:43.6129168Z",
+        "Rows": [
+          {
+            "RowType": "Header",
+            "Cells": [
+              { "Value": "Account" },
+              { "Value": "Debit" },
+              { "Value": "Credit" },
+              { "Value": "YTD Debit" },
+              { "Value": "YTD Credit" }
+            ]
+          },{
+            "RowType": "Section",
+            "Title": "Revenue",
+            "Rows": [
+              {
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "Interest Income (270)",
+                    "Attributes": [
+                      {
+                        "Value": "e9482110-7245-4a76-bfe2-14500495a076",
+                        "Id": "account"
+                      }
+                    ]
+                  },
+                  {
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "e9482110-7245-4a76-bfe2-14500495a076",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Value": "0.00",
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "e9482110-7245-4a76-bfe2-14500495a076",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "e9482110-7245-4a76-bfe2-14500495a076",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Value": "500.00",
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "e9482110-7245-4a76-bfe2-14500495a076",
+                        "Id": "account"
+                      }
+                    }
+                  }
+                ]
+              },{
+                "RowType": "Row",
+                "Cells": [
+                  {
+                    "Value": "Sales (200)",
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Value": "12180.25",
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
+                        "Id": "account"
+                      }
+                    }
+                  },
+                  {
+                    "Value": "20775.53",
+                    "Attributes": {
+                      "Attribute": {
+                        "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
+                        "Id": "account"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },{
+            "RowType": "Section",
+            "Rows": [
+              {
+                "RowType": "SummaryRow",
+                "Cells": [
+                  { "Value": "Total" },
+                  { "Value": "17447.02" },
+                  { "Value": "17447.02" },
+                  { "Value": "33459.76" },
+                  { "Value": "33459.76" }
+                ]
+              }
+            ]
+          },{
+            ...
+          }
+        ]
+      }
+    ]
+  }
