@@ -12,7 +12,7 @@ get: |
           "Description": "Go to external link"
         },
         "UpdatedDateUTC": "\/Date(1519351730117+0000)\/"
-      },
+      }
     ...
     ]
   }
