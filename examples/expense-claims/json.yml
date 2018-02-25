@@ -104,7 +104,7 @@ get-single: |
         "AmountDue": "0.00",
         "AmountPaid": "34.90",
         "PaymentDueDate": "\/Date(1222340661707+0000)\/",
-        "ReportingDate": "\/Date(1222340661707+0000)\/",
+        "ReportingDate": "\/Date(1222340661707+0000)\/"
       }
     ]
   }
@@ -127,9 +127,8 @@ get-collection: |
         "AmountDue": "0.00",
         "AmountPaid": "34.90",
         "PaymentDueDate": "\/Date(1222340661707+0000)\/",
-        "ReportingDate": "\/Date(1222340661707+0000)\/",
-      },
-      {
+        "ReportingDate": "\/Date(1222340661707+0000)\/"
+      },{
         "ExpenseClaimID": "fb0372d7-4d35-4b99-89e1-8dc0fff13cae",
         "Status": "PAID",
         "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
@@ -145,7 +144,7 @@ get-collection: |
         "AmountDue": "0.00",
         "AmountPaid": "29.50",
         "PaymentDueDate": "\/Date(1222340661707+0000)\/",
-        "ReportingDate": "\/Date(1222340661707+0000)\/",
+        "ReportingDate": "\/Date(1222340661707+0000)\/"
       }
     ]
   }
