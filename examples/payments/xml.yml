@@ -125,7 +125,7 @@ request-put-overpayment-refund: |
         <Code>090</Code>
       </Account>
       <Date>2015-04-01</Date>
-      <Amount>2000.00</Amount>
+      <Amount>200.00</Amount>
       <Reference>Refunded overpayment made by mistake</Reference>
     </Payment>
   </Payments>

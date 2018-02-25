@@ -89,7 +89,7 @@ request-put-overpayment-refund: |
     "Overpayment": { "OverpaymentID": "1ced4be7-ea6d-4f46-8279-4203e461de80" },
     "Account": { "Code": "090" },
     "Date": "2015-04-01",
-    "Amount": 2000.00,
+    "Amount": 200.00,
     "Reference": "Refunded overpayment made by mistake"
   }
 request-put-reconciled: |
