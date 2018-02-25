@@ -8,8 +8,8 @@ get: |
           "Unit": "MONTHLY",
           "DueDate": 31,
           "DueDateType": "OFCURRENTMONTH",
-          "StartDate": "/Date(1519776000000+0000)/",
-          "NextScheduledDate": "/Date(1519776000000+0000)/"
+          "StartDate": "\/Date(1519776000000+0000)\/",
+          "NextScheduledDate": "\/Date(1519776000000+0000)\/"
         },
         "RepeatingInvoiceID": "666f8dbb-bc9a-476c-8ec4-4665d7f83190",
         "Type": "ACCPAY",

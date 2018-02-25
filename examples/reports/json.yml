@@ -13,7 +13,7 @@ response-get-agedpayables: |
           "Showing payments to 28 February 2018"
         ],
         "ReportDate": "23 February 2018",
-        "UpdatedDateUTC": "/Date(1519357171249)/",
+        "UpdatedDateUTC": "\/Date(1519357171249)\/",
         "Rows": [
           {
             "RowType": "Header",
@@ -201,7 +201,7 @@ response-get-balancesheet: |
           "As at 28 February 2018"
         ],
         "ReportDate": "23 February 2018",
-        "UpdatedDateUTC": "/Date(1519358515899)/",
+        "UpdatedDateUTC": "\/Date(1519358515899)\/",
         "Rows": [
           {
             "RowType": "Header",
@@ -307,7 +307,7 @@ response-get-bankstatement: |
           "From 1 February 2018 to 26 February 2018"
         ],
         "ReportDate": "25 February 2018",
-        "UpdatedDateUTC": "/Date(1519591742098)/",
+        "UpdatedDateUTC": "\/Date(1519591742098)\/",
         "Rows": [
           {
             "RowType": "Header",
@@ -375,7 +375,7 @@ response-get-bas: |
         "ReportName": "Activity Statement",
         "ReportType": "SalesTaxReturn",
         "ReportDate": "1 Nov 2011 to 30 Nov 2011",
-        "UpdatedDateUTC": "2011-12-18T19:59:27.84",
+        "UpdatedDateUTC": "\/Date(1519357171249)\/",
         "Attributes": [
           {
             "Name": "fromDate",
@@ -445,16 +445,16 @@ response-get-gst: |
   {
     "Reports": [
       {
-        "ReportID": "2be4a28b-467a-4bd1-baf8-8d6622a5b930",
+        "ReportID": "86894",
         "ReportName": "GST and Provisional Tax Return",
-        "ReportType": "OtherReport",
-        "ReportDate": "1 Dec 2010 to 31 Jan 2011",
-        "UpdatedDateUTC": "2011-02-02T03:49:10.397",
+        "ReportType": "GSTReturn",
+        "ReportDate": "01 Jul 2016 to 31 Dec 2016",
+        "UpdatedDateUTC": "\/Date(1519596630000)\/",
         "Fields": [
           {
             "FieldID": "1",
             "Description": "Registration number",
-            "Value": "98-765-043"
+            "Value": "111-111-111"
           },{
             "FieldID": "GSTBasis",
             "Description": "GST basis",
@@ -464,13 +464,13 @@ response-get-gst: |
             "Description": "Period covered by the return",
             "Value": "2 Monthly"
           },{
-            "FieldID": "From",
-            "Description": "From",
-            "Value": "2010-12-01T00:00:00"
+          "FieldID": "From",
+          "Description": "From",
+          "Value": "2016-07-01T00:00:00"
           },{
             "FieldID": "2",
             "Description": "To",
-            "Value": "2011-01-31T00:00:00"
+            "Value": "2016-8-31T00:00:00"
           },{
             "FieldID": "5",
             "Description": "Total sales and income for the period (including GST and zero-rated Supplies)",
@@ -495,7 +495,7 @@ response-get-profitandloss: |
           "1 February 2018 to 28 February 2018"
         ],
         "ReportDate": "25 February 2018",
-        "UpdatedDateUTC": "/Date(1519593468971)/",
+        "UpdatedDateUTC": "\/Date(1519593468971)\/",
         "Rows": [
           {
             "RowType": "Header",
@@ -569,7 +569,7 @@ response-get-trialbalance: |
           "As at 30 August 2010"
         ],
         "ReportDate": "21 February 2011",
-        "UpdatedDateUTC": "2011-02-20T21:50:43.6129168Z",
+        "UpdatedDateUTC": "\/Date(1519357171249)\/",
         "Rows": [
           {
             "RowType": "Header",
