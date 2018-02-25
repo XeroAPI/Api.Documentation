@@ -1,0 +1,182 @@
+---
+get-single: |
+  {
+    "Receipts": [
+      {
+        "ReceiptID": "e59a2c7f-1306-4078-a0f3-73537afcbba9",
+        "ReceiptNumber": "6",
+        "Status": "DRAFT",
+        "User": {
+          "UserID": "c81045b2-5740-4aea-bf8a-3956941af387",
+          "FirstName": "John",
+          "LastName": "Smith"
+        },
+        "Contact": {
+          "ContactID": "ee9619df-7419-446d-af3d-6becf72d9e64",
+          "ContactStatus": "ACTIVE",
+          "Name": "Faster Taxis",
+          "Addresses": {
+            "Address": [
+              {
+                "AddressType": "POBOX"
+              },
+              {
+                "AddressType": "STREET"
+              }
+            ]
+          },
+          "Phones": {
+            "Phone": [
+              {
+                "PhoneType": "MOBILE"
+              },
+              {
+                "PhoneType": "FAX"
+              },
+              {
+                "PhoneType": "DDI"
+              },
+              {
+                "PhoneType": "DEFAULT"
+              }
+            ]
+          },
+          "UpdatedDateUTC": "2011-10-02T19:41:43.817"
+        },
+        "Date": "2011-09-30T00:00:00",
+        "UpdatedDateUTC": "2011-10-02T20:09:09.067",
+        "LineAmountTypes": "Inclusive",
+        "LineItems": {
+          "LineItem": {
+            "Description": "Cab to Airport",
+            "UnitAmount": "18.62",
+            "TaxType": "INPUT2",
+            "TaxAmount": "2.43",
+            "LineAmount": "18.62",
+            "AccountCode": "420",
+            "Quantity": "1.0000"
+          }
+        },
+        "SubTotal": "16.19",
+        "TotalTax": "2.43",
+        "Total": "18.62",
+        "HasAttachments": "false"
+      }
+    ]
+  }
+get-multiple: |
+  {
+    "Receipts": [
+      {
+        "ReceiptID": "b7072163-84e5-4501-a7bd-2849927980c0",
+        "ReceiptNumber": "1",
+        "User": {
+          "UserID": "c81045b2-5740-4aea-bf8a-3956941af387",
+          "FirstName": "John",
+          "LastName": "Smith"
+        },
+        "Contact": {
+          "ContactID": "7f71b205-4ad9-4779-8479-60f46e91fa5c",
+          "Name": "City Coffeeworks"
+        },
+        "Date": "2010-07-15T00:00:00",
+        "UpdatedDateUTC": "2011-10-02T19:08:18.767",
+        "LineAmountTypes": "Inclusive",
+        "SubTotal": "3.30",
+        "TotalTax": "0.50",
+        "Total": "3.80",
+        "HasAttachments": "false"
+      }
+      ...
+    ]
+  }
+post-minimal-create: |
+  {
+    "Date": "2011-09-30",
+    "User": {
+      "UserID": "0ccf3aa2-3207-422f-82ef-2e3fc1ad5a82"
+    },
+    "Contact": {
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc"
+    },
+    "LineAmountTypes": "Inclusive",
+    "LineItems": {
+      "LineItem": {
+        "Description": "Coffee with client to discuss support contract",
+        "UnitAmount": "13.80",
+        "AccountCode": "420"
+      }
+    },
+    "Total": "13.80"
+  }
+post-all: |
+  {
+    "User": {
+      "UserID": "0ccf3aa2-3207-422f-82ef-2e3fc1ad5a82"
+    },
+    "Contact": {
+      "Name": "Joe's Coffee House"
+    },
+    "Date": "2016-09-20T00:00:00",
+    "LineAmountTypes": "Inclusive",
+    "LineItems": {
+      "LineItem": {
+        "Description": "thing",
+        "UnitAmount": "5.00",
+        "TaxType": "INPUT",
+        "TaxAmount": ".45",
+        "LineAmount": "5.00",
+        "AccountCode": "400",
+        "Tracking": {
+          "TrackingCategory": {
+            "Name": "Region",
+            "Option": "North"
+          }
+        },
+        "Quantity": "1.0000"
+      }
+    }
+  }
+post-delete-draft: |
+  {
+    "ReceiptID": "e59a2c7f-1306-4078-a0f3-73537afcbba9",
+    "Status": "DELETED",
+    "User": {
+      "UserID": "c81045b2-5740-4aea-bf8a-3956941af387"
+    }
+  }
+post-summarizeerrors-false: |
+{
+  "Invoices": [
+    {
+      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+      ...
+      "StatusAttributeString": "OK"
+    },
+    {
+      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+      ...      
+      "StatusAttributeString": "OK"
+    },
+    {
+      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+      ...      
+      "StatusAttributeString": "WARNING",
+      "Warnings": [
+        {
+          "Message": "Error message"
+        }
+      ]
+    },
+    {
+      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+      ...      
+      "StatusAttributeString": "ERROR",
+      "ValidationErrors": [
+        {
+          "Description": "Error message"
+        }
+      ]
+    }
+  ]
+}
