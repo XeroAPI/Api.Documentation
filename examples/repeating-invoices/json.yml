@@ -1,0 +1,50 @@
+---
+get: |
+  {
+    "RepeatingInvoices": [
+      {
+        "Schedule": {
+          "Period": 1,
+          "Unit": "MONTHLY",
+          "DueDate": 31,
+          "DueDateType": "OFCURRENTMONTH",
+          "StartDate": "/Date(1519776000000+0000)/",
+          "NextScheduledDate": "/Date(1519776000000+0000)/"
+        },
+        "RepeatingInvoiceID": "666f8dbb-bc9a-476c-8ec4-4665d7f83190",
+        "Type": "ACCPAY",
+        "Reference": "3203",
+        "HasAttachments": false,
+        "ID": "666f8dbb-bc9a-476c-8ec4-4665d7f83190",
+        "Contact": {
+          "ContactID": "d6851dc2-9ed9-4515-bc0b-810b09c06a6a",
+          "Name": "PowerDirect",
+          "Addresses": [],
+          "Phones": [],
+          "ContactGroups": [],
+          "ContactPersons": [],
+          "HasValidationErrors": false
+        },
+        "Status": "DRAFT",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [
+          {
+            "Description": "Power bill",
+            "UnitAmount": 295,
+            "TaxType": "INPUT",
+            "TaxAmount": 29.5,
+            "LineAmount": 295,
+            "AccountCode": "445",
+            "Tracking": [],
+            "Quantity": 1,
+            "LineItemID": "a8fa2ef8-8286-4e9b-b1f7-19420cd7c19c"
+          }
+        ],
+        "SubTotal": 295,
+        "TotalTax": 29.5,
+        "Total": 324.5,
+        "CurrencyCode": "AUD"
+      }
+    ]
+    ...
+  }
