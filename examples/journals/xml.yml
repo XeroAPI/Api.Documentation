@@ -35,6 +35,6 @@ get: |
         </JournalLines>
       </Journal>
     ...
-    <Journals>
+    </Journals>
   </Response>
 
