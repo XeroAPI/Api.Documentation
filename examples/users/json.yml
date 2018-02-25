@@ -10,7 +10,7 @@ users-get: |
         "UpdatedDateUTC": "\/Date(1516230549137+0000)\/",
         "IsSubscriber": false,
         "OrganisationRole": "ADMIN"
-      },
+      }
       ...
     ]
   }
