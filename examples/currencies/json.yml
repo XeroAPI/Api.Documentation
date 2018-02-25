@@ -13,8 +13,8 @@ put: |
   {
     "Currencies": [ 
       { 
-        "Code": 'SGD', 
-        "Description": 'Singapore Dollar' 
+        "Code": "SGD", 
+        "Description": "Singapore Dollar"
       }
     ...
     ]
