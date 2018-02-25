@@ -5,7 +5,7 @@ get-all: |
       {
         "Code": "NZD",
         "Description": "New Zealand Dollar"
-      },
+      }
     ...
     ]
   }
@@ -15,7 +15,7 @@ put: |
       { 
         "Code": 'SGD', 
         "Description": 'Singapore Dollar' 
-      }, 
+      }
     ...
     ]
   }
