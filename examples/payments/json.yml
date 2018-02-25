@@ -1,0 +1,106 @@
+---
+response-get-single: |
+  {
+    "Payments": [
+      {
+        "PaymentID": "b26fd49a-cbae-470a-a8f8-bcbc119e0379",
+        "Date": "\/Date(1455667200000+0000)\/",
+        "BankAmount": 500.00,
+        "Amount": 500.00,
+        "Reference": "INV-0001",
+        "CurrencyRate": 1.000000,
+        "PaymentType": "ACCRECPAYMENT",
+        "Status": "AUTHORISED",
+        "UpdatedDateUTC": "\/Date(1289572582537+0000)\/",
+        "HasAccount": true,
+        "IsReconciled": true,
+        "Account": {
+          "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c",
+          "Code": "090"
+        },
+        "Invoice": {
+          "Type": "ACCREC",
+          "InvoiceID": "b0875d8b-ff26-4ce8-8aea-6955492ead48",
+          "InvoiceNumber": "INV-0001",
+          "Contact": {
+            "ContactID": "fef6755f-549b-4617-b1e9-60bdffb517d8",
+            "Name": "Ridgeway University"
+          }
+        }
+      }
+    ]
+  }
+request-put-invoice-single: |
+  {
+    "Invoice": { "InvoiceID": "96df0dff-43ec-4899-a7d9-e9d63ef12b19" },
+    "Account": { "Code": "001" },
+    "Date": "2009-09-08",
+    "Amount": 32.06
+  }
+request-put-invoice-multiple: |
+  {
+    "Payments": [
+      {
+        "Invoice": { "InvoiceID": "96df0dff-43ec-4899-a7d9-e9d63ef12b19" },
+        "Account": { "AccountID": "297c2dc5-cc47-4afd-8ec8-74990b8761e9" },
+        "Date": "2009-07-13",
+        "Amount": 3375.00
+      },
+      {
+        "Invoice": { "InvoiceID": "0a1d0d71-b001-4c71-a260-31e77c9d4a92" },
+        "Account": { "AccountID": "a65b0dac-b444-4b41-959b-c1580cd6268f" },
+        "Date": "2009-09-01",
+        "Amount": 393.75
+      },
+      {
+        "Invoice": { "InvoiceID": "93c9be81-1df4-4338-b5dc-e67a89cd2d7c" },
+        "Account": { "AccountID": "a65b0dac-b444-4b41-959b-c1580cd6268f" },
+        "Date": "2009-07-21",
+        "Amount": 398
+      }
+    ]
+  }
+request-put-creditnote-fullrefund: |
+  {
+    "CreditNote": { "CreditNoteNumber": "CN-007" },
+    "Account": { "Code": "090" },
+    "Date": "2013-09-04",
+    "Amount": 50.00,
+    "Reference": "Full refund as we couldn't replace item"
+  }
+request-put-creditnote-partialrefund: |
+  {
+    "CreditNote": { "CreditNoteNumber": "CN-007" },
+    "Account": { "Code": "AUD" },
+    "Date": "2013-09-04",
+    "Amount": 50.00,
+    "CurrencyRate": "0.8"
+  }
+request-put-prepayment-refund: |
+  {
+    "Prepayment": { "PrepaymentID": "262c3049-cbf2-4b4b-9fca-60d55b076e35" },
+    "Account": { "Code": "090" },
+    "Date": "2015-03-25",
+    "Amount": 100.00,
+    "Reference": "Full refund as the customer cancelled their subscription"
+  }
+request-put-overpayment-refund: |
+  {
+    "Overpayment": { "OverpaymentID": "1ced4be7-ea6d-4f46-8279-4203e461de80" },
+    "Account": { "Code": "090" },
+    "Date": "2015-04-01",
+    "Amount": 2000.00,
+    "Reference": "Refunded overpayment made by mistake"
+  }
+request-put-reconciled: |
+  {
+    "Invoice": { "InvoiceNumber": "OIT00619" },
+    "Account": { "Code": "001" },
+    "Date": "2009-09-08",
+    "Amount": 20.00,
+    "IsReconciled": true
+  }
+request-post-delete: |
+  {
+    "Status": "DELETED"
+  }
