@@ -146,37 +146,37 @@ post-delete-draft: |
     }
   }
 post-summarizeerrors-false: |
-{
-  "Invoices": [
-    {
-      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
-      ...
-      "StatusAttributeString": "OK"
-    },
-    {
-      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
-      ...      
-      "StatusAttributeString": "OK"
-    },
-    {
-      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
-      ...      
-      "StatusAttributeString": "WARNING",
-      "Warnings": [
-        {
-          "Message": "Error message"
-        }
-      ]
-    },
-    {
-      "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
-      ...      
-      "StatusAttributeString": "ERROR",
-      "ValidationErrors": [
-        {
-          "Description": "Error message"
-        }
-      ]
-    }
-  ]
-}
+  {
+    "Invoices": [
+      {
+        "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+        ...
+        "StatusAttributeString": "OK"
+      },
+      {
+        "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+        ...      
+        "StatusAttributeString": "OK"
+      },
+      {
+        "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+        ...      
+        "StatusAttributeString": "WARNING",
+        "Warnings": [
+          {
+            "Message": "Error message"
+          }
+        ]
+      },
+      {
+        "ReceiptID": "5ceffde5-6786-4987-b03a-bf88d262c286",
+        ...      
+        "StatusAttributeString": "ERROR",
+        "ValidationErrors": [
+          {
+            "Description": "Error message"
+          }
+        ]
+      }
+    ]
+  }
