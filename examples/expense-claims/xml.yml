@@ -148,7 +148,7 @@ get-collection: |
         <ReportingDate>2013-12-03T00:00:00</ReportingDate>
       </ExpenseClaim>
     </ExpenseClaims>
-  <Response>
+  </Response>
 post-minimum: |
   <ExpenseClaims>
     <ExpenseClaim>
