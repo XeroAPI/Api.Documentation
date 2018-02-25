@@ -1,0 +1,57 @@
+---
+get-multiple: |
+  {
+    "LinkedTransactions": [
+      {
+        "LinkedTransactionID": "2b921ac0-1ed9-4a61-bd67-706180f1bd94",
+        "SourceTransactionID": "057df639-6632-4995-b0ac-00152e1c5092",
+        "SourceLineItemID": "aa605236-49cc-4cf7-8c43-161def9bbf68",
+        "ContactID": "a94c0f29-8924-4b05-b0e6-585ea1982faa",
+        "TargetTransactionID": "147f3680-1b41-48ee-8c7f-61a656bbf49a",
+        "TargetLineItemID": "14f06cf1-e2af-4825-8476-bb79f5ba503e",
+        "Status": "BILLED",
+        "Type": "BILLABLEEXPENSE",
+        "UpdatedDateUTC": "2015-09-09T22:13:28",
+        "SourceTransactionTypeCode": "SPEND"
+      },
+      {
+        "LinkedTransactionID": "dc3c18e6-ab39-4d0e-8283-0609efa36145",
+        "SourceTransactionID": "0465c7b5-69b8-4e55-8c32-af73eab9afba",
+        "SourceLineItemID": "c92bf129-5da1-401c-8cf5-1508e92ee829",
+        "Status": "DRAFT",
+        "Type": "BILLABLEEXPENSE",
+        "UpdatedDateUTC": "2015-09-09T23:43:54",
+        "SourceTransactionTypeCode": "ACCPAY"
+      }
+    ]
+  }
+post-create-no-contact: |
+  {
+    "SourceTransactionID": "0cfcc9f7-9166-4dae-9b7c-7d0f25663886",
+    "SourceLineItemID": "da115c3b-41e5-4204-a7a3-082323197f9f"
+  }
+post-create-with-contact: |
+  {
+    "SourceTransactionID": "0cfcc9f7-9166-4dae-9b7c-7d0f25663886",
+    "SourceLineItemID": "da115c3b-41e5-4204-a7a3-082323197f9f",
+    "ContactID": "73d15ee0-27db-4352-ac8d-28463a2110f4"
+  }
+post-fully-allocated: |
+  {
+    "SourceTransactionID": "0cfcc9f7-9166-4dae-9b7c-7d0f25663886",
+    "SourceLineItemID": "da115c3b-41e5-4204-a7a3-082323197f9f",
+    "ContactID": "73d15ee0-27db-4352-ac8d-28463a2110f4",
+    "TargetTransactionID": "2e926f7b-022c-44d3-8a9a-a5201dd37b61",
+    "TargetLineItemID": "43c944b5-1556-42d6-aa35-b3a60f6c0a49"
+  }
+post-assign-contact: |
+  {
+    "LinkedTransactionID": "c83947a9-5f57-47c4-bdb1-b77862207382",
+    "ContactID": "73d15ee0-27db-4352-ac8d-28463a2110f4"
+  }
+post-allowcate-target: |
+  {
+    "LinkedTransactionID": "c83947a9-5f57-47c4-bdb1-b77862207382",
+    "TargetTransactionID": "2e926f7b-022c-44d3-8a9a-a5201dd37b61",
+    "TargetLineItemID": "43c944b5-1556-42d6-aa35-b3a60f6c0a49"
+  }
