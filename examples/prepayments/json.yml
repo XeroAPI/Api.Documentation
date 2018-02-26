@@ -1,0 +1,47 @@
+---
+get-all: |
+  {
+    "Prepayments": [
+      {
+        "Contact": {
+          "ContactID": "c6c7b870-bb4d-489a-921e-2f0ee4192ff9",
+          "Name": "Mr Contact"
+        },
+        "Date": "\/Date(1222340661707+0000)\/",
+        "Status": "PAID",
+        "LineAmountTypes": "Inclusive",
+        "SubTotal": "86.96",
+        "TotalTax": "13.04",
+        "Total": "100.00",
+        "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
+        "CurrencyCode": "NZD",
+        "FullyPaidOnDate": "\/Date(1222340661707+0000)\/",
+        "Type": "RECEIVE-PREPAYMENT",
+        "PrepaymentID": "aea95d78-ea48-456b-9b08-6bc012600072",
+        "CurrencyRate": "1.000000",
+        "RemainingCredit": "0.00",
+        "Allocations": {
+          "Allocation": {
+            "AppliedAmount": "100.00",
+            "Date": "\/Date(1222340661707+0000)\/",
+            "Invoice": {
+              "InvoiceID": "87cfa39f-136c-4df9-a70d-bb80d8ddb975",
+              "InvoiceNumber": "INV-0001"
+            }
+          }
+        },
+        "HasAttachments": "false"
+      }
+    ]
+  }
+put-allocating: |
+  {
+    "Allocations": [
+      {
+        "AppliedAmount": "60.50",
+        "Invoice": {
+          "InvoiceID": "f5832195-5cd3-4660-ad3f-b73d9c64f263"
+        }
+      }
+    ]
+  }
