@@ -1,0 +1,194 @@
+---
+response-get: |
+  {
+    "PurchaseOrders": [
+      {
+        "PurchaseOrderID": "44d3f8a4-7031-45e8-b252-e92914e43c7e",
+        "PurchaseOrderNumber": "PO-0001",
+        "DateString": "2017-02-21T00:00:00",
+        "Date": "\/Date(1487635200000+0000)\/",
+        "DeliveryDateString": "2017-02-22T00:00:00",
+        "DeliveryDate": "\/Date(1487721600000+0000)\/",
+        "DeliveryAddress": "23 Main Street\r\nCentral City\r\nMarineville\r\n1234\r\n",
+        "AttentionTo": "FOH",
+        "Telephone": "0800 1234 5678",
+        "DeliveryInstructions": "Deliver to reception. As agreed, table needs to be assembled prior to delivery.",
+        "IsDiscounted": false,
+        "Reference": "710",
+        "Type": "PURCHASEORDER",
+        "CurrencyRate": 1.000000,
+        "CurrencyCode": "NZD",
+        "Contact": {
+          "ContactID": "bde095a6-1c01-4e1d-b6f4-9190cfe89a9c",
+          "ContactStatus": "ACTIVE",
+          "Name": "ABC Furniture",
+          "FirstName": "Trish",
+          "LastName": "Rawlings",
+          "Phones": [
+            {
+              "PhoneType": "DEFAULT",
+              "PhoneNumber": "124578",
+              "PhoneAreaCode": "800"
+            }
+          ],
+          "UpdatedDateUTC": "\/Date(1488391422297+0000)\/",
+          "DefaultCurrency": "NZD"
+        },
+        "BrandingThemeID": "7889a0ac-262a-40e3-8a63-9a769b1a18af",
+        "Status": "BILLED",
+        "LineAmountTypes": "Exclusive",
+        "LineItems": [
+          {
+            "Description": "Coffee table for reception",
+            "UnitAmount": 1000.0000,
+            "TaxType": "INPUT2",
+            "TaxAmount": 150.00,
+            "LineAmount": 1000.00,
+            "Quantity": 1.0000,
+            "LineItemID": "1aa3bf00-a5fe-420f-b4b3-d64349a13108"
+          }
+        ],
+        "SubTotal": 1000.00,
+        "TotalTax": 150.00,
+        "Total": 1150.00,
+        "UpdatedDateUTC": "\/Date(1385147725247+0000)\/"
+      },{
+        "PurchaseOrderID": "9b0c56fc-7952-4906-aa5a-e6abb6f9bef8",
+        "PurchaseOrderNumber": "PO-0002",
+        "DateString": "2017-02-19T00:00:00",
+        "Date": "\/Date(1487462400000+0000)\/",
+        "DeliveryDateString": "2017-02-21T00:00:00",
+        "DeliveryDate": "\/Date(1487635200000+0000)\/",
+        "ExpectedArrivalDateString": "2017-02-28T00:00:00",
+        "ExpectedArrivalDate": "\/Date(1488240000000+0000)\/",
+        "DeliveryAddress": "Bayside Club\r\n148 Bay Harbour Road\r\nRidge Heights\r\nMadeupville 6001\r\nNew Zealand",
+        "AttentionTo": "Club Secretary",
+        "Telephone": "02-2024455",
+        "DeliveryInstructions": "Urgent delivery - send directly to Doug (Club Secretary) at the Bayside Club",
+        "IsDiscounted": false,
+        "Reference": "GB1-White",
+        "Type": "PURCHASEORDER",
+        "CurrencyRate": 1.000000,
+        "CurrencyCode": "NZD",
+        "Contact": {
+          "ContactID": "9954ba5c-0451-43b0-a9ea-89612622fe3f",
+          "ContactStatus": "ACTIVE",
+          "Name": "Dimples Warehouse",
+          "UpdatedDateUTC": "\/Date(1488391422280+0000)\/",
+          "DefaultCurrency": "NZD"
+        },
+        "BrandingThemeID": "7889a0ac-262a-40e3-8a63-9a769b1a18af",
+        "Status": "AUTHORISED",
+        "LineAmountTypes": "Inclusive",
+        "LineItems": [
+          {
+            "Description": "Delivery charge",
+            "UnitAmount": 50.0000,
+            "TaxType": "INPUT2",
+            "TaxAmount": 6.52,
+            "LineAmount": 50.00,
+            "Quantity": 1.0000,
+            "LineItemID": "a0510037-5a97-42dd-ba66-4cc0a83c8c26"
+          },{
+            "ItemCode": "GB1-White",
+            "Description": "Golf balls - white single",
+            "UnitAmount": 4.2000,
+            "TaxType": "INPUT2",
+            "TaxAmount": 54.78,
+            "LineAmount": 420.00,
+            "AccountCode": "300",
+            "Quantity": 100.0000,
+            "LineItemID": "c0267cf8-5a5a-412d-8c1f-83e696e79088"
+          }
+        ],
+        "SubTotal": 408.70,
+        "TotalTax": 61.30,
+        "Total": 470.00,
+        "UpdatedDateUTC": "\/Date(1385147879753+0000)\/",
+        "HasAttachments": false
+      },{
+        ...
+      }
+    ]
+  }
+request-create: |
+  {
+    "Contact": { "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" },
+    "Date": "2015-11-30",
+    "DeliveryDate": "2015-12-20",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "Description": "Office Chairs",
+        "Quantity": 5.0000,
+        "UnitAmount": 120.00
+      }
+    ]
+  }
+request-create-detailed: |
+  {
+    "PurchaseOrderNumber": "PO-0292",
+    "Date": "2015-11-12",
+    "DeliveryDate": "2015-12-12",
+    "Reference": "REF123",
+    "Contact": { "ContactID": "d7b78c9c-b34a-4dad-b999-c3c2504c7877" },
+    "BrandingThemeID": "4c82c365-35cb-467f-bb11-dce1f2f2f67c",
+    "Status": "AUTHORISED",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "ItemCode": "GB1-White",
+        "Description": "Golf balls - white single. Wholesale catalog item #020812-1",
+        "UnitAmount": 4.2595,
+        "TaxType": "INPUT2",
+        "AccountCode": "300",
+        "Tracking": [
+          {
+            "Name": "Region",
+            "Option": "Eastside"
+          },{
+            "Name": "Salesperson",
+            "Option": "Adam"
+          }
+        ],
+        "Quantity": 1.0000,
+        "DiscountRate": 10.00
+      }
+    ],
+    "CurrencyRate": 0.615310,
+    "CurrencyCode": "EUR",
+    "DeliveryAddress": "23 Main Street, Central City, Marineville,1234",
+    "AttentionTo": "Bob",
+    "Telephone": "0800 1234 5678",
+    "DeliveryInstructions": "Don't forget the secret knock",
+    "ExpectedArrivalDate": "2015-12-12"
+  }
+request-delete: |
+  {
+    "PurchaseOrderNumber": "PO-239",
+    "Status": "DELETED"
+  }
+request-mark-as-sent: |
+  {
+    "PurchaseOrderID": "8694c9c5-7097-4449-a708-b8c1982921a4",
+    "SentToContact": true
+  }
+response-summarize-errors-false: |
+  {
+    "PurchaseOrders": [
+      {
+        ...
+        "StatusAttributeString": "OK"
+      },{
+        ...
+        "StatusAttributeString": "ERROR",
+        "ValidationErrors": [ 
+          { "Message": "Organisation is not subscribed to currency EUR" },
+          { "Message": "A Contact must be specified for this type of transaction" } 
+        ]
+      },{
+        ...
+        "StatusAttributeString": "OK"
+      }
+    ]
+  }

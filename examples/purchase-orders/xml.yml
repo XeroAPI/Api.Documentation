@@ -1,0 +1,194 @@
+---
+response-get: |
+  <Response>
+    <PurchaseOrders>
+      <PurchaseOrder>
+        <PurchaseOrderID>44d3f8a4-7031-45e8-b252-e92914e43c7e</PurchaseOrderID>
+        <PurchaseOrderNumber>PO-0001</PurchaseOrderNumber>
+        <Date>2017-02-21T00:00:00</Date>
+        <DeliveryDate>2017-02-22T00:00:00</DeliveryDate>
+        <DeliveryAddress>23 Main Street, Central City, Marineville, 1234</DeliveryAddress>
+        <AttentionTo>FOH</AttentionTo>
+        <Telephone>0800 1234 5678</Telephone>
+        <DeliveryInstructions>Deliver to reception. As agreed, table needs to be assembled prior to delivery.</DeliveryInstructions>
+        <Reference>710</Reference>
+        <CurrencyRate>1.000000</CurrencyRate>
+        <CurrencyCode>NZD</CurrencyCode>
+        <Contact>
+          <ContactID>bde095a6-1c01-4e1d-b6f4-9190cfe89a9c</ContactID>
+          <ContactStatus>ACTIVE</ContactStatus>
+          <Name>ABC Furniture</Name>
+          <FirstName>Trish</FirstName>
+          <LastName>Rawlings</LastName>
+          <Phones>
+            <Phone>
+              <PhoneType>DEFAULT</PhoneType>
+              <PhoneNumber>124578</PhoneNumber>
+              <PhoneAreaCode>800</PhoneAreaCode>
+            </Phone>
+          </Phones>
+          <UpdatedDateUTC>2017-03-01T18:03:42.297</UpdatedDateUTC>
+          <DefaultCurrency>NZD</DefaultCurrency>
+        </Contact>
+        <BrandingThemeID>7889a0ac-262a-40e3-8a63-9a769b1a18af</BrandingThemeID>
+        <Status>BILLED</Status>
+        <LineAmountTypes>Exclusive</LineAmountTypes>
+        <LineItems>
+          <LineItem>
+            <Description>Coffee table for reception</Description>
+            <UnitAmount>1000.0000</UnitAmount>
+            <TaxType>INPUT2</TaxType>
+            <TaxAmount>150.00</TaxAmount>
+            <LineAmount>1000.00</LineAmount>
+            <Quantity>1.0000</Quantity>
+            <LineItemID>1aa3bf00-a5fe-420f-b4b3-d64349a13108</LineItemID>
+          </LineItem>
+        </LineItems>
+        <SubTotal>1000.00</SubTotal>
+        <TotalTax>150.00</TotalTax>
+        <Total>1150.00</Total>
+        <UpdatedDateUTC>2013-11-22T19:15:25.247</UpdatedDateUTC>
+        <HasAttachments>false</HasAttachments>
+      </PurchaseOrder>
+      <PurchaseOrder>
+        <PurchaseOrderID>9b0c56fc-7952-4906-aa5a-e6abb6f9bef8</PurchaseOrderID>
+        <PurchaseOrderNumber>PO-0002</PurchaseOrderNumber>
+        <Date>2017-02-19T00:00:00</Date>
+        <DeliveryDate>2017-02-21T00:00:00</DeliveryDate>
+        <ExpectedArrivalDate>2017-02-28T00:00:00</ExpectedArrivalDate>
+        <DeliveryAddress>Bayside Club, 23 Main Street, Central City, Marineville,1234</DeliveryAddress>
+        <AttentionTo>Club Secretary</AttentionTo>
+        <Telephone>02-2024455</Telephone>
+        <DeliveryInstructions>Urgent delivery - send directly to Doug (Club Secretary) at the Bayside Club</DeliveryInstructions>
+        <Reference>GB1-White</Reference>
+        <CurrencyRate>1.000000</CurrencyRate>
+        <CurrencyCode>NZD</CurrencyCode>
+        <Contact>
+          <ContactID>9954ba5c-0451-43b0-a9ea-89612622fe3f</ContactID>
+          <ContactStatus>ACTIVE</ContactStatus>
+          <Name>Dimples Warehouse</Name>
+          <UpdatedDateUTC>2017-03-01T18:03:42.28</UpdatedDateUTC>
+          <DefaultCurrency>NZD</DefaultCurrency>
+        </Contact>
+        <BrandingThemeID>7889a0ac-262a-40e3-8a63-9a769b1a18af</BrandingThemeID>
+        <Status>AUTHORISED</Status>
+        <LineAmountTypes>Inclusive</LineAmountTypes>
+        <LineItems>
+          <LineItem>
+            <Description>Delivery charge</Description>
+            <UnitAmount>50.0000</UnitAmount>
+            <TaxType>INPUT2</TaxType>
+            <TaxAmount>6.52</TaxAmount>
+            <LineAmount>50.00</LineAmount>
+            <Quantity>1.0000</Quantity>
+            <LineItemID>a0510037-5a97-42dd-ba66-4cc0a83c8c26</LineItemID>
+          </LineItem>
+          <LineItem>
+            <ItemCode>GB1-White</ItemCode>
+            <Description>Golf balls - white single</Description>
+            <UnitAmount>4.2000</UnitAmount>
+            <TaxType>INPUT2</TaxType>
+            <TaxAmount>54.78</TaxAmount>
+            <LineAmount>420.00</LineAmount>
+            <AccountCode>300</AccountCode>
+            <Quantity>100.0000</Quantity>
+            <LineItemID>c0267cf8-5a5a-412d-8c1f-83e696e79088</LineItemID>
+          </LineItem>
+        </LineItems>
+        <SubTotal>408.70</SubTotal>
+        <TotalTax>61.30</TotalTax>
+        <Total>470.00</Total>
+        <UpdatedDateUTC>2013-11-22T19:17:59.753</UpdatedDateUTC>
+        <HasAttachments>false</HasAttachments>
+      </PurchaseOrder>
+      ...
+    </PurchaseOrders>
+  </Response>
+request-create: |
+  <PurchaseOrder>
+    <Contact>
+      <ContactID>eaa28f49-6028-4b6e-bb12-d8f6278073fc</ContactID>
+    </Contact>
+    <Date>2015-11-30</Date>
+    <DeliveryDate>2015-12-20</DeliveryDate>
+    <LineAmountTypes>Exclusive</LineAmountTypes>
+    <LineItems>
+      <LineItem>
+        <Description>Office Chairs</Description>
+        <Quantity>5.0000</Quantity>
+        <UnitAmount>120.00</UnitAmount>
+      </LineItem>
+    </LineItems>
+  </PurchaseOrder>
+request-create-detailed: |
+  <PurchaseOrder>
+    <PurchaseOrderNumber>PO-0292</PurchaseOrderNumber>
+    <Date>2015-11-12</Date>
+    <DeliveryDate>2015-12-12</DeliveryDate>
+    <Reference>REF123</Reference>
+    <Contact>
+      <ContactID>d7b78c9c-b34a-4dad-b999-c3c2504c7877</ContactID>
+    </Contact>
+    <BrandingThemeID>4c82c365-35cb-467f-bb11-dce1f2f2f67c</BrandingThemeID>
+    <Status>AUTHORISED</Status>
+    <LineAmountTypes>Exclusive</LineAmountTypes>
+    <LineItems>
+      <LineItem>
+        <ItemCode>GB1-White</ItemCode>
+        <Description>Golf balls - white single. Wholesale catalog item 020812-1</Description>
+        <UnitAmount>4.2595</UnitAmount>
+        <TaxType>INPUT2</TaxType>
+        <AccountCode>300</AccountCode>
+        <Tracking>
+          <TrackingCategory>
+            <Name>Region</Name>
+            <Option>Eastside</Option>
+          </TrackingCategory>
+          <TrackingCategory>
+            <Name>Salesperson</Name>
+            <Option>Adam</Option>
+          </TrackingCategory>
+        </Tracking>
+        <Quantity>1.0000</Quantity>
+        <DiscountRate>10.00</DiscountRate>
+      </LineItem>
+    </LineItems>
+    <CurrencyRate>0.615310</CurrencyRate>
+    <CurrencyCode>EUR</CurrencyCode>
+    <DeliveryAddress>23 Main Street, Central City, Marineville,1234</DeliveryAddress>
+    <AttentionTo>Bob</AttentionTo>
+    <Telephone>0800 1234 5678</Telephone>
+    <DeliveryInstructions>Don't forget the secret knock</DeliveryInstructions>
+    <ExpectedArrivalDate>2015-12-12</ExpectedArrivalDate>
+  </PurchaseOrder>
+request-delete: |
+  <PurchaseOrder>
+    <PurchaseOrderNumber>PO-239</PurchaseOrderNumber>
+    <Status>DELETED</Status>
+  </PurchaseOrder>
+request-mark-as-sent: |
+  <PurchaseOrder>
+    <PurchaseOrderID>8694c9c5-7097-4449-a708-b8c1982921a4</PurchaseOrderID>
+    <SentToContact>true</SentToContact>
+  </PurchaseOrder>
+response-summarize-errors-false: |
+  <Response>
+    <PurchaseOrders>
+      <PurchaseOrder status="OK">
+        ...
+      </PurchaseOrder>
+      <PurchaseOrder status="ERROR">
+        <ValidationErrors>
+          <ValidationError>
+            <Message>Organisation is not subscribed to currency EUR</Message>
+          </ValidationError>
+          <ValidationError>
+            <Message>A Contact must be specified for this type of transaction</Message>
+          </ValidationError>
+        </ValidationErrors>
+      </PurchaseOrder>
+      <PurchaseOrder status="OK">
+        ...
+      </PurchaseOrder>
+    </PurchaseOrders>
+  </Response>
