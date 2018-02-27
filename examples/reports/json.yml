@@ -595,40 +595,38 @@ response-get-trialbalance: |
                         "Id": "account"
                       }
                     ]
-                  },
-                  {
-                    "Attributes": {
-                      "Attribute": {
+                  },{
+                    "Attributes": [
+                      {
                         "Value": "e9482110-7245-4a76-bfe2-14500495a076",
                         "Id": "account"
                       }
-                    }
-                  },
-                  {
+                    ]
+                  },{
                     "Value": "0.00",
-                    "Attributes": {
-                      "Attribute": {
+                    "Attributes": [
+                      {
                         "Value": "e9482110-7245-4a76-bfe2-14500495a076",
                         "Id": "account"
                       }
-                    }
+                    ]
                   },
                   {
-                    "Attributes": {
-                      "Attribute": {
+                    "Attributes": [
+                      {
                         "Value": "e9482110-7245-4a76-bfe2-14500495a076",
                         "Id": "account"
                       }
-                    }
+                    ]
                   },
                   {
                     "Value": "500.00",
-                    "Attributes": {
-                      "Attribute": {
+                    "Attributes": [
+                      {
                         "Value": "e9482110-7245-4a76-bfe2-14500495a076",
                         "Id": "account"
                       }
-                    }
+                    ]
                   }
                 ]
               },{
@@ -636,46 +634,42 @@ response-get-trialbalance: |
                 "Cells": [
                   {
                     "Value": "Sales (200)",
-                    "Attributes": {
-                      "Attribute": {
+                    "Attributes": [
+                      {
                         "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
                         "Id": "account"
                       }
-                    }
-                  },
-                  {
-                    "Attributes": {
-                      "Attribute": {
+                    ]
+                  },{
+                    "Attributes": [
+                      {
                         "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
                         "Id": "account"
                       }
-                    }
-                  },
-                  {
+                    ]
+                  },{
                     "Value": "12180.25",
-                    "Attributes": {
-                      "Attribute": {
+                    "Attributes": [
+                      {
                         "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
                         "Id": "account"
                       }
-                    }
-                  },
-                  {
-                    "Attributes": {
-                      "Attribute": {
+                    ]
+                  },{
+                    "Attributes": [
+                      {
                         "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
                         "Id": "account"
                       }
-                    }
-                  },
-                  {
+                    ]
+                  },{
                     "Value": "20775.53",
-                    "Attributes": {
-                      "Attribute": {
+                    "Attributes": [
+                      {
                         "Value": "5040915e-8ce7-4177-8d08-fde416232f18",
                         "Id": "account"
                       }
-                    }
+                    ]
                   }
                 ]
               }
