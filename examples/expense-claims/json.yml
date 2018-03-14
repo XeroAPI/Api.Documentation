@@ -14,82 +14,82 @@ get-single: |
           "IsSubscriber": "false",
           "OrganisationRole": "FINANCIALADVISER"
         },
-        "Receipts": {
-          "Receipt": [
-            {
-              "ReceiptID": "4dfefee8-15c3-4c30-ba0a-cb78d96d709a",
-              "ReceiptNumber": "2",
-              "Status": "AUTHORISED",
-              "User": {
-                "UserID": "d6362594-ffec-4435-abe8-469941ff1501",
-                "FirstName": "Joe",
-                "LastName": "Bloggs",
-                "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
-                "IsSubscriber": "false",
-                "OrganisationRole": "FINANCIALADVISER"
-              },
-              "Contact": {
-                "ContactID": "827deebb-d4dd-4b52-933f-851631ab93c4",
-                "Name": "Coco Cafe"
-              },
-              "Date": "2013-10-11T00:00:00",
+        "Receipts": [
+          {
+            "ReceiptID": "4dfefee8-15c3-4c30-ba0a-cb78d96d709a",
+            "ReceiptNumber": "2",
+            "Status": "AUTHORISED",
+            "User": {
+              "UserID": "d6362594-ffec-4435-abe8-469941ff1501",
+              "FirstName": "Joe",
+              "LastName": "Bloggs",
               "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
-              "Reference": "MRE 08",
-              "LineAmountTypes": "Inclusive",
-              "LineItems": [{
-                  "Description": "Breakfast before MRE conference",
-                  "UnitAmount": "16.90",
-                  "TaxType": "NONE",
-                  "TaxAmount": "0.00",
-                  "LineAmount": "16.90",
-                  "AccountCode": "684",
-                  "Quantity": "1.0000"
-                }],
-              "SubTotal": "16.90",
-              "TotalTax": "0.00",
-              "Total": "16.90",
-              "HasAttachments": "false"
+              "IsSubscriber": "false",
+              "OrganisationRole": "FINANCIALADVISER"
             },
-            {
-              "ReceiptID": "5c578500-d093-4a29-9dc4-ff6c9c74b72d",
-              "ReceiptNumber": "1",
-              "Status": "AUTHORISED",
-              "User": {
-                "UserID": "d6362594-ffec-4435-abe8-469941ff1501",
-                "FirstName": "Joe",
-                "LastName": "Bloggs",
-                "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
-                "IsSubscriber": "false",
-                "OrganisationRole": "FINANCIALADVISER"
-              },
-              "Contact": {
-                "ContactID": "b89da77c-1a13-4893-8d65-71cd38fc623a",
-                "Name": "Fulton Airport Parking"
-              },
-              "Date": "\/Date(1222340661707+0000)\/",
+            "Contact": {
+              "ContactID": "827deebb-d4dd-4b52-933f-851631ab93c4",
+              "Name": "Coco Cafe"
+            },
+            "Date": "2013-10-11T00:00:00",
+            "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
+            "Reference": "MRE 08",
+            "LineAmountTypes": "Inclusive",
+            "LineItems": [
+              {
+                "Description": "Breakfast before MRE conference",
+                "UnitAmount": "16.90",
+                "TaxType": "NONE",
+                "TaxAmount": "0.00",
+                "LineAmount": "16.90",
+                "AccountCode": "684",
+                "Quantity": "1.0000"
+              }
+            ],
+            "SubTotal": "16.90",
+            "TotalTax": "0.00",
+            "Total": "16.90",
+            "HasAttachments": "false"
+          },
+          {
+            "ReceiptID": "5c578500-d093-4a29-9dc4-ff6c9c74b72d",
+            "ReceiptNumber": "1",
+            "Status": "AUTHORISED",
+            "User": {
+              "UserID": "d6362594-ffec-4435-abe8-469941ff1501",
+              "FirstName": "Joe",
+              "LastName": "Bloggs",
               "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
-              "Reference": "MRE 08",
-              "LineAmountTypes": "Inclusive",
-              "LineItems": {
-                "LineItem": {
-                  "Description": "Parking for MRE conference",
-                  "UnitAmount": "18.00",
-                  "TaxType": "NONE",
-                  "TaxAmount": "0.00",
-                  "LineAmount": "18.00",
-                  "AccountCode": "684",
-                  "Quantity": "1.0000"
-                }
-              },
-              "SubTotal": "18.00",
-              "TotalTax": "0.00",
-              "Total": "18.00",
-              "HasAttachments": "false"
-            }
-          ]
-        },
-        "Payments": {
-          "Payment": {
+              "IsSubscriber": "false",
+              "OrganisationRole": "FINANCIALADVISER"
+            },
+            "Contact": {
+              "ContactID": "b89da77c-1a13-4893-8d65-71cd38fc623a",
+              "Name": "Fulton Airport Parking"
+            },
+            "Date": "\/Date(1222340661707+0000)\/",
+            "UpdatedDateUTC": "\/Date(1222340661707+0000)\/",
+            "Reference": "MRE 08",
+            "LineAmountTypes": "Inclusive",
+            "LineItems": [
+              {
+                "Description": "Parking for MRE conference",
+                "UnitAmount": "18.00",
+                "TaxType": "NONE",
+                "TaxAmount": "0.00",
+                "LineAmount": "18.00",
+                "AccountCode": "684",
+                "Quantity": "1.0000"
+              }
+            ],
+            "SubTotal": "18.00",
+            "TotalTax": "0.00",
+            "Total": "18.00",
+            "HasAttachments": "false"
+          }
+        ],
+        "Payments": [
+          {
             "Date": "\/Date(1222340661707+0000)\/",
             "Amount": "34.90",
             "Reference": "FP101897",
@@ -99,7 +99,7 @@ get-single: |
               "Name": "Checking Account"
             }
           }
-        },
+        ],
         "Total": "34.90",
         "AmountDue": "0.00",
         "AmountPaid": "34.90",
