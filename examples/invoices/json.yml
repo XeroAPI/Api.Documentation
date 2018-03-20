@@ -380,7 +380,7 @@ post-single-every-element: |
         ]
       }
     ]
- }	
+  }
 post-single-delete-draft: |
   {
       "InvoiceNumber": "INV-239",
@@ -400,15 +400,15 @@ post-multiple-sumarize-errors: |
   {
     "Response": {
       "Invoices": [
-          ...
-          {
-            "ValidationErrors": [
-              {
-                "Message": "...."
-              }
-            ]
-          }
-          ...
-        ]
-      }
+        ...
+        {
+          "ValidationErrors": [
+            {
+              "Message": "...."
+            }
+          ]
+        }
+        ...
+      ]
+    }
   }
