@@ -77,28 +77,28 @@ get-multiple: |
 {
     "Invoices": [
       {
-		  "Type": "ACCREC",
-		  "Contact": {
-			  "ContactID": "025867f1-d741-4d6b-b1af-9ac774b59ba7",
-			  "Name": "City Agency"
-		  },
-		  "Date": "\/Date(1518685950940+0000)\/",
-		  "DueDate": "\/Date(1518685950940+0000)\/",
-		  "DateString": "2009-05-27T00:00:00",
-		  "DueDateString": "2009-06-06T00:00:00",
-		  "Status": "AUTHORISED",
-		  "LineAmountTypes": "Exclusive",
-		  "SubTotal": 1800.00,
-		  "TotalTax": "225.00",
-		  "Total": "2025.00",
-		  "UpdatedDateUTC": "\/Date(1518685950940+0000)\/",
-		  "CurrencyCode": "NZD",
-		  "InvoiceID": "243216c5-369e-4056-ac67-05388f86dc81",
-		  "InvoiceNumber": "OIT00546",
-		  "AmountDue": "2025.00",
-		  "AmountPaid": "0.00",
-		  "AmountCredited": "0.00"
-		},
+	"Type": "ACCREC",
+	"Contact": {
+	  "ContactID": "025867f1-d741-4d6b-b1af-9ac774b59ba7",
+	  "Name": "City Agency"
+	},
+	"Date": "\/Date(1518685950940+0000)\/",
+	"DueDate": "\/Date(1518685950940+0000)\/",
+	"DateString": "2009-05-27T00:00:00",
+	"DueDateString": "2009-06-06T00:00:00",
+	"Status": "AUTHORISED",
+	"LineAmountTypes": "Exclusive",
+	"SubTotal": 1800.00,
+	"TotalTax": "225.00",
+	"Total": "2025.00",
+	"UpdatedDateUTC": "\/Date(1518685950940+0000)\/",
+	"CurrencyCode": "NZD",
+	"InvoiceID": "243216c5-369e-4056-ac67-05388f86dc81",
+	"InvoiceNumber": "OIT00546",
+	"AmountDue": "2025.00",
+	"AmountPaid": "0.00",
+	"AmountCredited": "0.00"
+	},
         {
           "Reference": "RPT-DD",
           "Type": "ACCREC",
