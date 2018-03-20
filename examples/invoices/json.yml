@@ -44,7 +44,7 @@ get-single: |
             "LineAmount": "1800.00",
             "AccountCode": "200",
             "Tracking": [
-              "TrackingCategory": {
+              {
                 "TrackingCategoryID": "e2f2f732-e92a-4f3a9c4d-ee4da0182a13",
                 "Name": "Activity/Workstream",
                 "Option": "Onsite consultancy"
@@ -222,7 +222,26 @@ get-single-online-invoice-url: |
     ]
   }
 post-single-draft-sales: |
-  a71723f7-b567-4771-be6a-67875457fe4a
+  {
+      "Type": "ACCREC",
+      "Contact": { 
+		"ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+	  },
+      "Date": "\/Date(1518685950940+0000)\/",
+      "DueDate": "\/Date(1518685950940+0000)\/",
+      "DateString": "2009-05-27T00:00:00",
+      "DueDateString": "2009-06-06T00:00:00",
+      "LineAmountTypes": "Exclusive",
+      "LineItems": [
+        {
+          "Description": "Consulting services as agreed (20% off standard rate)",
+          "Quantity": "10",
+          "UnitAmount": "100.00",
+          "AccountCode": "200",
+          "DiscountRate": "20"
+        }
+      ]
+  }
 post-single-approved-sales: |
   {
     "Invoice": {
@@ -282,7 +301,7 @@ post-single-tax-usd-nzd-org: |
           "UnitAmount": "99",
           "AccountCode": "200",
           "Tracking": [
-            "TrackingCategory": {
+            {
               "Name": "Activity/Workstream",
               "Option": "Onsite consultancy"
             }
@@ -341,7 +360,7 @@ post-single-every-element: |
               "LineAmount": "177.00",
               "AccountCode": "200",
               "Tracking": [
-                "TrackingCategory": {
+                {
                   "TrackingCategoryID": "e2f2f732-e92a-4f3a-9c4d-ee4da0182a13",
                   "Name": "Region",
                   "Option": "North"
