@@ -197,7 +197,7 @@ get-multiple-page1: |
           "InvoiceID": "96988e67-ecf9-466d-bfbf-0afa1725a649",
           "InvoiceNumber": "RPT445-1",
           "Payments": [
-			      {
+            {
               "BatchPaymentID": "0a0ef7ee-7b91-46fa-8136-c4cc6287273a",
               "PaymentID": "0a0ef7ee-7b91-46fa-8136-c4cc6287273a",
               "Date": "\/Date(1518685950940+0000)\/",
@@ -225,8 +225,8 @@ post-single-draft-sales: |
   {
     "Type": "ACCREC",
     "Contact": { 
-		  "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
-	  },
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+    },
     "Date": "\/Date(1518685950940+0000)\/",
     "DueDate": "\/Date(1518685950940+0000)\/",
     "DateString": "2009-05-27T00:00:00",
@@ -398,17 +398,15 @@ post-single-sent: |
   }
 post-multiple-sumarize-errors: |
   {
-    "Response": {
-      "Invoices": [
-        ...
-        {
-          "ValidationErrors": [
-            {
-              "Message": "...."
-            }
-          ]
-        }
-        ...
-      ]
-    }
+    "Invoices": [
+      ...
+      {
+        "ValidationErrors": [
+          {
+            "Message": "...."
+          }
+        ]
+      }
+      ...
+    ]
   }
