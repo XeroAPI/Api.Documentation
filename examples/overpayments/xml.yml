@@ -33,3 +33,12 @@ get: |
       </Overpayment>
     </Overpayments>
   </Response>
+allocate-request: |
+  <Allocations>
+    <Allocation>
+      <AppliedAmount>60.50</AppliedAmount>
+      <Invoice>
+        <InvoiceID>f5832195-5cd3-4660-ad3f-b73d9c64f263</InvoiceID>
+      </Invoice>
+    </Allocation>
+  </Allocations>
