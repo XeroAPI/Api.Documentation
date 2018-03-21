@@ -244,22 +244,20 @@ post-single-draft-sales: |
   }
 post-single-approved-sales: |
   {
-    "Invoice": {
-      "Type": "ACCREC",
-      "Contact": { 
-        "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
-      },
-      "DueDate": "\/Date(1518685950940+0000)\/",
-      "LineItems": [
-        {
-          "Description": "Services as agreed",
-          "Quantity": "4",
-          "UnitAmount": "100.00",
-          "AccountCode": "200"
-        }
-      ],
-      "Status": "AUTHORISED"
-    }
+    "Type": "ACCREC",
+    "Contact": { 
+      "ContactID": "eaa28f49-6028-4b6e-bb12-d8f6278073fc" 
+    },
+    "DueDate": "\/Date(1518685950940+0000)\/",
+    "LineItems": [
+      {
+        "Description": "Services as agreed",
+        "Quantity": "4",
+        "UnitAmount": "100.00",
+        "AccountCode": "200"
+      }
+    ],
+    "Status": "AUTHORISED"
   }
 post-single-20-discount: |
   {
