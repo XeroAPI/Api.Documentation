@@ -1,0 +1,27 @@
+---
+history-get: |
+  <HistoryRecords>
+    <HistoryRecord>
+      <Changes>Approved</Changes>
+      <DateUTC>2018-02-28T21:02:11</DateUTC>
+      <User>System Generated</User>
+      <Details>Received through the Xero API from ABC Org</Details>      
+    </HistoryRecord>
+    <HistoryRecord>
+      <Changes>Edited</Changes>
+      <DateUTC>2018-02-28T21:01:29</DateUTC>
+      <User>Mac Haag</User>
+      <Details>INV-0041 to ABC Furniture for 100.00.</Details>      
+    </HistoryRecord>
+    ....
+  </HistoryRecords>
+history-put: |
+  <HistoryRecords>
+    <HistoryRecord>
+      <Details>Previous payment failed</Details>      
+    </HistoryRecord> 
+    <HistoryRecord>
+      <Details>Defer the payment</Details>      
+    </HistoryRecord>
+    ....
+  </HistoryRecords>
