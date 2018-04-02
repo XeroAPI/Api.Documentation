@@ -24,11 +24,9 @@ history-put: |
     "HistoryRecords": [
       {
         "Details": "Previous payment failed"
-        "DateUTC": "2018-02-28T21:02:11",
       },
       {
         "Details": "Defer the payment"
-        "DateUTC": "2018-03-05T11:03:08",
       }
       ...
     ]  
