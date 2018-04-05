@@ -56,3 +56,32 @@ put: |
       "Amount": 20.00
     }]
   }
+history-get: |
+  {
+    "HistoryRecords": [
+       {
+        "Changes": "Updated",
+        "DateUTCString": "2018-02-28T21:02:11",
+        "DateUTC": "\/Date(1519851731990+0000)\/",
+        "User": "System Generated",
+        "Details": "Received through the Xero API from ABC Org"
+      },
+      {
+        "Changes": "Created",
+        "DateUTCString": "2018-02-28T21:01:29",
+        "DateUTC": "\/Date(1519851689297+0000)\/",
+        "User": "Mac Haag",
+        "Details": "INV-0041 to ABC Furniture for 100.00."
+      }
+      ...
+    ]
+  }
+history-put: |
+  {
+    "HistoryRecords": [
+      {
+        "Details": "Note added by your favourite app!"
+      }
+      ...
+    ]  
+  }
