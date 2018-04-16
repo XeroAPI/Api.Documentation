@@ -56,3 +56,26 @@ put: |
       <Amount>20.00</Amount>
     </BankTransfer>
   </BankTransfers>
+history-get: |
+  <HistoryRecords>
+    <HistoryRecord>
+      <Changes>Updated</Changes>
+      <DateUTC>2018-02-28T21:02:11</DateUTC>
+      <User>System Generated</User>
+      <Details>Received through the Xero API from ABC Org</Details>      
+    </HistoryRecord>
+    <HistoryRecord>
+      <Changes>Created</Changes>
+      <DateUTC>2018-02-28T21:01:29</DateUTC>
+      <User>Mac Haag</User>
+      <Details>INV-0041 to ABC Furniture for 100.00.</Details>      
+    </HistoryRecord>
+    ....
+  </HistoryRecords>
+history-put: |
+  <HistoryRecords>
+    <HistoryRecord>
+      <Details>Note Added by your favourite app!</Details>      
+    </HistoryRecord> 
+    ....
+  </HistoryRecords>
