@@ -24,7 +24,7 @@ response-get-all: |
         "RemainingCredit": 0.00,
         "Allocations": [
           {
-            "AppliedAmount": 100.00,
+            "Amount": 100.00,
             "Date": "\/Date(1481846400000+0000)\/",
             "Invoice": {
               "InvoiceID": "87cfa39f-136c-4df9-a70d-bb80d8ddb975",
@@ -79,7 +79,7 @@ response-get-single: |
         "RemainingCredit": 0.00,
         "Allocations": [
           {
-            "AppliedAmount": 218.90,
+            "Amount": 218.90,
             "Date": "\/Date(1486425600000+0000)\/",
             "Invoice": {
               "InvoiceID": "673dd7cc-beb7-4697-83d4-0c47cb400cc2"
@@ -136,7 +136,7 @@ request-create-approved: |
   }
 request-allocate: |
   {
-    "AppliedAmount": 60.50,
+    "Amount": 60.50,
     "Invoice": { 
       "InvoiceID": "f5832195-5cd3-4660-ad3f-b73d9c64f263" 
     }
