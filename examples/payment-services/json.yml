@@ -14,3 +14,4 @@ post-payment-services: |
     "PaymentServiceUrl": "https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=[CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]",
     "PayNowText": "Pay via AwesomePay"
   }
+  
