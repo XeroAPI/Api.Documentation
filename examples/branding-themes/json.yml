@@ -27,3 +27,27 @@ get-single: |
       "CreatedDateUTC": "\/Date(946684800000+0000)\/"
     }]
   }
+get-payment-services: |
+  {
+    "PaymentServices": [{
+      "PaymentServiceID": "0751da5f-8b28-4f93-b05e-1b85bedfd900",
+      "PaymentServiceName": "DONOTPAYTHISISFAKE@fakedemoaccount.com",
+      "PaymentServiceType": "PayPal"
+    },
+    {
+      "PaymentServiceID": "7f0f43b1-9ba9-4ba4-a785-e677652c7d7e",
+      "PaymentServiceName": "Awesome Pay",
+      "PaymentServiceUrl": "https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=[CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]",
+      "PayNowText": "Pay via AwesomePay",
+      "PaymentServiceType": "Custom"
+    }]
+  }
+ post-payment-services: |
+   {
+    "PaymentServices": [{
+      "PaymentServiceID": "0751da5f-8b28-4f93-b05e-1b85bedfd900"
+    },
+    {
+      "PaymentServiceID": "7f0f43b1-9ba9-4ba4-a785-e677652c7d7e"
+    }]
+  }
