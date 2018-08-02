@@ -44,7 +44,7 @@ get-payment-services: |
       "PaymentServiceType": "Custom"
     }]
   }
- post-payment-services: |
+post-payment-services: |
    {
     "PaymentServices": [{
       "PaymentServiceID": "0751da5f-8b28-4f93-b05e-1b85bedfd900"
