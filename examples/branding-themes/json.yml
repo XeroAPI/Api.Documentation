@@ -47,9 +47,6 @@ get-payment-services: |
 post-payment-services: |
   {
   "PaymentServices": [{
-    "PaymentServiceID": "0751da5f-8b28-4f93-b05e-1b85bedfd900"
-    },
-    {
-      "PaymentServiceID": "7f0f43b1-9ba9-4ba4-a785-e677652c7d7e"
+    "PaymentServiceID": "de5c978d-3cbf-4ebb-9ca9-20d7cb196ab1"
     }]
   }
