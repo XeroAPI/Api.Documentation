@@ -24,6 +24,8 @@ response-get: |
         "Timezone": "NEWZEALANDSTANDARDTIME",
         "ShortCode": "!23eYt",
         "OrganisationID": "c3d5e782-2153-4cda-bdb4-cec791ceb90d",
+        "Edition": "BUSINESS",
+        "Class": "DEMO",
         "Addresses": [
           {
             "AddressType": "POBOX",
