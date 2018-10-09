@@ -24,6 +24,8 @@ response-get: |
         <Timezone>NEWZEALANDSTANDARDTIME</Timezone>
         <ShortCode>!23eYt</ShortCode>
         <OrganisationID>c3d5e782-2153-4cda-bdb4-cec791ceb90d</OrganisationID>
+        <Edition>BUSINESS</Edition>
+        <Class>DEMO</Class>
         <Addresses>
           <Address>
             <AddressType>POBOX</AddressType>
