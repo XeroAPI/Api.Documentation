@@ -22,7 +22,7 @@ get-all: |
         "RemainingCredit": "0.00",
         "Allocations": [
           {
-            "AppliedAmount": "100.00",
+            "Amount": "100.00",
             "Date": "\/Date(1222340661707+0000)\/",
             "Invoice": {
               "InvoiceID": "87cfa39f-136c-4df9-a70d-bb80d8ddb975",
@@ -36,7 +36,7 @@ get-all: |
   }
 put-allocating: |
   {
-    "AppliedAmount": "60.50",
+    "Amount": "60.50",
     "Invoice": {
       "InvoiceID": "f5832195-5cd3-4660-ad3f-b73d9c64f263"
     }

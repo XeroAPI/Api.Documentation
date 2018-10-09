@@ -6,12 +6,14 @@ get-all: |
       "Name": "Standard",
       "SortOrder": 0,
       "CreatedDateUTC": "\/Date(1277835396270+0000)\/"
-    },{
+    },
+    {
       "BrandingThemeID": "dfe23d27-a3a6-4ef3-a5ca-b9e02b142dde",
       "Name": "Special Projects",
       "SortOrder": 1,
       "CreatedDateUTC": "\/Date(946684800000+0000)\/"
-    },{
+    },
+    {
       "BrandingThemeID": "2ced98b8-3be9-42c4-ae79-fe3c8bca3490",
       "Name": "Very orange invoice!",
       "SortOrder": 2,
@@ -25,5 +27,29 @@ get-single: |
       "Name": "Special Projects",
       "SortOrder": 1,
       "CreatedDateUTC": "\/Date(946684800000+0000)\/"
+    }]
+  }
+get-payment-services: |
+  {
+    "PaymentServices": [{
+      "PaymentServiceID": "0751da5f-8b28-4f93-b05e-1b85bedfd900",
+      "PaymentServiceName": "DONOTPAYTHISISFAKE@fakedemoaccount.com",
+      "PaymentServiceType": "PayPal"
+    },
+    {
+      "PaymentServiceID": "7f0f43b1-9ba9-4ba4-a785-e677652c7d7e",
+      "PaymentServiceName": "Awesome Pay",
+      "PaymentServiceUrl": "https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=[CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]",
+      "PayNowText": "Pay via AwesomePay",
+      "PaymentServiceType": "Custom"
+    }]
+  }
+post-payment-services: |
+  {
+  "PaymentServices": [{
+    "PaymentServiceID": "0751da5f-8b28-4f93-b05e-1b85bedfd900"
+    },
+    {
+      "PaymentServiceID": "7f0f43b1-9ba9-4ba4-a785-e677652c7d7e"
     }]
   }

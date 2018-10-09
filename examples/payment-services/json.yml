@@ -1,0 +1,17 @@
+get-payment-services: |
+  {
+    "PaymentServices": [{
+      "PaymentServiceID": "7f0f43b1-9ba9-4ba4-a785-e677652c7d7e",
+      "PaymentServiceName": "Awesome Pay",
+      "PaymentServiceUrl": "https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=[CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]",
+      "PayNowText": "Pay via AwesomePay",
+      "PaymentServiceType": "Custom"
+    }]
+  }
+post-payment-services: |
+  {
+    "PaymentServiceName": "Awesome Pay",
+    "PaymentServiceUrl": "https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=[CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]",
+    "PayNowText": "Pay via AwesomePay"
+  }
+  

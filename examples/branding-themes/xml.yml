@@ -33,3 +33,29 @@ get-single: |
         </BrandingTheme>
       </BrandingThemes>
     </Response>
+get-payment-services: |
+    <Response>
+      <PaymentServices>
+        <PaymentService>
+          <PaymentServiceID>0751da5f-8b28-4f93-b05e-1b85bedfd900</PaymentServiceID>
+          <PaymentServiceName>DONOTPAYTHISISFAKE@fakedemoaccount.com</PaymentServiceName>
+          <PaymentServiceType>PayPal</PaymentServiceType>
+        </PaymentService>
+        <PaymentService>
+          <PaymentServiceID>7f0f43b1-9ba9-4ba4-a785-e677652c7d7e</PaymentServiceID>
+          <PaymentServiceName>Awesome Pay</PaymentServiceName>
+          <PaymentServiceUrl>https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&amp;currency=[CURRENCY]&amp;amount=[AMOUNTDUE]&amp;shortCode=[SHORTCODE]</PaymentServiceUrl>
+          <PayNowText>Pay via AwesomePay</PayNowText>
+          <PaymentServiceType>Custom</PaymentServiceType>
+        </PaymentService>
+      </PaymentServices>
+    </Response>
+post-payment-services: |
+    <PaymentServices>
+      <PaymentService>
+        <PaymentServiceID>0751da5f-8b28-4f93-b05e-1b85bedfd900</PaymentServiceID>
+      </PaymentService>
+      <PaymentService>
+        <PaymentServiceID>7f0f43b1-9ba9-4ba4-a785-e677652c7d7e</PaymentServiceID>
+      </PaymentService>
+    </PaymentServices>

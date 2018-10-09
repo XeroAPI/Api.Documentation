@@ -22,7 +22,7 @@ get: |
         "RemainingCredit": "0.00",
         "Allocations": [
             {
-            "AppliedAmount": "100.00",
+            "Amount": "100.00",
             "DateString": "2014-05-26T00:00:00",
             "Date": "\/Date(1401062400000+0000)\/",
             "Invoice": {
@@ -37,7 +37,7 @@ get: |
   }
 allocate-request: |
   {
-    "AppliedAmount": "60.50",
+    "Amount": "60.50",
     "Invoice": { 
       "InvoiceID": "f5832195-5cd3-4660-ad3f-b73d9c64f263" 
     }

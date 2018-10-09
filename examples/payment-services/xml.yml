@@ -1,0 +1,22 @@
+---
+get-payment-services: |
+    <Response>
+      <PaymentServices>
+        <PaymentService>
+          <PaymentServiceID>7f0f43b1-9ba9-4ba4-a785-e677652c7d7e</PaymentServiceID>
+          <PaymentServiceName>Awesome Pay</PaymentServiceName>
+          <PaymentServiceUrl>https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=
+         [CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]</PaymentServiceUrl>
+          <PayNowText>Pay via AwesomePay</PayNowText>
+          <PaymentServiceType>Custom</PaymentServiceType>
+        </PaymentService>
+      </PaymentServices>
+    </Response>
+post-payment-services: |
+    <PaymentService>
+      <PaymentServiceName>Awesome Pay</PaymentServiceName>
+      <PaymentServiceUrl>https://www.awesomepay.com/?invoiceNo=[INVOICENUMBER]&currency=
+      [CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]</PaymentServiceUrl>
+      <PayNowText>Pay via AwesomePay</PayNowText>
+    </PaymentService>
+
