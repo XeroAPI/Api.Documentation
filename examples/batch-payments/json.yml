@@ -1,0 +1,215 @@
+---
+get-all: |
+  {
+    "BatchPayments": [
+      {
+        "Account": {
+          "AccountID": "13918178-849a-4823-9a31-57b7eac713d7"
+        },
+        "Reference": "ref",
+        "BatchPaymentID": "44a1013e-4946-4a73-b207-dfe5424a5ea5",
+        "DateString": "2018-10-03T00:00:00",
+        "Date": "/Date(1538524800000+0000)/",
+        "Payments": [
+          {
+            "Invoice": {
+              "InvoiceID": "5aa9451d-95d1-4f95-a966-bbab2573f71c",
+              "Payments": [],
+              "CreditNotes": [],
+              "Prepayments": [],
+              "Overpayments": [],
+              "HasErrors": false,
+              "IsDiscounted": false,
+              "LineItems": []
+            },
+            "PaymentID": "a22a64cb-364e-43fa-9a1f-bb2cd1f4adde",
+            "Reference": "ref/cheque",
+            "Amount": 913.55
+          },
+          {
+            "Invoice": {
+              "InvoiceID": "30a87092-31b5-4a2c-831e-327486533dd2",
+              "Payments": [],
+              "CreditNotes": [],
+              "Prepayments": [],
+              "Overpayments": [],
+              "HasErrors": false,
+              "IsDiscounted": false,
+              "LineItems": []
+            },
+            "PaymentID": "6e20be79-32d8-4ae1-978e-f76d9b245c02",
+            "Amount": 495
+          },
+          {
+            "Invoice": {
+              "InvoiceID": "86d6e00f-ef56-49f7-9a54-796ccd5ca057",
+              "Payments": [],
+              "CreditNotes": [],
+              "Prepayments": [],
+              "Overpayments": [],
+              "HasErrors": false,
+              "IsDiscounted": false,
+              "LineItems": []
+            },
+            "PaymentID": "4ba761b8-5940-4a3f-bcdf-7775adb00332",
+            "Amount": 3080
+          }
+        ],
+        "Type": "RECBATCH",
+        "Status": "AUTHORISED",
+        "TotalAmount": 4488.55,
+        "UpdatedDateUTC": "/Date(1538525239370+0000)/",
+        "IsReconciled": false
+      },
+      ....
+    ]
+  }
+get-single: |
+  {
+    "BatchPayments": [
+      {
+        "Account": {
+          "AccountID": "13918178-849a-4823-9a31-57b7eac713d7"
+        },
+        "Reference": "ref",
+        "BatchPaymentID": "44a1013e-4946-4a73-b207-dfe5424a5ea5",
+        "DateString": "2018-10-03T00:00:00",
+        "Date": "/Date(1538524800000+0000)/",
+        "Payments": [
+          {
+            "Invoice": {
+              "InvoiceID": "5aa9451d-95d1-4f95-a966-bbab2573f71c",
+              "Payments": [],
+              "CreditNotes": [],
+              "Prepayments": [],
+              "Overpayments": [],
+              "HasErrors": false,
+              "IsDiscounted": false,
+              "LineItems": []
+            },
+            "PaymentID": "a22a64cb-364e-43fa-9a1f-bb2cd1f4adde",
+            "Reference": "ref/cheque",
+            "Amount": 913.55
+          },
+          {
+            "Invoice": {
+              "InvoiceID": "30a87092-31b5-4a2c-831e-327486533dd2",
+              "Payments": [],
+              "CreditNotes": [],
+              "Prepayments": [],
+              "Overpayments": [],
+              "HasErrors": false,
+              "IsDiscounted": false,
+              "LineItems": []
+            },
+            "PaymentID": "6e20be79-32d8-4ae1-978e-f76d9b245c02",
+            "Amount": 495
+          },
+          {
+            "Invoice": {
+              "InvoiceID": "86d6e00f-ef56-49f7-9a54-796ccd5ca057",
+              "Payments": [],
+              "CreditNotes": [],
+              "Prepayments": [],
+              "Overpayments": [],
+              "HasErrors": false,
+              "IsDiscounted": false,
+              "LineItems": []
+            },
+            "PaymentID": "4ba761b8-5940-4a3f-bcdf-7775adb00332",
+            "Amount": 3080
+          }
+        ],
+        "Type": "RECBATCH",
+        "Status": "AUTHORISED",
+        "TotalAmount": 4488.55,
+        "UpdatedDateUTC": "/Date(1538525239370+0000)/",
+        "IsReconciled": false
+      }
+    ]
+  }
+put-accpay: |
+{
+  "Date": "2018-08-01",
+  "Particulars": "paying",
+  "Code": "333",
+  "Reference": "ddd",
+  "Account": {
+    "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c"
+  },
+  "Payments": [
+    {
+      "BankAccountNumber": "123-456-7890",
+      "Particulars": "def",
+      "Code": "543",
+      "Reference": "ggg",
+      "Invoice": {
+        "InvoiceID": "d8ec835f-fef6-4d5c-ae41-28df59c57f11"
+      },
+      "Amount": "10"
+    },
+    {
+      "BankAccountNumber": "123-456-7890",
+      "Particulars": "abc",
+      "Code": "123",
+      "Reference": "fff",
+      "Invoice": {
+        "InvoiceID": "71d1c9ca-3e99-4ef5-8f44-19d24c500ac8"
+      },
+      "Amount": "10"
+    }
+  ]
+}
+put-accrec: |
+  {
+    "Date": "2018-08-01",
+    "Reference": "Particulars",
+    "Account": {
+      "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c"
+    },
+    "Payments": [
+      {
+        "Reference": "Something",
+        "Invoice": {
+          "InvoiceID": "d8ec835f-fef6-4d5c-ae41-28df59c57f11"
+        },
+        "Amount": "100"
+      },
+      {
+        "Reference": "Something else",
+        "Invoice": {
+          "InvoiceID": "58ec1ad5-5f69-423c-b32e-706a29c13248"
+        },
+        "Amount": "200"
+      }
+    ]
+  }
+history-get: |
+  {
+    "HistoryRecords": [
+       {
+        "Changes": "Updated",
+        "DateUTCString": "2018-02-28T21:02:11",
+        "DateUTC": "\/Date(1519851731990+0000)\/",
+        "User": "System Generated",
+        "Details": "Received through the Xero API from ABC Org"
+      },
+      {
+        "Changes": "Created",
+        "DateUTCString": "2018-02-28T21:01:29",
+        "DateUTC": "\/Date(1519851689297+0000)\/",
+        "User": "Mac Haag",
+        "Details": "INV-0041 to ABC Furniture for 100.00."
+      }
+      ...
+    ]
+  }
+history-put: |
+  {
+    "HistoryRecords": [
+      {
+        "Details": "Note added by your favourite app!"
+      }
+      ...
+    ]  
+  }
