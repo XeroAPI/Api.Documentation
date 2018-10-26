@@ -129,37 +129,37 @@ get-single: |
     ]
   }
 put-accpay: |
-{
-  "Date": "2018-08-01",
-  "Particulars": "paying",
-  "Code": "333",
-  "Reference": "ddd",
-  "Account": {
-    "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c"
-  },
-  "Payments": [
-    {
-      "BankAccountNumber": "123-456-7890",
-      "Particulars": "def",
-      "Code": "543",
-      "Reference": "ggg",
-      "Invoice": {
-        "InvoiceID": "d8ec835f-fef6-4d5c-ae41-28df59c57f11"
-      },
-      "Amount": "10"
+  {
+    "Date": "2018-08-01",
+    "Particulars": "paying",
+    "Code": "333",
+    "Reference": "ddd",
+    "Account": {
+      "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c"
     },
-    {
-      "BankAccountNumber": "123-456-7890",
-      "Particulars": "abc",
-      "Code": "123",
-      "Reference": "fff",
-      "Invoice": {
-        "InvoiceID": "71d1c9ca-3e99-4ef5-8f44-19d24c500ac8"
+    "Payments": [
+      {
+        "BankAccountNumber": "123-456-7890",
+        "Particulars": "def",
+        "Code": "543",
+        "Reference": "ggg",
+        "Invoice": {
+          "InvoiceID": "d8ec835f-fef6-4d5c-ae41-28df59c57f11"
+        },
+        "Amount": "10"
       },
-      "Amount": "10"
-    }
-  ]
-}
+      {
+        "BankAccountNumber": "123-456-7890",
+        "Particulars": "abc",
+        "Code": "123",
+        "Reference": "fff",
+        "Invoice": {
+          "InvoiceID": "71d1c9ca-3e99-4ef5-8f44-19d24c500ac8"
+        },
+        "Amount": "10"
+      }
+    ]
+  }
 put-accrec: |
   {
     "Date": "2018-08-01",
