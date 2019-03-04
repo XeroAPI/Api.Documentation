@@ -5,7 +5,7 @@ response-get: |
       {
         "AttachmentID": "e59a2c7f-1306-4078-a0f3-73537afcbba9",
         "FileName": "Image00394.png",
-        "Url": "https://api.xero.com/api.xro/2.0/Receipts/e59a2c7f-4078-a0f3-73537afcbba9/Attachments/Image00394.png",
+        "Url": "https://api.xero.com/api.xro/2.0/Receipts/220ddca8-3144-4085-9a88-2d72c5133734/Attachments/Image00394.png",
         "MimeType": "image/png",
         "ContentLength": "10294"
       }
