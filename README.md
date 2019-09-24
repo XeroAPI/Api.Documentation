@@ -4,6 +4,6 @@ Documentation for the Xero API, presented at https://developer.xero.com/document
 
 This data is fetched and displayed by Xero's public API documentation. The XML and JSON strings are held in YAML so that we can keep the strings in one place and make them more human friendly.
 
-Pull requests are welcome.
+Pull requests are welcome!
 
-Maintainers: @philals @iamam34
+Maintainers: @iamam34
