@@ -50,3 +50,298 @@ post-multiple-minimum: |
       }
     ]
   }
+
+get-all-payroll-au: |
+  {
+    "Employees": [
+      {
+        "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+        "FirstName": "Alex",
+        "LastName": "Smith",
+        "Status": "ACTIVE",
+        "Email": "alex.smith@email.com",
+        "DateOfBirth": "/Date(632102400000+0000)/",
+        "Phone": "027000000",
+        "StartDate": "/Date(1572566400000+0000)/",
+        "OrdinaryEarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+        "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
+        "UpdatedDateUTC": "/Date(1572838842000+0000)/"
+      },
+      {
+        "EmployeeID": "772d2b42-e87b-4fb8-a09d-3fd1caa6edc4",
+        "FirstName": "John",
+        "MiddleNames": "James",
+        "LastName": "Smith",
+        "Status": "ACTIVE",
+        "Email": "testaccount@gmail.com",
+        "DateOfBirth": "/Date(315532800000+0000)/",
+        "Gender": "F",
+        "Phone": "0400222300",
+        "Mobile": "0400222300",
+        "StartDate": "/Date(1181692800000+0000)/",
+        "UpdatedDateUTC": "/Date(1572909757000+0000)/"
+      }
+    ]
+  }
+
+get-single-full-payroll-au: |
+  {
+    "Employees": [
+      {
+        "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+        "Title": "Ms.",
+        "FirstName": "Alex",
+        "LastName": "Smith",
+        "Status": "ACTIVE",
+        "Email": "alex.smith@email.com",
+        "DateOfBirth": "/Date(632102400000+0000)/",
+        "JobTitle": "Professional",
+        "Gender": "I",
+        "HomeAddress": {
+          "AddressLine1": "123 Main St",
+          "AddressLine2": "St. Kilda",
+          "City": "Waiwhetu",
+          "Region": "ACT",
+          "PostalCode": "3182",
+          "Country": "AUSTRALIA"
+        },
+        "Phone": "02100000",
+        "Mobile": "02100000",
+        "StartDate": "/Date(1564617600000+0000)/",
+        "Classification": "",
+        "OrdinaryEarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+        "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
+        "UpdatedDateUTC": "/Date(1572911171000+0000)/",
+        "IsAuthorisedToApproveLeave": true,
+        "IsAuthorisedToApproveTimesheets": true,
+        "TaxDeclaration": {
+          "AustralianResidentForTaxPurposes": true,
+          "TaxFreeThresholdClaimed": true,
+          "HasHELPDebt": false,
+          "HasSFSSDebt": false,
+          "EligibleToReceiveLeaveLoading": false,
+          "UpdatedDateUTC": "/Date(1572911171000+0000)/",
+          "HasStudentStartupLoan": false,
+          "ResidencyStatus": "AUSTRALIANRESIDENT"
+        },
+        "BankAccounts": [
+          {
+            "StatementText": "Pay Cheque",
+            "AccountName": "Alex Smith",
+            "BSB": "000000",
+            "AccountNumber": "000000000",
+            "Remainder": true
+          }
+        ],
+        "OpeningBalances": {
+          "OpeningBalanceDate": "/Date(1572566400000+0000)/",
+          "EarningsLines": [],
+          "DeductionLines": [],
+          "Tax": 1000.00,
+          "SuperLines": [],
+          "ReimbursementLines": [],
+          "LeaveLines": [
+            {
+                "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+                "NumberOfUnits": 0.0000
+            }
+          ]
+        },
+        "PayTemplate": {
+          "EarningsLines": [
+            {
+              "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+              "CalculationType": "ENTEREARNINGSRATE",
+              "RatePerUnit": 100.000000,
+              "NormalNumberOfUnits": 1.0000
+            },
+            {
+              "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+              "CalculationType": "ENTEREARNINGSRATE"
+            }
+          ],
+          "DeductionLines": [
+            {
+              "DeductionTypeID": "bab9cd33-8e58-427f-8269-87df9d636325",
+              "CalculationType": "FIXEDAMOUNT"
+            }
+          ],
+          "SuperLines": [
+            {
+              "SuperMembershipID": "8cdec82c-bd3f-4cb7-8f19-e4b4d0ac7b3a",
+              "ContributionType": "SGC",
+              "CalculationType": "STATUTORY",
+              "MinimumMonthlyEarnings": 450.00,
+              "ExpenseAccountCode": "478",
+              "LiabilityAccountCode": "826"
+            }
+          ],
+          "ReimbursementLines": [
+            {
+              "ReimbursementTypeID": "3432120f-4d83-4bc2-8b5d-5a116838229e"
+            }
+          ],
+          "LeaveLines": [
+            {
+              "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+              "CalculationType": "NOCALCULATIONREQUIRED",
+              "EntitlementFinalPayPayoutType": "NOTPAIDOUT"
+            }
+          ]
+        },
+        "SuperMemberships": [
+          {
+            "SuperMembershipID": "8cdec82c-bd3f-4cb7-8f19-e4b4d0ac7b3a",
+            "SuperFundID": "864a9c37-416d-4894-9a3f-553d6447cd1a",
+            "EmployeeNumber": "123"
+          }
+        ],
+        "LeaveBalances": [
+          {
+            "LeaveName": "Parental Leave (unpaid)",
+            "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+            "NumberOfUnits": -0.0154,
+            "TypeOfUnits": "Hours"
+          }
+        ]
+      }
+    ]
+  }
+
+get-terminated-employees-payroll-au: |
+  {
+    "Employees": [
+      {
+        "EmployeeID": "30b19d1e-afc6-4df9-bb17-b8ab247730fa",
+        "FirstName": "Adam",
+        "LastName": "Sumo",
+        "Status": "TERMINATED",
+        "DateOfBirth": "/Date(-786931200000+0000)/",
+        "StartDate": "/Date(1527897600000+0000)/",
+        "TerminationDate": "/Date(1572825600000+0000)/",
+        "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
+        "UpdatedDateUTC": "/Date(1572911939000+0000)/"
+      }
+    ]
+  }
+
+post-single-success-payroll-au: |
+  [
+    {
+      "FirstName": "Adam",
+      "LastName": "Adamson",
+      "DateOfBirth": "/Date(320284900000+0000)/",
+      "HomeAddress": {
+          "AddressLine1": "1",
+          "City": "Island Bay",
+          "Region": "NSW",
+          "PostalCode": "6023",
+          "Country": "AUSTRALIA"
+      },
+      "Phone": "0279008347"
+    }
+  ] 
+
+post-single-opening-balance-payroll-au: |
+  [
+    {
+      "FirstName": "Adam",
+      "LastName": "Adamson",
+      "DateOfBirth": "/Date(320284900000+0000)/",
+      "HomeAddress": {
+        "AddressLine1": "1",
+        "City": "Island Bay",
+        "Region": "NSW",
+        "PostalCode": "6023",
+        "Country": "AUSTRALIA"
+      },
+      "OpeningBalances": {
+        "OpeningBalanceDate": "/Date(1572566400000+0000)/",
+        "EarningsLines": [],
+        "DeductionLines": [],
+        "Tax": "1000.00",
+        "SuperLines": [],
+        "ReimbursementLines": []
+      }    
+    }
+  ]  
+
+
+get-payroll-success: |
+  {
+   "id": "a1dc55a8-4132-03c0-671c-2be7e0549770",
+   "providerName": "Example Provider",
+   "dateTimeUTC": "2017-09-05T04:05:18.4009114",
+   "httpStatusCode": "OK",
+   "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "itemCount": 4
+   },
+   "problem": null,
+   "employees": [
+      {
+         "employeeID": "d90457c4-f1be-4f2e-b4e3-f766390a7e30",
+         "firstName": "Jack",
+         "lastName": "Allan",
+         "dateOfBirth": "1985-03-24T00:00:00",
+         "gender": "M",
+         "email": "jack.allan@email.com",
+         "phoneNumber": "0401789123",
+         "startDate": "2012-02-05T00:00:00",
+         "address": {
+             "addressLine1": "19 Taranaki Street",
+             "addressLine2": null,
+             "city": "Wellington",
+             "suburb": "Te Aro",
+             "countryName": "NEW ZEALAND",
+             "postCode": "6011"
+         },
+         "payrollCalendarID": "62c1438d-ce3c-4da6-b6d9-5d50760a5e36",
+         "updatedDateUTC": "2017-06-27T04:56:03",
+         "createdDateUTC": "2017-05-12T10:00:24",
+         "endDate": null
+      },
+      {
+         "employeeID": "8082c1c1-229f-438e-aa69-da57795f868f",
+         "firstName": "Charlotte",
+         "lastName": "Danes",
+         "dateOfBirth": "1991-01-24T00:00:00",
+         "gender": "F",
+         "email": null,
+         "phoneNumber": null,
+         "startDate": "2012-02-05T00:00:00",
+         "address": {
+             "addressLine1": "2 Bridge Street",
+             "addressLine2": null,
+             "city": "Napier",
+             "suburb": "Ahuriri",
+             "countryName": "NEW ZEALAND",
+             "postCode": "4110"
+         },
+         "payrollCalendarID": null,
+         "updatedDateUTC": "2017-06-27T04:45:12",
+         "createdDateUTC": "2017-05-15T16:32:12",
+         "endDate": null
+      }
+   ]
+  }
+  
+# get-payroll-failed: |
+# {
+#    "id": "1d986f71-5abe-4ade-b62d-b4993e20abc9",
+#    "providerName": "Example Provider",
+#    "dateTimeUTC": "2017-09-06T07:21:35.751382",
+#    "httpStatusCode": "ServiceUnavailable",
+#    "pagination": null,
+#    "problem": {
+#       "type": "about:blank",
+#       "title": "ServiceUnavailable",
+#       "status": 503,
+#       "detail": "Service is unavailable. Try again later.",
+#       "instance": null,
+#       "invalidFields": null
+#    },
+#    "employees": null
+} 
