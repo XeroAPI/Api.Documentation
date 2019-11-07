@@ -1,0 +1,49 @@
+---
+get-single-payroll-au: |
+  <LeaveApplications>
+    <LeaveApplication>
+      <LeaveApplicationID>a2e6a781-7849-4399-b3c5-c27daadf2755</LeaveApplicationID>
+      <EmployeeID>cccd34be-110b-446c-9649-3e1f7fd64d4f</EmployeeID>
+      <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
+      <LeavePeriods>
+        <LeavePeriod>
+          <PayPeriodStartDate>2020-01-01T00:00:00</PayPeriodStartDate>
+          <PayPeriodEndDate>2020-03-31T00:00:00</PayPeriodEndDate>
+          <LeavePeriodStatus>SCHEDULED</LeavePeriodStatus>
+          <NumberOfUnits>0.0154</NumberOfUnits>
+        </LeavePeriod>
+      </LeavePeriods>
+      <Title>vacation</Title>
+      <StartDate>2019-11-01T00:00:00</StartDate>
+      <EndDate>2019-11-01T00:00:00</EndDate>
+      <UpdatedDateUTC>2019-11-01T02:51:31</UpdatedDateUTC>
+    </LeaveApplication>
+  </LeaveApplications>
+
+post-minimum-payroll-au: |
+  <LeaveApplications>
+    <LeaveApplication>
+      <EmployeeID>cccd34be-110b-446c-9649-3e1f7fd64d4f</EmployeeID>
+      <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
+      <Title>My Test Leave</Title>
+      <StartDate>2020-04-11</StartDate>
+      <EndDate>2020-04-11</EndDate>
+    </LeaveApplication>
+  </LeaveApplications>
+
+post-with-units-payroll-au: |
+  <LeaveApplications>
+    <LeaveApplication>
+      <EmployeeID>cccd34be-110b-446c-9649-3e1f7fd64d4f</EmployeeID>
+      <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
+      <LeavePeriods>
+        <LeavePeriod>
+          <PayPeriodEndDate>2020-03-31</PayPeriodEndDate>
+          <NumberOfUnits>1.0000</NumberOfUnits>
+        </LeavePeriod>
+      </LeavePeriods>
+      <Title>My Test Leave</Title>
+      <StartDate>2020-01-11</StartDate>
+      <EndDate>2020-01-11</EndDate>
+    </LeaveApplication>
+  </LeaveApplications> 
