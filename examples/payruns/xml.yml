@@ -8,15 +8,29 @@ get-single-payroll-au: |
       <PayRunPeriodStartDate>2020-04-01T00:00:00</PayRunPeriodStartDate>
       <PayRunPeriodEndDate>2020-06-30T00:00:00</PayRunPeriodEndDate>
       <PaymentDate>2020-04-01T00:00:00</PaymentDate>
-      <Wages>0.00</Wages>
+      <Wages>2400.00</Wages>
       <Deductions>0.00</Deductions>
       <Tax>0.00</Tax>
-      <Super>0.00</Super>
-      <Reimbursement>0.00</Reimbursement>
-      <NetPay>0.00</NetPay>
+      <Super>228.00</Super>
+      <Reimbursement>10.00</Reimbursement>
+      <NetPay>2400.00</NetPay>
       <PayRunStatus>POSTED</PayRunStatus>
-      <UpdatedDateUTC>2019-11-08T01:53:48</UpdatedDateUTC>
-      <Payslips/>
+      <UpdatedDateUTC>2019-11-08T06:56:42</UpdatedDateUTC>
+      <Payslips>
+        <Payslip>
+          <EmployeeID>cccd34be-110b-446c-9649-3e1f7fd64d4f</EmployeeID>
+          <PayslipID>5037f8ef-e9b5-40a6-9ec1-0f6f7ebb4787</PayslipID>
+          <FirstName>Alex</FirstName>
+          <LastName>Smith</LastName>
+          <Wages>2400.00</Wages>
+          <Deductions>0.00</Deductions>
+          <Tax>0.00</Tax>
+          <Super>228.00</Super>
+          <Reimbursements>10.00</Reimbursements>
+          <NetPay>2400.00</NetPay>
+          <UpdatedDateUTC>2019-11-08T06:56:42</UpdatedDateUTC>
+        </Payslip>
+      </Payslips>
     </PayRun>
   </PayRuns>
 
