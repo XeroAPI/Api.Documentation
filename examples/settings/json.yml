@@ -1,0 +1,44 @@
+---
+get-payroll-au: |
+    {
+        "Settings": {
+            "Accounts": [
+                {
+                    "AccountID": "f5ab1d76-d3d5-4d19-924b-b6b37205d452",
+                    "Type": "BANK",
+                    "Name": "BA"
+                },
+                {
+                    "AccountID": "945bc0c9-364b-489e-b607-c888f7bffdba",
+                    "Type": "WAGESPAYABLELIABILITY",
+                    "Code": "804",
+                    "Name": "Wages Payable - Payroll"
+                },
+                {
+                    "AccountID": "402a83a2-2d68-47aa-bd5c-a20f150f2fca",
+                    "Type": "PAYGLIABILITY",
+                    "Code": "825",
+                    "Name": "PAYG Withholdings Payable"
+                },
+                {
+                    "AccountID": "68c3f408-283f-4165-9d5b-d30ae32101f5",
+                    "Type": "SUPERANNUATIONEXPENSE",
+                    "Code": "478",
+                    "Name": "Superannuation"
+                },
+                {
+                    "AccountID": "3da5e16b-d798-420e-9ce0-bcb53db9979c",
+                    "Type": "SUPERANNUATIONLIABILITY",
+                    "Code": "826",
+                    "Name": "Superannuation Payable"
+                },
+                {
+                    "AccountID": "3b4de82e-6e5b-46c5-b85d-675f9dcbf7c5",
+                    "Type": "WAGESEXPENSE",
+                    "Code": "477",
+                    "Name": "Wages and Salaries"
+                }
+            ],
+            "DaysInPayrollYear": "364"
+        }
+    }

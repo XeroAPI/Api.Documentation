@@ -1,0 +1,84 @@
+---
+
+get-payroll-au: |
+  {
+    "Timesheets": [
+      {
+        "TimesheetID": "f2da9d1b-685d-4810-9a5d-479b348095aa",
+        "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+        "StartDate": "/Date(1577836800000)/",
+        "EndDate": "/Date(1585612800000)/",
+        "Status": "PROCESSED",
+        "Hours": 16.0000,
+        "TimesheetLines": [
+          {
+            "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+            "NumberOfUnits": [
+              8.00,
+              8.00,
+            ],
+            "UpdatedDateUTC": "/Date(1572581829000+0000)/"
+          }
+        ],
+        "UpdatedDateUTC": "/Date(1572581829000+0000)/"
+      },
+      {
+        "TimesheetID": "45a3cdea-57bf-45be-b4b0-df781ba53ca1",
+        "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+        "StartDate": "/Date(1573603200000)/",
+        "EndDate": "/Date(1574121600000)/",
+        "Status": "DRAFT",
+        "Hours": 0,
+        "TimesheetLines": [],
+        "UpdatedDateUTC": "/Date(1573293903000+0000)/"
+      }
+    ]
+  }
+
+get-single-payroll-au: |
+  {
+    "Timesheet": {
+      "TimesheetID": "45a3cdea-57bf-45be-b4b0-df781ba53ca1",
+      "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+      "StartDate": "/Date(1573603200000+0000)/",
+      "EndDate": "/Date(1574121600000+0000)/",
+      "Status": "DRAFT",
+      "Hours": 0,
+      "TimesheetLines": [],
+      "UpdatedDateUTC": "/Date(1573293903000+0000)/"
+    }
+  }
+
+post-minimum-payroll-au: |
+  [
+    {
+      "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+      "StartDate": "/Date(1573603200000+0000)/",
+      "EndDate": "/Date(1574121600000+0000)/",
+      "Status": "DRAFT"
+    }
+  ]
+
+post-with-lines-payroll-au: |
+  [
+    {
+      "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+      "StartDate": "/Date(1573603200000+0000)/",
+      "EndDate": "/Date(1574121600000+0000)/",
+      "Status": "DRAFT",
+      "TimesheetLines": [
+        {
+          "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+          "NumberOfUnits": [
+            8.00,
+            8.00,
+            8.00,
+            8.00,
+            8.00,
+            8.00,
+            8.00
+          ]
+        }
+      ]
+    }
+  ]

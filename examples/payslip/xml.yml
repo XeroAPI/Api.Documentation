@@ -1,0 +1,43 @@
+---
+
+get-single-payroll-au: |
+  <Payslip>
+    <EmployeeID>cccd34be-110b-446c-9649-3e1f7fd64d4f</EmployeeID>
+    <PayslipID>5037f8ef-e9b5-40a6-9ec1-0f6f7ebb4787</PayslipID>
+    <FirstName>Alex</FirstName>
+    <LastName>Smith</LastName>
+    <Tax>0.00</Tax>
+    <NetPay>2400.00</NetPay>
+    <UpdatedDateUTC>2019-11-08T06:56:42</UpdatedDateUTC>
+    <EarningsLines/>
+    <LeaveEarningsLines/>
+    <TimesheetEarningsLines>
+      <EarningsLine>
+        <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
+        <RatePerUnit>100.000000</RatePerUnit>
+        <NumberOfUnits>24.0000</NumberOfUnits>
+      </EarningsLine>
+    </TimesheetEarningsLines>
+    <DeductionLines/>
+    <LeaveAccrualLines/>
+    <SuperannuationLines/>
+    <TaxLines/>
+  </Payslip>
+
+post-minimum-payroll-au: |
+
+post-payroll-au: |
+
+post-earning-lines-payroll-au: |
+
+post-non-pending-superannuation-lines-payroll-au: |
+
+post-deduction-line-payroll-au: |
+
+post-reimbursement-line-payroll-au: |
+
+post-leave-accrual-line-payroll-au: |
+
+post-manual-adjustment-tax-line-payroll-au: |
+
+post-etp-and-tax-lines-payroll-au: |
