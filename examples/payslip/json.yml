@@ -6,23 +6,62 @@ get-single-payroll-au: |
       "PayslipID": "5037f8ef-e9b5-40a6-9ec1-0f6f7ebb4787",
       "FirstName": "Alex",
       "LastName": "Smith",
+      "LastEdited": "/Date(1573370889000+0000)/",
       "Tax": 0.00,
-      "NetPay": 2400.00,
-      "UpdatedDateUTC": "/Date(1573196202000+0000)/",
+      "NetPay": 3144.00,
+      "UpdatedDateUTC": "/Date(1573370889000+0000)/",
       "EarningsLines": [],
       "LeaveEarningsLines": [
         {
           "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
-          "RatePerUnit": 10.000000,
+          "RatePerUnit": 0.000000,
           "NumberOfUnits": 0.0154
         }
       ],
-      "TimesheetEarningsLines": [],
-      "DeductionLines": [],
+      "TimesheetEarningsLines": [
+        {
+          "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+          "RatePerUnit": 100.000000,
+          "NumberOfUnits": 24.0000
+        }
+      ],
+      "DeductionLines": [
+        {
+          "Amount": 131.00,
+          "CalculationType": "PRETAX",
+          "DeductionTypeID": "bab9cd33-8e58-427f-8269-87df9d636325",
+          "Percentage": 4.0000
+        }
+      ],
       "LeaveAccrualLines": [],
-      "ReimbursementLines": [],
-      "SuperannuationLines": [],
-      "TaxLines": []
+      "ReimbursementLines": [
+        {
+          "ReimbursementTypeID": "3432120f-4d83-4bc2-8b5d-5a116838229e",
+          "Description": "test",
+          "Amount": 10.00
+        }
+      ],
+      "SuperannuationLines": [
+        {
+          "SuperMembershipID": "9e042626-5afc-4bf8-8ff2-4d8614385459",
+          "ContributionType": "SGC",
+          "CalculationType": "PERCENTAGEOFEARNINGS",
+          "MinimumMonthlyEarnings": 450.0000,
+          "ExpenseAccountCode": "478",
+          "LiabilityAccountCode": "826",
+          "PaymentDateForThisPeriod": "/Date(1582588800000+0000)/",
+          "Percentage": 9.0000,
+          "Amount": 282.9600
+        }
+      ],
+      "TaxLines": [
+        {
+          "PayslipTaxLineID": "b6be8d74-3e73-4c2f-bc8b-0b4b65e61202",
+          "TaxTypeName": "PAYG Tax",
+          "Description": "No tax file number (Australian resident)",
+          "Amount": 0.00
+        }
+      ]
     }
   }
 
