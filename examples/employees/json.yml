@@ -327,21 +327,3 @@ get-payroll-success: |
       }
    ]
   }
-  
-# get-payroll-failed: |
-# {
-#    "id": "1d986f71-5abe-4ade-b62d-b4993e20abc9",
-#    "providerName": "Example Provider",
-#    "dateTimeUTC": "2017-09-06T07:21:35.751382",
-#    "httpStatusCode": "ServiceUnavailable",
-#    "pagination": null,
-#    "problem": {
-#       "type": "about:blank",
-#       "title": "ServiceUnavailable",
-#       "status": 503,
-#       "detail": "Service is unavailable. Try again later.",
-#       "instance": null,
-#       "invalidFields": null
-#    },
-#    "employees": null
-} 
