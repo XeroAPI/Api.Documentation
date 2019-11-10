@@ -66,20 +66,47 @@ get-single-payroll-au: |
   }
 
 post-minimum-payroll-au: |
+  {
+    "": ""
+  }
 
 post-payroll-au: |
+  {
+    "": ""
+  }
 
 post-earning-lines-payroll-au: |
+  {
+    "": ""
+  }
 
 post-non-pending-superannuation-lines-payroll-au: |
+  {
+    "": ""
+  }
 
 post-deduction-line-payroll-au: |
+  {
+    "": ""
+  }
 
 post-reimbursement-line-payroll-au: |
+  {
+    "": ""
+  }
 
 post-leave-accrual-line-payroll-au: |
+  {
+    "": ""
+  }
 
 post-manual-adjustment-tax-line-payroll-au: |
+  {
+    "": ""
+  }
 
 post-etp-and-tax-lines-payroll-au: |
+  {
+    "": ""
+  }
 
