@@ -15,7 +15,7 @@ get-payroll-au: |
             "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
             "NumberOfUnits": [
               8.00,
-              8.00,
+              8.00
             ],
             "UpdatedDateUTC": "/Date(1572581829000+0000)/"
           }
