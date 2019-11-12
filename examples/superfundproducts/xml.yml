@@ -1,0 +1,33 @@
+---
+
+get-abn-payroll-au: |
+  <SuperFundProducts>
+    <SuperFundProduct>
+      <USI>40022701955002</USI>
+      <ABN>40022701955</ABN>
+      <ProductName>MLC Navigator Retirement Plan - Superannuation</ProductName>
+    </SuperFundProduct>
+    <SuperFundProduct>
+      <USI>40022701955001</USI>
+      <ABN>40022701955</ABN>
+      <ProductName>MLC Navigator Retirement Plan - Superannuation Service (including Series 2) (MLC Superannuation Fund)</ProductName>
+    </SuperFundProduct>
+  </SuperFundProducts>  
+
+get-usi-payroll-au: |
+  <SuperFundProducts>
+    <SuperFundProduct>
+      <USI>40022701955001</USI>
+      <ABN>40022701955</ABN>
+      <ProductName>MLC Navigator Retirement Plan - Superannuation Service (including Series 2) (MLC Superannuation Fund)</ProductName>
+    </SuperFundProduct>
+  </SuperFundProducts> 
+
+get-abn-and-usi-payroll-au: |
+  <SuperFundProducts>
+    <SuperFundProduct>
+      <USI>40022701955001</USI>
+      <ABN>40022701955</ABN>
+      <ProductName>MLC Navigator Retirement Plan - Superannuation Service (including Series 2) (MLC Superannuation Fund)</ProductName>
+    </SuperFundProduct>
+  </SuperFundProducts>

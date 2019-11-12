@@ -1,0 +1,47 @@
+---
+
+get-payroll-au: |
+  {
+    "PayrollCalendars": [
+      {
+        "PayrollCalendarID": "841bcbb0-a3a8-4b49-a850-cc7816ad78ad",
+        "Name": "Weekly",
+        "CalendarType": "WEEKLY",
+        "StartDate": "/Date(1573603200000+0000)/",
+        "PaymentDate": "/Date(1574294400000+0000)/",
+        "UpdatedDateUTC": "/Date(1573172128000+0000)/"
+      },
+      {
+        "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
+        "Name": "Quarterly",
+        "CalendarType": "QUARTERLY",
+        "StartDate": "/Date(1585699200000+0000)/",
+        "PaymentDate": "/Date(1585699200000+0000)/",
+        "UpdatedDateUTC": "/Date(1572569461000+0000)/"
+      }
+    ]
+  }
+
+get-single-payroll-au: |
+  {
+    "PayrollCalendars": [
+      {
+        "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
+        "Name": "Quarterly",
+        "CalendarType": "QUARTERLY",
+        "StartDate": "/Date(1585699200000+0000)/",
+        "PaymentDate": "/Date(1585699200000+0000)/",
+        "UpdatedDateUTC": "/Date(1572569461000+0000)/"
+      }
+    ]
+  }
+
+post-payroll-au: |
+  [
+    {
+      "Name": "New Weekly",
+      "CalendarType": "QUARTERLY",
+      "StartDate": "/Date(1585699200000+0000)/",
+      "PaymentDate": "/Date(1585699200000+0000)/"
+    }
+  ]

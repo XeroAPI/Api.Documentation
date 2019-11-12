@@ -1,0 +1,69 @@
+---
+
+get-payroll-au: |
+  {
+    "SuperFunds": [
+      {
+        "SuperFundID": "26fe9033-8416-428a-9d7e-7858e710f16e",
+        "Name": "AMP Flexible Super - Super account (AMP Retirement Trust)",
+        "Type": "REGULATED",
+        "USI": "AMP1248AU",
+        "UpdatedDateUTC": "/Date(1573277596000+0000)/"
+      },
+      {
+        "SuperFundID": "864a9c37-416d-4894-9a3f-553d6447cd1a",
+        "Name": "BT Business Super (Westpac Mastertrust Superannuation Division)",
+        "Type": "REGULATED",
+        "USI": "WFS0112AU",
+        "UpdatedDateUTC": "/Date(1572569325000+0000)/"
+      }
+    ]
+  }
+
+get-single-payroll-au: |
+  {
+    "SuperFunds": [
+      {
+        "SuperFundID": "26fe9033-8416-428a-9d7e-7858e710f16e",
+        "Name": "AMP Flexible Super - Super account (AMP Retirement Trust)",
+        "Type": "REGULATED",
+        "USI": "AMP1248AU",
+        "UpdatedDateUTC": "/Date(1573277596000+0000)/"
+      }
+    ]
+  }
+
+create-payroll-au: |
+  [
+    { 
+    	"ABN": "11001032511",
+    	"Type": "REGULATED"
+    },
+    { 
+    	"USI": "40022701955002",
+    	"Type": "REGULATED"
+    },
+    {
+      "Name": "Clive Monk Superannuation Fund 2",
+      "Type": "SMSF",
+      "ABN": "32319338078",
+      "EmployerNumber": "2222222",
+      "BSB": "159357",
+      "AccountNumber": "013152626",
+      "AccountName": "Test"
+      }
+  ]
+
+update-payroll-au: |
+  [
+    {
+      "SuperFundID": "4b1aed1e-2324-4cac-b17f-86ca108b38b4",
+      "Name": "Clive Monk Superannuation Fund",
+      "Type": "SMSF",
+      "ABN": "32319338078",
+      "EmployerNumber": "2222222",
+      "BSB": "159357",
+      "AccountNumber": "013152626",
+      "AccountName": "Test"
+    }
+  ]

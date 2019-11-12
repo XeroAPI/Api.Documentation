@@ -1,0 +1,50 @@
+---
+get-single-payroll-au: |
+  {
+    "LeaveApplications": [
+      {
+        "LeaveApplicationID": "a2e6a781-7849-4399-b3c5-c27daadf2755",
+        "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+        "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+        "LeavePeriods": [
+          {
+            "PayPeriodStartDate": "/Date(1577836800000+0000)/",
+            "PayPeriodEndDate": "/Date(1585612800000+0000)/",
+            "LeavePeriodStatus": "SCHEDULED",
+            "NumberOfUnits": 0.0154
+          }
+        ],
+        "Title": "vacation",
+        "StartDate": "/Date(1572566400000+0000)/",
+        "EndDate": "/Date(1572566400000+0000)/",
+        "UpdatedDateUTC": "/Date(1572576691000+0000)/"
+      }
+    ]
+  }
+
+post-minimum-payroll-au: |
+  [
+    {
+      "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+      "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+      "Title": "Annual Leave",
+      "StartDate": "/Date(1572566400000+0000)/",
+      "EndDate": "/Date(1572566400000+0000)/"
+    }
+  ]
+
+post-with-units-payroll-au: |
+  [
+    {
+      "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+      "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+      "StartDate": "/Date(1572566400000+0000)/",
+      "EndDate": "/Date(1572566400000+0000)/",
+      "Title": "My Test Leave",
+      "LeavePeriods": 
+      {
+        "PayPeriodEndDate": "2020-03-31",
+        "NumberOfUnits": "1.0000"
+      }       
+    }
+  ]

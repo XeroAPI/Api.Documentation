@@ -1,0 +1,282 @@
+---
+get-all-payroll-au: |
+  {
+    "PayItems": {
+      "EarningsRates": [
+        {
+          "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+          "Name": "Ordinary Hours",
+          "EarningsType": "ORDINARYTIMEEARNINGS",
+          "RateType": "RATEPERUNIT",
+          "AccountCode": "477",
+          "TypeOfUnits": "Hours",
+          "IsExemptFromTax": false,
+          "IsExemptFromSuper": false,
+          "IsReportableAsW1": false,
+          "UpdatedDateUTC": "/Date(1573165584000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "EarningsRateID": "77dcc654-9287-479f-80d1-c92c582a2a50",
+          "Name": "Overtime Hours (exempt from super)",
+          "EarningsType": "OVERTIMEEARNINGS",
+          "RateType": "MULTIPLE",
+          "AccountCode": "477",
+          "Multiplier": 1.5000,
+          "IsExemptFromTax": false,
+          "IsExemptFromSuper": true,
+          "AccrueLeave": false,
+          "IsReportableAsW1": false,
+          "UpdatedDateUTC": "/Date(1573165584000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "EarningsRateID": "22788642-6b0c-4a94-b9a4-d531062612d7",
+          "Name": "Redundancy",
+          "EarningsType": "LUMPSUMD",
+          "RateType": "FIXEDAMOUNT",
+          "AccountCode": "477",
+          "IsExemptFromTax": true,
+          "IsExemptFromSuper": true,
+          "IsReportableAsW1": true,
+          "UpdatedDateUTC": "/Date(1572568677000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "EarningsRateID": "2ae5997f-0a04-459d-b4b0-31ebfd334d21",
+          "Name": "ETP Leave Earning",
+          "EarningsType": "EMPLOYMENTTERMINATIONPAYMENT",
+          "RateType": "RATEPERUNIT",
+          "AccountCode": "477",
+          "TypeOfUnits": "Hours",
+          "IsExemptFromTax": false,
+          "IsExemptFromSuper": true,
+          "IsReportableAsW1": true,
+          "UpdatedDateUTC": "/Date(1572568677000+0000)/",
+          "EmploymentTerminationPaymentType": "O",
+          "CurrentRecord": true
+        },
+        {
+          "EarningsRateID": "e5b157e5-bc7e-4836-aaf0-5360aeef5436",
+          "Name": "Tax Free ETP Type R Payments",
+          "EarningsType": "EMPLOYMENTTERMINATIONPAYMENT",
+          "RateType": "FIXEDAMOUNT",
+          "AccountCode": "477",
+          "IsExemptFromTax": true,
+          "IsExemptFromSuper": true,
+          "Amount": 1000.0000,
+          "IsReportableAsW1": true,
+          "UpdatedDateUTC": "/Date(1573165584000+0000)/",
+          "EmploymentTerminationPaymentType": "R",
+          "CurrentRecord": true
+        }
+      ],
+      "DeductionTypes": [
+        {
+          "DeductionTypeID": "f80ed511-c6be-4ed5-bb1e-e9f00bf6d734",
+          "DeductionCategory": "UNIONFEES",
+          "Name": "Union Fees",
+          "AccountCode": "826",
+          "ReducesTax": false,
+          "ReducesSuper": false,
+          "IsExemptFromW1": false,
+          "UpdatedDateUTC": "/Date(1573165584000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "DeductionTypeID": "bab9cd33-8e58-427f-8269-87df9d636325",
+          "DeductionCategory": "NONE",
+          "Name": "FBT",
+          "AccountCode": "850",
+          "ReducesTax": true,
+          "ReducesSuper": true,
+          "IsExemptFromW1": false,
+          "UpdatedDateUTC": "/Date(1572568677000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "DeductionTypeID": "95aea2f6-0a8a-4a8c-b14d-7a5494c827eb",
+          "DeductionCategory": "NONE",
+          "Name": "Social Club",
+          "AccountCode": "826",
+          "ReducesTax": false,
+          "ReducesSuper": false,
+          "IsExemptFromW1": false,
+          "UpdatedDateUTC": "/Date(1573165584000+0000)/",
+          "CurrentRecord": true
+        }
+      ],
+      "ReimbursementTypes": [
+        {
+          "ReimbursementTypeID": "81eae3f5-d1b0-442b-8c3a-35bad8b97ff8",
+          "Name": "Travel Costs",
+          "AccountCode": "850",
+          "UpdatedDateUTC": "/Date(1572568677000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "ReimbursementTypeID": "3432120f-4d83-4bc2-8b5d-5a116838229e",
+          "Name": "Other Reimbursable Costs",
+          "AccountCode": "850",
+          "UpdatedDateUTC": "/Date(1572568677000+0000)/",
+          "CurrentRecord": true
+        }
+      ],
+      "LeaveTypes": [
+        {
+          "LeaveTypeID": "8ed4ba76-2af7-41b2-8fa1-909d6eb8ec15",
+          "Name": "Annual Leave",
+          "TypeOfUnits": "Hours",
+          "NormalEntitlement": 160.0000,
+          "LeaveLoadingRate": 2.0000,
+          "IsPaidLeave": true,
+          "ShowOnPayslip": true,
+          "UpdatedDateUTC": "/Date(1573165584000+0000)/",
+          "CurrentRecord": true
+        },
+        {
+          "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+          "Name": "Parental Leave (unpaid)",
+          "TypeOfUnits": "Hours",
+          "IsPaidLeave": false,
+          "ShowOnPayslip": false,
+          "UpdatedDateUTC": "/Date(1572568677000+0000)/",
+          "CurrentRecord": true
+        }
+      ]
+    }
+  }  
+
+post-payroll-au: |  
+  {
+    "EarningsRates": [
+      {
+        "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+        "Name": "Ordinary Hours 123",
+        "EarningsType": "ORDINARYTIMEEARNINGS",
+        "RateType": "RATEPERUNIT",
+        "AccountCode": "477",
+        "TypeOfUnits": "Hours",
+        "IsExemptFromTax": true,
+        "IsExemptFromSuper": false,
+        "IsReportableAsW1": false,
+        "CurrentRecord": true
+      },
+      {
+        "EarningsRateID": "77dcc654-9287-479f-80d1-c92c582a2a50",
+        "Name": "Overtime Hours (exempt from super)",
+        "EarningsType": "OVERTIMEEARNINGS",
+        "RateType": "MULTIPLE",
+        "AccountCode": "477",
+        "Multiplier": 1.5000,
+        "IsExemptFromTax": true,
+        "IsExemptFromSuper": true,
+        "AccrueLeave": false,
+        "IsReportableAsW1": false,
+        "CurrentRecord": true
+      },
+      {
+        "EarningsRateID": "22788642-6b0c-4a94-b9a4-d531062612d7",
+        "Name": "Redundancy",
+        "EarningsType": "LUMPSUMD",
+        "RateType": "FIXEDAMOUNT",
+        "AccountCode": "477",
+        "IsExemptFromTax": true,
+        "IsExemptFromSuper": true,
+        "IsReportableAsW1": true,
+        "CurrentRecord": true
+      },
+      {
+        "EarningsRateID": "2ae5997f-0a04-459d-b4b0-31ebfd334d21",
+        "Name": "ETP Leave Earning",
+        "EarningsType": "EMPLOYMENTTERMINATIONPAYMENT",
+        "RateType": "RATEPERUNIT",
+        "AccountCode": "477",
+        "TypeOfUnits": "Hours",
+        "IsExemptFromTax": false,
+        "IsExemptFromSuper": true,
+        "IsReportableAsW1": true,
+        "EmploymentTerminationPaymentType": "O",
+        "CurrentRecord": true
+      },
+      {
+        "EarningsRateID": "e5b157e5-bc7e-4836-aaf0-5360aeef5436",
+        "Name": "Tax Free ETP Type R Payments",
+        "EarningsType": "EMPLOYMENTTERMINATIONPAYMENT",
+        "RateType": "FIXEDAMOUNT",
+        "AccountCode": "477",
+        "IsExemptFromTax": true,
+        "IsExemptFromSuper": true,
+        "Amount": 1500.0000,
+        "IsReportableAsW1": true,
+        "EmploymentTerminationPaymentType": "R",
+        "CurrentRecord": true
+      }
+    ],
+    "DeductionTypes": [
+      {
+        "DeductionTypeID": "f80ed511-c6be-4ed5-bb1e-e9f00bf6d734",
+        "DeductionCategory": "UNIONFEES",
+        "Name": "Union Fees",
+        "AccountCode": "826",
+        "ReducesTax": true,
+        "ReducesSuper": false,
+        "IsExemptFromW1": false,
+        "CurrentRecord": true
+      },
+      {
+        "DeductionTypeID": "bab9cd33-8e58-427f-8269-87df9d636325",
+        "DeductionCategory": "NONE",
+        "Name": "FBT",
+        "AccountCode": "850",
+        "ReducesTax": true,
+        "ReducesSuper": true,
+        "IsExemptFromW1": false,
+        "CurrentRecord": true
+      },
+      {
+        "DeductionTypeID": "95aea2f6-0a8a-4a8c-b14d-7a5494c827eb",
+        "DeductionCategory": "NONE",
+        "Name": "Social Club",
+        "AccountCode": "826",
+        "ReducesTax": true,
+        "ReducesSuper": false,
+        "IsExemptFromW1": false,
+        "CurrentRecord": true
+      }
+    ],
+    "ReimbursementTypes": [
+      {
+        "ReimbursementTypeID": "81eae3f5-d1b0-442b-8c3a-35bad8b97ff8",
+        "Name": "Travel Costs",
+        "AccountCode": "850",
+        "CurrentRecord": true
+      },
+      {
+        "ReimbursementTypeID": "3432120f-4d83-4bc2-8b5d-5a116838229e",
+        "Name": "Other Reimbursable Costs",
+        "AccountCode": "850",
+        "CurrentRecord": true
+      }
+    ],
+    "LeaveTypes": [
+      {
+        "LeaveTypeID": "8ed4ba76-2af7-41b2-8fa1-909d6eb8ec15",
+        "Name": "Annual Leave",
+        "TypeOfUnits": "Hours",
+        "NormalEntitlement": 100.0000,
+        "LeaveLoadingRate": 3.0000,
+        "IsPaidLeave": true,
+        "ShowOnPayslip": true,
+        "CurrentRecord": true
+      },
+      {
+        "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+        "Name": "Parental Leave (unpaid)",
+        "TypeOfUnits": "Hours",
+        "IsPaidLeave": false,
+        "ShowOnPayslip": false,
+        "CurrentRecord": true
+      }
+    ]
+  }
