@@ -75,21 +75,29 @@ post-earning-lines-payroll-au: |
     </Payslip>
   </Payslips>
 
-post-non-pending-superannuation-lines-payroll-au: |
+post-leave-earning-lines-payroll-au: |
   <Payslips>
     <Payslip>
-      <SuperannuationLines>
-        <SuperannuationLine>
-          <SuperMembershipID>9e042626-5afc-4bf8-8ff2-4d8614385459</SuperMembershipID>
-          <ContributionType>SGC</ContributionType>
-          <CalculationType>PERCENTAGEOFEARNINGS</CalculationType>
-          <MinimumMonthlyEarnings>450.0000</MinimumMonthlyEarnings>
-          <ExpenseAccountCode>478</ExpenseAccountCode>
-          <LiabilityAccountCode>826</LiabilityAccountCode>
-          <PaymentDateForThisPeriod>2020-04-28</PaymentDateForThisPeriod>
-          <Percentage>9.0000</Percentage>
-        </SuperannuationLine>
-      </SuperannuationLines>
+      <LeaveEarningsLines>
+        <EarningsLine>
+          <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
+          <RatePerUnit>0.000000</RatePerUnit>
+          <NumberOfUnits>0.0154</NumberOfUnits>
+        </EarningsLine>
+      </LeaveEarningsLines>
+    </Payslip>
+  </Payslips>  
+
+post-timesheet-earning-lines-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <TimesheetEarningsLines>
+        <EarningsLine>
+          <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
+          <RatePerUnit>100.000000</RatePerUnit>
+          <NumberOfUnits>24.0000</NumberOfUnits>
+        </EarningsLine>
+      </TimesheetEarningsLines>
     </Payslip>
   </Payslips>
 
@@ -106,6 +114,19 @@ post-deduction-line-payroll-au: |
     </Payslip>
   </Payslips>
 
+post-leave-accrual-line-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <LeaveAccrualLines>
+        <LeaveAccrualLine>
+          <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
+          <NumberOfUnits>8.0000</NumberOfUnits>
+          <AutoCalculate>false</AutoCalculate>
+        </LeaveAccrualLine>
+      </LeaveAccrualLines>
+    </Payslip>
+  </Payslips>
+
 post-reimbursement-line-payroll-au: |
   <Payslips>
     <Payslip>
@@ -119,16 +140,21 @@ post-reimbursement-line-payroll-au: |
     </Payslip>
   </Payslips>
 
-post-leave-accrual-line-payroll-au: |
+post-non-pending-superannuation-lines-payroll-au: |
   <Payslips>
     <Payslip>
-      <LeaveAccrualLines>
-        <LeaveAccrualLine>
-          <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
-          <NumberOfUnits>8.0000</NumberOfUnits>
-          <AutoCalculate>false</AutoCalculate>
-        </LeaveAccrualLine>
-      </LeaveAccrualLines>
+      <SuperannuationLines>
+        <SuperannuationLine>
+          <SuperMembershipID>9e042626-5afc-4bf8-8ff2-4d8614385459</SuperMembershipID>
+          <ContributionType>SGC</ContributionType>
+          <CalculationType>PERCENTAGEOFEARNINGS</CalculationType>
+          <MinimumMonthlyEarnings>450.0000</MinimumMonthlyEarnings>
+          <ExpenseAccountCode>478</ExpenseAccountCode>
+          <LiabilityAccountCode>826</LiabilityAccountCode>
+          <PaymentDateForThisPeriod>2020-04-28</PaymentDateForThisPeriod>
+          <Percentage>9.0000</Percentage>
+        </SuperannuationLine>
+      </SuperannuationLines>
     </Payslip>
   </Payslips>
 

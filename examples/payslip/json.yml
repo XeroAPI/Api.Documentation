@@ -66,19 +66,27 @@ post-earning-lines-payroll-au: |
     }
   ]
 
-post-non-pending-superannuation-lines-payroll-au: |
+post-leave-earning-lines-payroll-au: |
   [
     {
-      "SuperannuationLines": [
+      "LeaveEarningsLines": [
         {
+          "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+          "RatePerUnit": 20,
+          "NumberOfUnits": 1
+        }
+      ]
+    }
+  ]    
 
-          "ContributionType": "SGC",
-          "CalculationType": "PERCENTAGEOFEARNINGS",
-          "MinimumMonthlyEarnings": 50,
-          "ExpenseAccountCode": "478",
-          "LiabilityAccountCode": "826",
-          "PaymentDateForThisPeriod": "/Date(1588032000000+0000)/",
-          "Percentage": 1
+post-timesheet-earning-lines-payroll-au: |
+  [
+    {
+      "TimesheetEarningsLines": [
+        {
+          "EarningsRateID": "8468a3fd-34b9-4b69-844a-2401588fd996",
+          "RatePerUnit": 20,
+          "NumberOfUnits": 1
         }
       ]
     }
@@ -97,6 +105,19 @@ post-deduction-line-payroll-au: |
     }
   ]
 
+post-leave-accrual-line-payroll-au: |
+  [
+    {
+      "LeaveAccrualLines": [
+        {
+          "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
+          "NumberOfUnits": 8.0000,
+          "AutoCalculate": "false"
+        }
+      ]
+    }
+  ]  
+
 post-reimbursement-line-payroll-au: |
   [
     {
@@ -109,15 +130,20 @@ post-reimbursement-line-payroll-au: |
       ]
     }
   ]
-
-post-leave-accrual-line-payroll-au: |
+  
+post-non-pending-superannuation-lines-payroll-au: |
   [
     {
-      "LeaveAccrualLines": [
+      "SuperannuationLines": [
         {
-          "LeaveTypeID": "73f37030-b1ed-45fe-b7a2-f704a3a28ad4",
-          "NumberOfUnits": 8.0000,
-          "AutoCalculate": "false"
+
+          "ContributionType": "SGC",
+          "CalculationType": "PERCENTAGEOFEARNINGS",
+          "MinimumMonthlyEarnings": 50,
+          "ExpenseAccountCode": "478",
+          "LiabilityAccountCode": "826",
+          "PaymentDateForThisPeriod": "/Date(1588032000000+0000)/",
+          "Percentage": 1
         }
       ]
     }
