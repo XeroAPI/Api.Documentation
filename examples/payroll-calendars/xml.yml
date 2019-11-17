@@ -1,0 +1,43 @@
+---
+
+get-payroll-au: |
+  <PayrollCalendars>
+    <PayrollCalendar>
+      <PayrollCalendarID>841bcbb0-a3a8-4b49-a850-cc7816ad78ad</PayrollCalendarID>
+      <Name>WEEKLY</Name>
+      <CalendarType>WEEKLY</CalendarType>
+      <StartDate>2019-11-13T00:00:00</StartDate>
+      <PaymentDate>2019-11-21T00:00:00</PaymentDate>
+      <UpdatedDateUTC>2019-11-08T00:15:28</UpdatedDateUTC>
+    </PayrollCalendar>
+    <PayrollCalendar>
+      <PayrollCalendarID>d4a9437d-3b27-476c-ac15-db6439fac720</PayrollCalendarID>
+      <Name>Quarterly</Name>
+      <CalendarType>QUARTERLY</CalendarType>
+      <StartDate>2020-04-01T00:00:00</StartDate>
+      <PaymentDate>2020-04-01T00:00:00</PaymentDate>
+      <UpdatedDateUTC>2019-11-01T00:51:01</UpdatedDateUTC>
+    </PayrollCalendar>
+  </PayrollCalendars>
+
+get-single-payroll-au: |
+  <PayrollCalendars>
+    <PayrollCalendar>
+      <PayrollCalendarID>d4a9437d-3b27-476c-ac15-db6439fac720</PayrollCalendarID>
+      <Name>Quarterly</Name>
+      <CalendarType>QUARTERLY</CalendarType>
+      <StartDate>2020-04-01T00:00:00</StartDate>
+      <PaymentDate>2020-04-01T00:00:00</PaymentDate>
+      <UpdatedDateUTC>2019-11-01T00:51:01</UpdatedDateUTC>
+    </PayrollCalendar>
+  </PayrollCalendars>
+
+post-payroll-au: |
+  <PayrollCalendars>
+    <PayrollCalendar>
+      <CalendarType>Monthly</CalendarType>
+      <Name>MONTHLY</Name>
+      <PaymentDate>2019-11-21</PaymentDate>
+      <StartDate>2019-11-13</StartDate>
+    </PayrollCalendar>
+  </PayrollCalendars>

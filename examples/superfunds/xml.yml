@@ -1,0 +1,79 @@
+---
+
+get-payroll-au: |
+  <SuperFunds>
+    <SuperFund>
+      <SuperFundID>b1eabc65-251c-4dd1-9d20-63e5ba263f8f</SuperFundID>
+      <Name>MLC Navigator Retirement Plan - Superannuation Service (including Series 2) (MLC Superannuation Fund)</Name>
+      <Type>REGULATED</Type>
+      <ABN>40022701955</ABN>
+      <USI>40022701955001</USI>
+      <UpdatedDateUTC>2014-11-10T23:18:46</UpdatedDateUTC>
+    </SuperFund>
+    <SuperFund>
+      <SuperFundID>48d9d081-dc79-4729-8643-8482c3b28ce0</SuperFundID>
+      <Name>what what is</Name>
+      <Type>SMSF</Type>
+      <ABN>32319338078</ABN>
+      <EmployerNumber>324324</EmployerNumber>
+      <ElectronicServiceAddress>12345678</ElectronicServiceAddress>
+      <BSB>234324</BSB>
+      <AccountNumber>234234234</AccountNumber>
+      <AccountName>33333333</AccountName>
+      <UpdatedDateUTC>2013-03-21T05:40:02</UpdatedDateUTC>
+    </SuperFund>
+  </SuperFunds>
+
+get-single-payroll-au: |
+  <SuperFunds>
+    <SuperFund>
+      <SuperFundID>864a9c37-416d-4894-9a3f-553d6447cd1a</SuperFundID>
+      <Name>BT Business Super (Westpac Mastertrust Superannuation Division)</Name>
+      <Type>REGULATED</Type>
+      <USI>WFS0112AU</USI>
+      <UpdatedDateUTC>2019-11-01T00:48:45</UpdatedDateUTC>
+    </SuperFund>
+  </SuperFunds>
+
+create-payroll-au: |
+  <SuperFunds>
+    <SuperFund>
+      <ABN>73310248809</ABN>
+      <Type>REGULATED</Type>
+    </SuperFund>
+    <SuperFund>
+      <USI>40022701955001</USI>
+      <Type>REGULATED</Type>
+    </SuperFund>
+    <SuperFund>
+      <ABN>11001032511</ABN>
+      <AccountName>Test</AccountName>
+      <AccountNumber>111222333</AccountNumber>
+      <BSB>159357</BSB>
+      <EmployerNumber>999555666</EmployerNumber>
+      <ElectronicServiceAddress>12345678</ElectronicServiceAddress>
+      <Name>Clive Monk Superannuation Fund</Name>
+      <Type>SMSF</Type>
+    </SuperFund>
+    <SuperFund>
+      <SuperFundID>a3e05b23-7dbb-4641-a905-b974720323b2</SuperFundID>
+      <Name>Clive Monk Superannuation Fund</Name>
+      <Type>SMSF</Type>
+      <ABN>11001032511</ABN>
+      <EmployerNumber>999555666</EmployerNumber>
+      <BSB>159357</BSB>
+      <AccountNumber>013152626</AccountNumber>
+      <AccountName>Test</AccountName>
+    </SuperFund>
+  </SuperFunds>
+
+update-payroll-au: |
+  <SuperFunds>
+    <SuperFund>
+      <SuperFundID>a3e05b23-7dbb-4641-a905-b974720323b2</SuperFundID>
+      <Type>SMSF</Type>
+      <EmployerNumber>999555666</EmployerNumber>
+      <AccountNumber>111111111</AccountNumber>
+      <ABN>11001032511</ABN>
+    </SuperFund>
+  </SuperFunds> 

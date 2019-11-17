@@ -1,0 +1,136 @@
+---
+
+get-single-payroll-au: |
+  {
+    "PayRuns": [
+      {
+        "PayRunID": "66c0b3c4-ba63-4868-bb52-3219704b85d0",
+        "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+        "PayRunPeriodStartDate": "/Date(1585699200000+0000)/",
+        "PayRunPeriodEndDate": "/Date(1593475200000+0000)/",
+        "PaymentDate": "/Date(1585699200000+0000)/",
+        "Wages": 2400.00,
+        "Deductions": 0.00,
+        "Tax": 0.00,
+        "Super": 228.00,
+        "Reimbursement": 10.00,
+        "NetPay": 2400.00,
+        "PayRunStatus": "POSTED",
+        "UpdatedDateUTC": "/Date(1573196202000+0000)/",
+        "Payslips": [
+          {
+            "EmployeeID": "cccd34be-110b-446c-9649-3e1f7fd64d4f",
+            "PayslipID": "5037f8ef-e9b5-40a6-9ec1-0f6f7ebb4787",
+            "FirstName": "Alex",
+            "LastName": "Smith",
+            "Wages": 2400.00,
+            "Deductions": 0.00,
+            "Tax": 0.00,
+            "Super": 228.00,
+            "Reimbursements": 10.00,
+            "NetPay": 2400.00,
+            "UpdatedDateUTC": "/Date(1573196202000+0000)/"
+          }
+        ]
+      }
+    ]
+  }
+
+
+get-all-payroll-au: |
+  {
+    "PayRuns": [
+      {
+          "PayRunID": "9032bad9-d5b2-40a8-9165-192c32128f26",
+          "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
+          "PayRunPeriodStartDate": "/Date(1577836800000+0000)/",
+          "PayRunPeriodEndDate": "/Date(1585612800000+0000)/",
+          "PaymentDate": "/Date(1585699200000+0000)/",
+          "Wages": 1000.00,
+          "Deductions": 0.00,
+          "Tax": 0.00,
+          "Super": 0.00,
+          "Reimbursement": 0.00,
+          "NetPay": 1000.00,
+          "PayRunStatus": "POSTED",
+          "UpdatedDateUTC": "/Date(1573178654000+0000)/"
+      },
+      {
+          "PayRunID": "66c0b3c4-ba63-4868-bb52-3219704b85d0",
+          "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+          "PayRunPeriodStartDate": "/Date(1585699200000+0000)/",
+          "PayRunPeriodEndDate": "/Date(1593475200000+0000)/",
+          "PaymentDate": "/Date(1585699200000+0000)/",
+          "Wages": 1000.00,
+          "Deductions": 0.00,
+          "Tax": 0.00,
+          "Super": 0.00,
+          "Reimbursement": 0.00,
+          "NetPay": 1000.00,
+          "PayRunStatus": "POSTED",
+          "UpdatedDateUTC": "/Date(1573178028000+0000)/"
+      }
+    ]
+  }       
+
+create-scheduled-payroll-au: |
+  [
+    {
+      "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720"
+    }  
+  ] 
+
+create-unscheduled-payroll-au: |
+  [
+    {
+      "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+      "PayRunPeriodEndDate": "/Date(1593475200000+0000)/"
+    }  
+  ] 
+
+create-and-post-scheduled-payroll-au: |
+  [
+    {
+      "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+      "PayRunStatus": "POSTED"
+    }  
+  ] 
+
+create-and-post-unscheduled-payroll-au: |
+  [
+    {
+      "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+      "PayRunPeriodEndDate": "/Date(1593475200000+0000)/",
+      "PayRunStatus": "POSTED"
+    }  
+  ] 
+
+response-from-create-payroll-au: |
+  {
+    "PayRuns": [
+      {
+        "PayRunID": "25cfb04b-646e-4c62-9692-a8530bb66050",
+        "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+        "PayRunPeriodStartDate": "/Date(1585699200000+0000)/",
+        "PayRunPeriodEndDate": "/Date(1593475200000+0000)/",
+        "PaymentDate": "/Date(1585699200000+0000)/",
+        "PayRunStatus": "DRAFT",
+        "UpdatedDateUTC": "/Date(1573180738851+0000)/"
+      }
+    ]
+  }
+
+response-from-create-and-post-payroll-au: |
+  {
+    "PayRuns": [
+      {
+        "PayRunID": "582fe013-2c88-4ce7-b8c7-c2218519347e",
+        "PayrollCalendarID": "b6c7e4c2-7113-4129-8c9a-3a49cf3c8a18",
+        "PayRunPeriodStartDate": "/Date(1585699200000+0000)/",
+        "PayRunPeriodEndDate": "/Date(1593475200000+0000)/",
+        "PaymentDate": "/Date(1585699200000+0000)/",
+        "PayRunStatus": "POSTED",
+        "UpdatedDateUTC": "/Date(1573181012000+0000)/"
+      }
+    ]
+  }
