@@ -1,114 +1,110 @@
 ---
 response-get-multiple: |
-<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <Id>5ebf3885-7968-411a-84d1-3902bcfefc15</Id>
-    <Status>OK</Status>
-    <ProviderName>Adam Public</ProviderName>
-    <DateTimeUTC>2019-11-17T22:35:35.9198637Z</DateTimeUTC>
-    <Quotes>
-        <Quote>
-            <QuoteID>68e9965d-8d22-4e22-a01c-ee0a78fb3ea1</QuoteID>
-            <QuoteNumber>QU-0010</QuoteNumber>
-            <Reference>REF-123</Reference>
-            <Terms>Quote valid until the end of the month</Terms>
-            <Contact>
-                <ContactID>42771b60-19a7-4692-af81-dd9f9b9362d4</ContactID>
-                <Name>ABC Furniture</Name>
-                <EmailAddress>info@abfl.com</EmailAddress>
-                <FirstName>Trish</FirstName>
-                <LastName>Rawlings</LastName>
-            </Contact>
-            <LineItems>
-                <LineItem>
-                    <LineItemID>060f0936-5818-4b31-acbd-6c733dafbc1a</LineItemID>
-                    <AccountCode>200</AccountCode>
-                    <Description>Development work - developer onsite per day</Description>
-                    <UnitAmount>650.0000</UnitAmount>
-                    <DiscountRate>10.00</DiscountRate>
-                    <LineAmount>585.00</LineAmount>
-                    <ItemCode>DevD</ItemCode>
-                    <Quantity>1.0000</Quantity>
-                    <TaxAmount>58.50</TaxAmount>
-                    <TaxType>OUTPUT</TaxType>
-                    <Tracking>
-                        <TrackingCategory>
-                            <TrackingCategoryID>093af706-c2aa-4d97-a4ce-2d205a017eac</TrackingCategoryID>
-                            <TrackingOptionID>ae777a87-5ef3-4fa0-a4f0-d10e1f13073a</TrackingOptionID>
-                            <Name>Region</Name>
-                            <Option>Eastside</Option>
-                        </TrackingCategory>
-                    </Tracking>
-                </LineItem>
-            </LineItems>
-            <Date>2019-11-18T00:00:00</Date>
-            <ExpiryDate>2019-11-30T00:00:00</ExpiryDate>
-            <Status>DRAFT</Status>
-            <CurrencyRate>0.901366</CurrencyRate>
-            <CurrencyCode>CAD</CurrencyCode>
-            <SubTotal>585.00</SubTotal>
-            <TotalTax>58.50</TotalTax>
-            <Total>643.50</Total>
-            <TotalDiscount>65.00</TotalDiscount>
-            <Title>Quote for dev work</Title>
-            <Summary>As diiscussed</Summary>
-            <BrandingThemeID>2ced98b8-3be9-42c4-ae79-fe3c8bca3490</BrandingThemeID>
-            <UpdatedDateUTC>2019-11-17T22:25:09.507Z</UpdatedDateUTC>
-            <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
-        </Quote>
-        ...
-    </Quotes>
-</Response>
+    <Response>
+        <Quotes>
+            <Quote>
+                <QuoteID>68e9965d-8d22-4e22-a01c-ee0a78fb3ea1</QuoteID>
+                <QuoteNumber>QU-0010</QuoteNumber>
+                <Reference>REF-123</Reference>
+                <Terms>Quote valid until the end of the month</Terms>
+                <Contact>
+                    <ContactID>42771b60-19a7-4692-af81-dd9f9b9362d4</ContactID>
+                    <Name>ABC Furniture</Name>
+                    <EmailAddress>info@abfl.com</EmailAddress>
+                    <FirstName>Trish</FirstName>
+                    <LastName>Rawlings</LastName>
+                </Contact>
+                <LineItems>
+                    <LineItem>
+                        <LineItemID>060f0936-5818-4b31-acbd-6c733dafbc1a</LineItemID>
+                        <AccountCode>200</AccountCode>
+                        <Description>Development work - developer onsite per day</Description>
+                        <UnitAmount>650.0000</UnitAmount>
+                        <DiscountRate>10.00</DiscountRate>
+                        <LineAmount>585.00</LineAmount>
+                        <ItemCode>DevD</ItemCode>
+                        <Quantity>1.0000</Quantity>
+                        <TaxAmount>58.50</TaxAmount>
+                        <TaxType>OUTPUT</TaxType>
+                        <Tracking>
+                            <TrackingCategory>
+                                <TrackingCategoryID>093af706-c2aa-4d97-a4ce-2d205a017eac</TrackingCategoryID>
+                                <TrackingOptionID>ae777a87-5ef3-4fa0-a4f0-d10e1f13073a</TrackingOptionID>
+                                <Name>Region</Name>
+                                <Option>Eastside</Option>
+                            </TrackingCategory>
+                        </Tracking>
+                    </LineItem>
+                </LineItems>
+                <Date>2019-11-18T00:00:00</Date>
+                <ExpiryDate>2019-11-30T00:00:00</ExpiryDate>
+                <Status>DRAFT</Status>
+                <CurrencyRate>0.901366</CurrencyRate>
+                <CurrencyCode>CAD</CurrencyCode>
+                <SubTotal>585.00</SubTotal>
+                <TotalTax>58.50</TotalTax>
+                <Total>643.50</Total>
+                <TotalDiscount>65.00</TotalDiscount>
+                <Title>Quote for dev work</Title>
+                <Summary>As diiscussed</Summary>
+                <BrandingThemeID>2ced98b8-3be9-42c4-ae79-fe3c8bca3490</BrandingThemeID>
+                <UpdatedDateUTC>2019-11-17T22:25:09.507Z</UpdatedDateUTC>
+                <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
+            </Quote>
+            ...
+        </Quotes>
+    </Response>
 response-get-single: |
-<Response>
-    <Quotes>
-        <Quote>
-            <QuoteID>68e9965d-8d22-4e22-a01c-ee0a78fb3ea1</QuoteID>
-            <QuoteNumber>QU-0010</QuoteNumber>
-            <Reference>REF-123</Reference>
-            <Terms>Quote valid until the end of the month</Terms>
-            <Contact>
-                <ContactID>42771b60-19a7-4692-af81-dd9f9b9362d4</ContactID>
-                <Name>ABC Furniture</Name>
-                <EmailAddress>info@abfl.com</EmailAddress>
-                <FirstName>Trish</FirstName>
-                <LastName>Rawlings</LastName>
-            </Contact>
-            <LineItems>
-                <LineItem>
-                    <LineItemID>060f0936-5818-4b31-acbd-6c733dafbc1a</LineItemID>
-                    <AccountCode>200</AccountCode>
-                    <Description>Development work - developer onsite per day</Description>
-                    <UnitAmount>650.0000</UnitAmount>
-                    <DiscountRate>10.00</DiscountRate>
-                    <LineAmount>585.00</LineAmount>
-                    <ItemCode>DevD</ItemCode>
-                    <Quantity>1.0000</Quantity>
-                    <TaxAmount>58.50</TaxAmount>
-                    <TaxType>OUTPUT</TaxType>
-                    <Tracking>
-                        <TrackingCategory>
-                            <TrackingCategoryID>093af706-c2aa-4d97-a4ce-2d205a017eac</TrackingCategoryID>
-                            <TrackingOptionID>ae777a87-5ef3-4fa0-a4f0-d10e1f13073a</TrackingOptionID>
-                            <Name>Region</Name>
-                            <Option>Eastside</Option>
-                        </TrackingCategory>
-                    </Tracking>
-                </LineItem>
-            </LineItems>
-            <Date>2019-11-18T00:00:00</Date>
-            <ExpiryDate>2019-11-30T00:00:00</ExpiryDate>
-            <Status>DRAFT</Status>
-            <CurrencyRate>0.901366</CurrencyRate>
-            <CurrencyCode>CAD</CurrencyCode>
-            <SubTotal>585.00</SubTotal>
-            <TotalTax>58.50</TotalTax>
-            <Total>643.50</Total>
-            <TotalDiscount>65.00</TotalDiscount>
-            <Title>Quote for dev work</Title>
-            <Summary>As diiscussed</Summary>
-            <BrandingThemeID>2ced98b8-3be9-42c4-ae79-fe3c8bca3490</BrandingThemeID>
-            <UpdatedDateUTC>2019-11-17T22:25:09.507Z</UpdatedDateUTC>
-            <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
-        </Quote>
-    </Quotes>
-</Response>
+    <Response>
+        <Quotes>
+            <Quote>
+                <QuoteID>68e9965d-8d22-4e22-a01c-ee0a78fb3ea1</QuoteID>
+                <QuoteNumber>QU-0010</QuoteNumber>
+                <Reference>REF-123</Reference>
+                <Terms>Quote valid until the end of the month</Terms>
+                <Contact>
+                    <ContactID>42771b60-19a7-4692-af81-dd9f9b9362d4</ContactID>
+                    <Name>ABC Furniture</Name>
+                    <EmailAddress>info@abfl.com</EmailAddress>
+                    <FirstName>Trish</FirstName>
+                    <LastName>Rawlings</LastName>
+                </Contact>
+                <LineItems>
+                    <LineItem>
+                        <LineItemID>060f0936-5818-4b31-acbd-6c733dafbc1a</LineItemID>
+                        <AccountCode>200</AccountCode>
+                        <Description>Development work - developer onsite per day</Description>
+                        <UnitAmount>650.0000</UnitAmount>
+                        <DiscountRate>10.00</DiscountRate>
+                        <LineAmount>585.00</LineAmount>
+                        <ItemCode>DevD</ItemCode>
+                        <Quantity>1.0000</Quantity>
+                        <TaxAmount>58.50</TaxAmount>
+                        <TaxType>OUTPUT</TaxType>
+                        <Tracking>
+                            <TrackingCategory>
+                                <TrackingCategoryID>093af706-c2aa-4d97-a4ce-2d205a017eac</TrackingCategoryID>
+                                <TrackingOptionID>ae777a87-5ef3-4fa0-a4f0-d10e1f13073a</TrackingOptionID>
+                                <Name>Region</Name>
+                                <Option>Eastside</Option>
+                            </TrackingCategory>
+                        </Tracking>
+                    </LineItem>
+                </LineItems>
+                <Date>2019-11-18T00:00:00</Date>
+                <ExpiryDate>2019-11-30T00:00:00</ExpiryDate>
+                <Status>DRAFT</Status>
+                <CurrencyRate>0.901366</CurrencyRate>
+                <CurrencyCode>CAD</CurrencyCode>
+                <SubTotal>585.00</SubTotal>
+                <TotalTax>58.50</TotalTax>
+                <Total>643.50</Total>
+                <TotalDiscount>65.00</TotalDiscount>
+                <Title>Quote for dev work</Title>
+                <Summary>As diiscussed</Summary>
+                <BrandingThemeID>2ced98b8-3be9-42c4-ae79-fe3c8bca3490</BrandingThemeID>
+                <UpdatedDateUTC>2019-11-17T22:25:09.507Z</UpdatedDateUTC>
+                <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
+            </Quote>
+        </Quotes>
+    </Response>
