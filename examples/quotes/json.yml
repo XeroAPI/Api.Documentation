@@ -1,0 +1,122 @@
+---
+response-get-multiple: |
+  {
+    "Id": "a5325919-874c-4e7c-bcb0-5b149de392c8",
+    "Status": "OK",
+    "ProviderName": "Adam Public",
+    "DateTimeUTC": "/Date(1574029615275)/",
+    "Quotes": [
+      {
+        "QuoteID": "68e9965d-8d22-4e22-a01c-ee0a78fb3ea1",
+        "QuoteNumber": "QU-0010",
+        "Reference": "REF-123",
+        "Terms": "Quote valid until the end of the month",
+        "Contact": {
+          "ContactID": "42771b60-19a7-4692-af81-dd9f9b9362d4",
+          "Name": "ABC Furniture",
+          "EmailAddress": "info@abfl.com",
+          "FirstName": "Trish",
+          "LastName": "Rawlings"
+        },
+        "LineItems": [
+          {
+            "LineItemID": "060f0936-5818-4b31-acbd-6c733dafbc1a",
+            "AccountCode": "200",
+            "Description": "Development work - developer onsite per day",
+            "UnitAmount": 650.0000,
+            "DiscountRate": 10.00,
+            "LineAmount": 585.00,
+            "ItemCode": "DevD",
+            "Quantity": 1.0000,
+            "TaxAmount": 58.50,
+            "TaxType": "OUTPUT",
+            "Tracking": [
+              {
+                "TrackingCategoryID": "093af706-c2aa-4d97-a4ce-2d205a017eac",
+                "TrackingOptionID": "ae777a87-5ef3-4fa0-a4f0-d10e1f13073a",
+                "Name": "Region",
+                "Option": "Eastside"
+              }
+            ]
+          }
+        ],
+        "Date": "/Date(1574035200000)/",
+        "DateString": "2019-11-18T00:00:00",
+        "ExpiryDate": "/Date(1575072000000)/",
+        "ExpiryDateString": "2019-11-30T00:00:00",
+        "Status": "DRAFT",
+        "CurrencyRate": 0.901366,
+        "CurrencyCode": "CAD",
+        "SubTotal": 585.00,
+        "TotalTax": 58.50,
+        "Total": 643.50,
+        "TotalDiscount": 65.00,
+        "Title": "Quote for dev work",
+        "Summary": "As discussed",
+        "BrandingThemeID": "2ced98b8-3be9-42c4-ae79-fe3c8bca3490",
+        "UpdatedDateUTC": "/Date(1574029509507)/",
+        "LineAmountTypes": "EXCLUSIVE"
+      }
+      ...
+    ]
+  }
+response-get-single: |
+  {
+    "Id": "87da76d8-8d25-4d7b-be5b-d6c707a7dcad",
+    "Status": "OK",
+    "ProviderName": "Adam Public",
+    "DateTimeUTC": "/Date(1574030012755)/",
+    "Quotes": [
+      {
+        "QuoteID": "68e9965d-8d22-4e22-a01c-ee0a78fb3ea1",
+        "QuoteNumber": "QU-0010",
+        "Reference": "REF-123",
+        "Terms": "Quote valid until the end of the month",
+        "Contact": {
+          "ContactID": "42771b60-19a7-4692-af81-dd9f9b9362d4",
+          "Name": "ABC Furniture",
+          "EmailAddress": "info@abfl.com",
+          "FirstName": "Trish",
+          "LastName": "Rawlings"
+        },
+        "LineItems": [
+          {
+            "LineItemID": "060f0936-5818-4b31-acbd-6c733dafbc1a",
+            "AccountCode": "200",
+            "Description": "Development work - developer onsite per day",
+            "UnitAmount": 650.0000,
+            "DiscountRate": 10.00,
+            "LineAmount": 585.00,
+            "ItemCode": "DevD",
+            "Quantity": 1.0000,
+            "TaxAmount": 58.50,
+            "TaxType": "OUTPUT",
+            "Tracking": [
+              {
+                "TrackingCategoryID": "093af706-c2aa-4d97-a4ce-2d205a017eac",
+                "TrackingOptionID": "ae777a87-5ef3-4fa0-a4f0-d10e1f13073a",
+                "Name": "Region",
+                "Option": "Eastside"
+              }
+            ]
+          }
+        ],
+        "Date": "/Date(1574035200000)/",
+        "DateString": "2019-11-18T00:00:00",
+        "ExpiryDate": "/Date(1575072000000)/",
+        "ExpiryDateString": "2019-11-30T00:00:00",
+        "Status": "DRAFT",
+        "CurrencyRate": 0.901366,
+        "CurrencyCode": "CAD",
+        "SubTotal": 585.00,
+        "TotalTax": 58.50,
+        "Total": 643.50,
+        "TotalDiscount": 65.00,
+        "Title": "Quote for dev work",
+        "Summary": "As diiscussed",
+        "BrandingThemeID": "2ced98b8-3be9-42c4-ae79-fe3c8bca3490",
+        "UpdatedDateUTC": "/Date(1574029509507)/",
+        "LineAmountTypes": "EXCLUSIVE"
+      }
+    ]
+  }
