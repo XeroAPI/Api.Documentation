@@ -62,67 +62,6 @@ get-single-payroll-au: |
     </TaxLines>
   </Payslip>
 
-post-minimum-payroll-au: |
-  <Payslip>
-    <EarningsLines>
-      <EarningsLine>
-        <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
-        <NumberOfUnits>40.0000</NumberOfUnits>
-        <RatePerUnit>25.0000</RatePerUnit>
-      </EarningsLine>
-    </EarningsLines>
-  </Payslip>
-
-post-payroll-au: |
-  <Payslips>
-    <Payslip>
-      <EarningsLines>
-        <EarningsLine>
-          <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
-          <RatePerUnit>35.0000</RatePerUnit>
-          <NumberOfUnits>25.0000</NumberOfUnits>
-        </EarningsLine>
-      </EarningsLines>
-      <TimesheetEarningsLines />
-      <DeductionLines>
-        <DeductionLine>
-          <Amount>35.00</Amount>
-          <CalculationType>PRETAX</CalculationType>
-          <DeductionTypeID>bab9cd33-8e58-427f-8269-87df9d636325</DeductionTypeID>
-          <Percentage>4.0000</Percentage>
-        </DeductionLine>
-      </DeductionLines>
-      <LeaveAccrualLines />
-      <ReimbursementLines>
-        <ReimbursementLine>
-          <ReimbursementTypeID>3432120f-4d83-4bc2-8b5d-5a116838229e</ReimbursementTypeID>
-          <Description>test</Description>
-          <Amount>10.00</Amount>
-        </ReimbursementLine>
-      </ReimbursementLines>
-      <SuperannuationLines>
-        <SuperannuationLine>
-          <SuperMembershipID>9e042626-5afc-4bf8-8ff2-4d8614385459</SuperMembershipID>
-          <ContributionType>SGC</ContributionType>
-          <CalculationType>PERCENTAGEOFEARNINGS</CalculationType>
-          <MinimumMonthlyEarnings>450.0000</MinimumMonthlyEarnings>
-          <ExpenseAccountCode>478</ExpenseAccountCode>
-          <LiabilityAccountCode>826</LiabilityAccountCode>
-          <PaymentDateForThisPeriod>2020-02-25</PaymentDateForThisPeriod>
-          <Percentage>9.0000</Percentage>
-          <Amount>78.7500</Amount>
-        </SuperannuationLine>
-      </SuperannuationLines>
-      <TaxLines>
-        <TaxLine>
-          <PayslipTaxLineID>b6be8d74-3e73-4c2f-bc8b-0b4b65e61202</PayslipTaxLineID>
-          <Description>No tax file number (Australian resident)</Description>
-          <Amount>407.00</Amount>
-        </TaxLine>
-      </TaxLines>
-    </Payslip>
-  </Payslips>
-
 post-earning-lines-payroll-au: |
   <Payslips>
     <Payslip>
@@ -133,6 +72,71 @@ post-earning-lines-payroll-au: |
           <NumberOfUnits>40.0000</NumberOfUnits>
         </EarningsLine>
       </EarningsLines>
+    </Payslip>
+  </Payslips>
+
+post-leave-earning-lines-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <LeaveEarningsLines>
+        <EarningsLine>
+          <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
+          <RatePerUnit>0.000000</RatePerUnit>
+          <NumberOfUnits>0.0154</NumberOfUnits>
+        </EarningsLine>
+      </LeaveEarningsLines>
+    </Payslip>
+  </Payslips>  
+
+post-timesheet-earning-lines-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <TimesheetEarningsLines>
+        <EarningsLine>
+          <EarningsRateID>8468a3fd-34b9-4b69-844a-2401588fd996</EarningsRateID>
+          <RatePerUnit>100.000000</RatePerUnit>
+          <NumberOfUnits>24.0000</NumberOfUnits>
+        </EarningsLine>
+      </TimesheetEarningsLines>
+    </Payslip>
+  </Payslips>
+
+post-deduction-line-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <DeductionLines>
+        <DeductionLine>
+          <DeductionTypeID>bab9cd33-8e58-427f-8269-87df9d636325</DeductionTypeID>
+          <CalculationType>FIXEDAMOUNT</CalculationType>
+          <Amount>15.00</Amount>
+        </DeductionLine>
+      </DeductionLines>
+    </Payslip>
+  </Payslips>
+
+post-leave-accrual-line-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <LeaveAccrualLines>
+        <LeaveAccrualLine>
+          <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
+          <NumberOfUnits>8.0000</NumberOfUnits>
+          <AutoCalculate>false</AutoCalculate>
+        </LeaveAccrualLine>
+      </LeaveAccrualLines>
+    </Payslip>
+  </Payslips>
+
+post-reimbursement-line-payroll-au: |
+  <Payslips>
+    <Payslip>
+      <ReimbursementLines>
+        <ReimbursementLine>
+          <ReimbursementTypeID>3432120f-4d83-4bc2-8b5d-5a116838229e</ReimbursementTypeID>
+          <Description>Test Description</Description>
+          <Amount>10.00</Amount>
+        </ReimbursementLine>
+      </ReimbursementLines>
     </Payslip>
   </Payslips>
 
@@ -154,52 +158,12 @@ post-non-pending-superannuation-lines-payroll-au: |
     </Payslip>
   </Payslips>
 
-post-deduction-line-payroll-au: |
-  <Payslips>
-    <Payslip>
-      <DeductionLines>
-        <DeductionLine>
-          <DeductionTypeID>bab9cd33-8e58-427f-8269-87df9d636325</DeductionTypeID>
-          <CalculationType>FIXEDAMOUNT</CalculationType>
-          <Amount>15.00</Amount>
-        </DeductionLine>
-      </DeductionLines>
-    </Payslip>
-  </Payslips>
-
-post-reimbursement-line-payroll-au: |
-  <Payslips>
-    <Payslip>
-      <ReimbursementLines>
-        <ReimbursementLine>
-          <ReimbursementTypeID>3432120f-4d83-4bc2-8b5d-5a116838229e</ReimbursementTypeID>
-          <Description>Test Description</Description>
-          <Amount>10.00</Amount>
-        </ReimbursementLine>
-      </ReimbursementLines>
-    </Payslip>
-  </Payslips>
-
-post-leave-accrual-line-payroll-au: |
-  <Payslips>
-    <Payslip>
-      <LeaveAccrualLines>
-        <LeaveAccrualLine>
-          <LeaveTypeID>73f37030-b1ed-45fe-b7a2-f704a3a28ad4</LeaveTypeID>
-          <NumberOfUnits>8.0000</NumberOfUnits>
-          <AutoCalculate>false</AutoCalculate>
-        </LeaveAccrualLine>
-      </LeaveAccrualLines>
-    </Payslip>
-  </Payslips>
-
 post-manual-adjustment-tax-line-payroll-au: |
   <Payslips>
     <Payslip>
       <TaxLines>
         <TaxLine>
-          <PayslipTaxLineID>9f4be0f5-801e-48ad-b617-27f19e54ef08</PayslipTaxLineID>
-          <Description>Test Description</Description>
+          <Description>Manual Adjustment Tax Line</Description>
           <Amount>100.00</Amount>
         </TaxLine>
       </TaxLines>
@@ -211,6 +175,7 @@ post-etp-and-tax-lines-payroll-au: |
     <Payslip>
       <TaxLines>
         <TaxLine>
+          <Description>Add Employment Termination Payment</Description>
           <Amount>100.00</Amount>
           <ManualTaxType>ETPRMANUAL</ManualTaxType>
         </TaxLine>
