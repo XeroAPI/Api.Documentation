@@ -120,3 +120,45 @@ response-get-single: |
       }
     ]
   }
+request-put-minimum: |
+  {
+  "Contact": { 
+    "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92" 
+  },
+  "Date": "2019-11-29",
+  "LineItems": [
+    {
+      "Description": "Consulting services"
+    }
+  ]
+}
+request-put-maximum: |
+ {
+  "QuoteNumber": "QU-1068",
+  "Reference": "REF-90092",
+  "Terms": "Quote is valid for 30 business days",
+  "Contact": {
+    "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92"
+  },
+  "LineItems": [
+    {
+      "LineItemID": "874a8a16-9696-4a5a-8e3c-0ffda3ef36e6",
+      "Description": "Jurassic Park Colouring Book",
+      "UnitAmount": 12.50,
+      "LineAmount": 12.50,
+      "ItemCode": "BOOK",
+      "Quantity": 1.0000
+    }
+  ],
+  "Date": "2019-11-29",
+  "ExpiryDate": "2019-12-29",
+  "Status": "SENT",
+  "CurrencyCode": "NZD",
+  "CurrencyRate": 1.000000,
+  "SubTotal": 7000.00,
+  "TotalTax": 0.00,
+  "Total": 7000.00,
+  "Title": "Daniel Test Project",
+  "Tracking": [],
+  "LineAmountTypes": "EXCLUSIVE"
+}
