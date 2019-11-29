@@ -109,44 +109,44 @@ response-get-single: |
         </Quotes>
     </Response>
 request-put-minimum: |
-<Quote>
-   <Contact>
-      <ContactID>6d42f03b-181f-43e3-93fb-2025c012de92</ContactID>
-   </Contact>
-   <Date>2019-11-29</Date>
-   <LineItems>
-      <LineItem>
-         <Description>Consulting services</Description>
-      </LineItem>
-   </LineItems>
-</Quote>
+    <Quote>
+    <Contact>
+        <ContactID>6d42f03b-181f-43e3-93fb-2025c012de92</ContactID>
+    </Contact>
+    <Date>2019-11-29</Date>
+    <LineItems>
+        <LineItem>
+            <Description>Consulting services</Description>
+        </LineItem>
+    </LineItems>
+    </Quote>
 request-put-maximum: |
-<Quote>
-   <Contact>
-      <ContactID>6d42f03b-181f-43e3-93fb-2025c012de92</ContactID>
-   </Contact>
-   <CurrencyCode>NZD</CurrencyCode>
-   <CurrencyRate>1.0</CurrencyRate>
-   <Date>2019-11-29</Date>
-   <ExpiryDate>2019-12-29</ExpiryDate>
-   <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
-   <LineItems>
-      <LineItem>
-         <Description>Jurassic Park Colouring Book</Description>
-         <ItemCode>BOOK</ItemCode>
-         <LineAmount>12.5</LineAmount>
-         <LineItemID>874a8a16-9696-4a5a-8e3c-0ffda3ef36e6</LineItemID>
-         <Quantity>1.0</Quantity>
-         <UnitAmount>12.5</UnitAmount>
-      </LineItem>
-   </LineItems>
-   <QuoteNumber>QU-1068</QuoteNumber>
-   <Reference>REF-90092</Reference>
-   <Status>SENT</Status>
-   <SubTotal>7000.0</SubTotal>
-   <Terms>Quote is valid for 30 business days</Terms>
-   <Title>Daniel Test Project</Title>
-   <Total>7000.0</Total>
-   <TotalTax>0.0</TotalTax>
-   <Tracking />
-</Quote>
+    <Quote>
+    <Contact>
+        <ContactID>6d42f03b-181f-43e3-93fb-2025c012de92</ContactID>
+    </Contact>
+    <CurrencyCode>NZD</CurrencyCode>
+    <CurrencyRate>1.0</CurrencyRate>
+    <Date>2019-11-29</Date>
+    <ExpiryDate>2019-12-29</ExpiryDate>
+    <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
+    <LineItems>
+        <LineItem>
+            <Description>Jurassic Park Colouring Book</Description>
+            <ItemCode>BOOK</ItemCode>
+            <LineAmount>12.5</LineAmount>
+            <LineItemID>874a8a16-9696-4a5a-8e3c-0ffda3ef36e6</LineItemID>
+            <Quantity>1.0</Quantity>
+            <UnitAmount>12.5</UnitAmount>
+        </LineItem>
+    </LineItems>
+    <QuoteNumber>QU-1068</QuoteNumber>
+    <Reference>REF-90092</Reference>
+    <Status>SENT</Status>
+    <SubTotal>7000.0</SubTotal>
+    <Terms>Quote is valid for 30 business days</Terms>
+    <Title>Daniel Test Project</Title>
+    <Total>7000.0</Total>
+    <TotalTax>0.0</TotalTax>
+    <Tracking />
+    </Quote>

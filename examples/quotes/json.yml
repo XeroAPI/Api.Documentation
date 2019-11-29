@@ -131,7 +131,7 @@ request-put-minimum: |
       "Description": "Consulting services"
     }
   ]
-}
+  }
 request-put-maximum: |
  {
   "QuoteNumber": "QU-1068",
@@ -161,4 +161,4 @@ request-put-maximum: |
   "Title": "Daniel Test Project",
   "Tracking": [],
   "LineAmountTypes": "EXCLUSIVE"
-}
+  }
