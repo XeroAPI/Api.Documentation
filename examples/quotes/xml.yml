@@ -143,10 +143,10 @@ request-put-maximum: |
     <QuoteNumber>QU-1068</QuoteNumber>
     <Reference>REF-90092</Reference>
     <Status>SENT</Status>
-    <SubTotal>7000.0</SubTotal>
+    <SubTotal>12.5</SubTotal>
     <Terms>Quote is valid for 30 business days</Terms>
-    <Title>Daniel Test Project</Title>
-    <Total>7000.0</Total>
+    <Title>Quote for product sale</Title>
+    <Total>12.5</Total>
     <TotalTax>0.0</TotalTax>
     <Tracking />
     </Quote>
