@@ -155,10 +155,10 @@ request-put-maximum: |
   "Status": "SENT",
   "CurrencyCode": "NZD",
   "CurrencyRate": 1.000000,
-  "SubTotal": 7000.00,
+  "SubTotal": 12.50,
   "TotalTax": 0.00,
-  "Total": 7000.00,
-  "Title": "Daniel Test Project",
+  "Total": 12.50,
+  "Title": "Quote for product sale",
   "Tracking": [],
   "LineAmountTypes": "EXCLUSIVE"
   }
