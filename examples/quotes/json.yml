@@ -154,11 +154,11 @@ request-put-maximum: |
   "ExpiryDate": "2019-12-29",
   "Status": "SENT",
   "CurrencyCode": "NZD",
-  "CurrencyRate": 1.000000,
   "SubTotal": 12.50,
   "TotalTax": 0.00,
   "Total": 12.50,
   "Title": "Quote for product sale",
+  "Summary": "Sale of book",
   "Tracking": [],
   "LineAmountTypes": "EXCLUSIVE"
   }

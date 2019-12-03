@@ -126,7 +126,6 @@ request-put-maximum: |
         <ContactID>6d42f03b-181f-43e3-93fb-2025c012de92</ContactID>
     </Contact>
     <CurrencyCode>NZD</CurrencyCode>
-    <CurrencyRate>1.0</CurrencyRate>
     <Date>2019-11-29</Date>
     <ExpiryDate>2019-12-29</ExpiryDate>
     <LineAmountTypes>EXCLUSIVE</LineAmountTypes>
@@ -146,6 +145,7 @@ request-put-maximum: |
     <SubTotal>12.5</SubTotal>
     <Terms>Quote is valid for 30 business days</Terms>
     <Title>Quote for product sale</Title>
+    <Summary>Sale of book</Summary>
     <Total>12.5</Total>
     <TotalTax>0.0</TotalTax>
     <Tracking />
