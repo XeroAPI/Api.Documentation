@@ -158,7 +158,7 @@ request-put-maximum: |
   "TotalTax": 0.00,
   "Total": 12.50,
   "Title": "Quote for product sale",
-  "Summary": "Sale of book"
+  "Summary": "Sale of book",
   "Tracking": [],
   "LineAmountTypes": "EXCLUSIVE"
   }
