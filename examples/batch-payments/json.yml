@@ -184,6 +184,15 @@ put-accrec: |
       }
     ]
   }
+post-batch-delete: |
+  {
+    "BatchPaymentID": "9bf296e9-0748-4d29-a3dc-24dde1098030",
+    "Status": "DELETED"
+  }
+post-batch-delete-alt: |
+  {
+    "Status": "DELETED"
+  }
 history-get: |
   {
     "HistoryRecords": [

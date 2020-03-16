@@ -138,11 +138,55 @@ request-put-maximum: |
   "Reference": "REF-90092",
   "Terms": "Quote is valid for 30 business days",
   "Contact": {
+    "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92",
+    "ContactName": "John Hammond",
+  },
+  "LineItems": [
+    {
+      "Description": "Jurassic Park Colouring Book",
+      "UnitAmount": 12.50,
+      "LineAmount": 12.50,
+      "ItemCode": "BOOK",
+      "Quantity": 1.0000
+    }
+  ],
+  "Date": "2019-11-29",
+  "ExpiryDate": "2019-12-29",
+  "Status": "SENT",
+  "CurrencyCode": "NZD",
+  "SubTotal": 12.50,
+  "TotalTax": 0.00,
+  "Total": 12.50,
+  "Title": "Quote for product sale",
+  "Summary": "Sale of book",
+  "Tracking": [],
+  "LineAmountTypes": "EXCLUSIVE"
+  }
+request-post-minimum: |
+  {
+  "QuoteID": "68e9965d-8d22-4e22-a01c-ee0a78fb3ea1",
+  "Contact": { 
+    "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92" 
+  },
+  "Date": "2019-11-29",
+  "LineItems": [
+    {
+      "Description": "Consulting services"
+    }
+  ]
+  }
+request-post-maximum: |
+ {
+  "QuoteID": "68e9965d-8d22-4e22-a01c-ee0a78fb3ea1",
+  "QuoteNumber": "QU-1068",
+  "Reference": "REF-90092",
+  "Terms": "Quote is valid for 30 business days",
+  "Contact": {
     "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92"
   },
   "LineItems": [
     {
-      "LineItemID": "874a8a16-9696-4a5a-8e3c-0ffda3ef36e6",
+      "LineItemID": "060f0936-5818-4b31-acbd-6c733dafbc1a",
       "Description": "Jurassic Park Colouring Book",
       "UnitAmount": 12.50,
       "LineAmount": 12.50,

@@ -139,6 +139,15 @@ put-accrec: |
         </Payments>
      </BatchPayment>
   </BatchPayments>
+post-batch-delete: |
+  <BatchPayment>
+    <BatchPaymentID>9bf296e9-0748-4d29-a3dc-24dde1098030</BatchPaymentID>
+    <Status>DELETED</Status>
+  </BatchPayment>
+post-batch-delete-alt: |
+  <BatchPayment>
+    <Status>DELETED</Status>
+  </BatchPayment>
 history-get: |
   <HistoryRecords>
     <HistoryRecord>
