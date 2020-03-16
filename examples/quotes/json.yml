@@ -139,7 +139,7 @@ request-put-maximum: |
   "Terms": "Quote is valid for 30 business days",
   "Contact": {
     "ContactID": "6d42f03b-181f-43e3-93fb-2025c012de92",
-    "ContactName": "John Hammond",
+    "ContactName": "John Hammond"
   },
   "LineItems": [
     {
