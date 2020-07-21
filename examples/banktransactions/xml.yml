@@ -33,6 +33,18 @@ response-get-single: |
           <Code>090</Code>
           <Name>Business Bank Account</Name>
         </BankAccount>
+        <BatchPayment>
+          <Account>
+            <AccountID>ac993f75-035b-433c-82e0-7b7a2d40802c</AccountID>
+          </Account>
+          <BatchPaymentID>b54aa50c-794c-461b-89d1-846e1b84d9c0</BatchPaymentID>
+          <Date>2017-02-25T00:00:00</Date>
+          <Type>RECBATCH</Type>
+          <Status>AUTHORISED</Status>
+          <TotalAmount>100.00</TotalAmount>
+          <UpdatedDateUTC>2017-02-25T12:19:56.657</UpdatedDateUTC>
+          <IsReconciled>true</IsReconciled>
+        </BatchPayment>
         <Type>SPEND</Type>
         <Reference>Sub 098801</Reference>
         <IsReconciled>true</IsReconciled>

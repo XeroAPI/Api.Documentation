@@ -31,6 +31,18 @@ response-get-single: |
         "Code": "090",
         "Name": "Business Bank Account"
       },
+      "BatchPayment": {
+        "Account": {
+          "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c"
+        },
+        "BatchPaymentID": "b54aa50c-794c-461b-89d1-846e1b84d9c0",
+        "Date": "\/Date(1401062400000+0000)\/",
+        "Type": "RECBATCH",
+        "Status": "AUTHORISED",
+        "TotalAmount": "100.00",
+        "UpdatedDateUTC": "\/Date(1439434356790+0000)\/",
+        "IsReconciled": "true"
+      },
       "Type": "SPEND",
       "Reference": "Sub 098801",
       "IsReconciled": "true"

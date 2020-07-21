@@ -4,6 +4,19 @@ response-get-single: |
     "Payments": [
       {
         "PaymentID": "b26fd49a-cbae-470a-a8f8-bcbc119e0379",
+        "BatchPaymentID": "b54aa50c-794c-461b-89d1-846e1b84d9c0",
+        "BatchPayment": {
+          "Account": {
+            "AccountID": "ac993f75-035b-433c-82e0-7b7a2d40802c"
+          },
+          "BatchPaymentID": "b54aa50c-794c-461b-89d1-846e1b84d9c0",
+          "Date": "\/Date(1455667200000+0000)\/",
+          "Type": "RECBATCH",
+          "Status": "AUTHORISED",
+          "TotalAmount": "600.00",
+          "UpdatedDateUTC": "\/Date(1289572582537+0000)\/",
+          "IsReconciled": "true"
+        },
         "Date": "\/Date(1455667200000+0000)\/",
         "BankAmount": 500.00,
         "Amount": 500.00,

@@ -4,6 +4,19 @@ response-get-single: |
     <Payments>
       <Payment>
         <PaymentID>b26fd49a-cbae-470a-a8f8-bcbc119e0379</PaymentID>
+        <BatchPaymentID>b5ef98d8-bf5c-473e-8f84-c66c6bdcb516</BatchPaymentID>
+        <BatchPayment>
+          <Account>
+              <AccountID>ac993f75-035b-433c-82e0-7b7a2d40802c</AccountID>
+          </Account>
+          <BatchPaymentID>b5ef98d8-bf5c-473e-8f84-c66c6bdcb516</BatchPaymentID>
+          <Date>2016-02-17T00:00:00</Date>
+          <Type>RECBATCH</Type>
+          <Status>AUTHORISED</Status>
+          <TotalAmount>100.00</TotalAmount>
+          <UpdatedDateUTC>2010-11-12T14:36:22.537</UpdatedDateUTC>
+          <IsReconciled>true</IsReconciled>
+        </BatchPayment>
         <Date>2016-02-17T00:00:00</Date>
         <BankAmount>500.00</BankAmount>
         <Amount>500.00</Amount>
