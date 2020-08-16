@@ -1,0 +1,121 @@
+---
+get: |
+  <Budgets>
+    <Budget>
+      <BudgetID>c1d195d4-92aa-4abd-867a-7ac2f9d60500</BudgetID>
+      <Type>TRACKING</Type>
+      <Description>Daniel’s Northern budget</Description>
+      <UpdatedDateUTC>2017-08-14T01:18:26.74</UpdatedDateUTC>
+      <Tracking>
+        <TrackingCategory>
+          <TrackingCategoryID>e94ba240-3edf-4ef3-8317-10147b968f94</TrackingCategoryID>
+          <Name>Region</Name>
+          <TrackingOptionID>e94ba240-3edf-4ef3-8317-10147b968f94</TrackingOptionID>
+          <Option>North</Option>
+        </TrackingCategory>
+        <TrackingCategory>
+          <TrackingCategoryID>d8580491-4167-4a81-9624-ad3bdd8e46ce</TrackingCategoryID>                   
+          <Name>Salesperson</Name>
+          <TrackingOptionID>9c24de87-a2b7-439d-a216-35d1af7bdec3</TrackingOptionID> 
+          <Option>Adam</Option>
+        </TrackingCategory>
+      </Tracking>
+      <BudgetLines>
+        <BudgetLine>
+          <AccountID>9c24de87-a2b7-439d-a216-35d1af7bdec3</AccountID>
+          <AccountCode>200</AccountCode>
+          <BudgetBalances>
+            <BudgetBalance>
+              <Period>2019-08</Period>
+              <Amount>1000</Amount>
+              <Notes>Sample note</Notes>
+            </Balance>
+            <BudgetBalance>
+              <Period>2019-09</Period>
+              <Amount>1050</Amount>
+              <Notes></Notes>
+            </Balance>
+            <BudgetBalance>
+              <Period>2019-10</Period>
+              <Amount>1102</Amount>
+              <Notes></Notes>
+            </Balance>
+          </Balances>
+        </BudgetLine>
+        <BudgetLine>
+          <AccountID>385f90ae-e798-4990-9b1c-db8eb8b735c2</AccountID>
+          <AccountCode>420</AccountCode>
+          <BudgetBalances>
+            <BudgetBalance>
+              <Period>2019-08</Period>
+              <Amount>500</Amount>
+              <Notes></Notes>
+            </Balance>
+            <BudgetBalance>
+              <Period>2019-09</Period>
+              <Amount>505</Amount>
+              <Notes>Special Month</Notes>
+            </Balance>
+              <BudgetBalance>
+              <Period>2019-10</Period>
+              <Amount>510</Amount>
+              <Notes></Notes>
+            </Balance>
+          </Balances>
+        </BudgetLine>
+      </BudgetLines>
+    </Budget>
+  </Budgets>
+multiple-get: |
+  <Budgets>
+    <Budget>
+        <BudgetID>c1d195d4-92aa-4abd-867a-7ac2f9d60500</BudgetID>
+        <BudgetLines />
+        <Description>Daniel's Northern Budget</Description>
+        <Tracking>
+            <TrackingCategory>
+                <Name>Region</Name>
+                <Option>North</Option>
+                <TrackingCategoryID>e94ba240-3edf-4ef3-8317-10147b968f94</TrackingCategoryID>
+                <TrackingOptionID>e94ba240-3edf-4ef3-8317-10147b968f94</TrackingOptionID>
+            </TrackingCategory>
+            <TrackingCategory>
+                <Name>Salesperson</Name>
+                <Option>Daniel</Option>
+                <TrackingCategoryID>d8580491-4167-4a81-9624-ad3bdd8e46ce</TrackingCategoryID>
+                <TrackingOptionID>9c24de87-a2b7-439d-a216-35d1af7bdec3</TrackingOptionID>
+            </TrackingCategory>
+        </Tracking>
+        <Type>TRACKING</Type>
+        <UpdatedDateUTC>2017-08-14T01:18:26.74</UpdatedDateUTC>
+    </Budget>
+    <Budget>
+        <BudgetID>ce205173-7387-4651-9726-2cf4c5405ba2</BudgetID>
+        <BudgetLines />
+        <Description>Adam's Southern budget</Description>
+        <Tracking>
+            <TrackingCategory>
+                <Name>Region</Name>
+                <Option>South</Option>
+                <TrackingCategoryID>351953c4-8127-4009-88c3-f9cd8c9cbe9f</TrackingCategoryID>
+                <TrackingOptionID>aded1b8c-c261-4e86-badd-0c36e1a172d7</TrackingOptionID>
+            </TrackingCategory>
+            <TrackingCategory>
+                <Name>Salesperson</Name>
+                <Option>Adam</Option>
+                <TrackingCategoryID>6eb12fdf-63de-4033-98df-be679d84e3c2</TrackingCategoryID>
+                <TrackingOptionID>6159bdd4-b634-4338-a664-e929aa73f70f</TrackingOptionID>
+            </TrackingCategory>
+        </Tracking>
+        <Type>TRACKING</Type>
+        <UpdatedDateUTC>2019-01-19T01:09:20.87</UpdatedDateUTC>
+    </Budget>
+    <Budget>
+        <BudgetID>821731a3-b1e0-436d-929f-a3423bbd813b</BudgetID>
+        <BudgetLines />
+        <Description>Demo Company Full Budget</Description>
+        <Tracking />
+        <Type>OVERALL</Type>
+        <UpdatedDateUTC>2020-01-19T11:00:55.12</UpdatedDateUTC>
+    </Budget>
+  </Budgets>
