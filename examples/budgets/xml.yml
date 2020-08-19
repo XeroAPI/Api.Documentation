@@ -29,18 +29,18 @@ get: |
               <Period>2019-08</Period>
               <Amount>1000</Amount>
               <Notes>Sample note</Notes>
-            </Balance>
+            </BudgetBalance>
             <BudgetBalance>
               <Period>2019-09</Period>
               <Amount>1050</Amount>
               <Notes></Notes>
-            </Balance>
+            </BudgetBalance>
             <BudgetBalance>
               <Period>2019-10</Period>
               <Amount>1102</Amount>
               <Notes></Notes>
-            </Balance>
-          </Balances>
+            </BudgetBalance>
+          </BudgetBalances>
         </BudgetLine>
         <BudgetLine>
           <AccountID>385f90ae-e798-4990-9b1c-db8eb8b735c2</AccountID>
@@ -50,18 +50,18 @@ get: |
               <Period>2019-08</Period>
               <Amount>500</Amount>
               <Notes></Notes>
-            </Balance>
+            </BudgetBalance>
             <BudgetBalance>
               <Period>2019-09</Period>
               <Amount>505</Amount>
               <Notes>Special Month</Notes>
-            </Balance>
+            </BudgetBalance>
               <BudgetBalance>
               <Period>2019-10</Period>
               <Amount>510</Amount>
               <Notes></Notes>
-            </Balance>
-          </Balances>
+            </BudgetBalance>
+          </BudgetBalances>
         </BudgetLine>
       </BudgetLines>
     </Budget>

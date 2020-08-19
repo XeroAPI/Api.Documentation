@@ -28,17 +28,17 @@ get: |
                {
                   "Period": "2019-08",
                   "Amount": "1000",
-                  “Notes”: “Sample note”
+                  "Notes": "Sample note"
                },
                {
                   "Period": "2019-09",
                   "Amount": "1050",
-                  “Notes”: “”
+                  "Notes": ""
                },
                {
                   "Period": "2019-10",
                   "Amount": "1102",
-                  “Notes”: “”
+                  "Notes": ""
                }
             ]
          },
@@ -49,17 +49,17 @@ get: |
                {
                   "Period": "2019-08",
                   "Amount": "500",
-                  “Notes”: “”
+                  "Notes": ""
                },
                {
                   "Period": "2019-09",
                   "Amount": "505",
-                  “Notes”: “Special Month”
+                  "Notes": "Special Month"
                },
                {
                   "Period": "2019-10",
                   "Amount": "510",
-                  “Notes”: “”
+                  "Notes": ""
                }
             ]
          }
