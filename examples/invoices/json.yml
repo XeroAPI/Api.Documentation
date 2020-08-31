@@ -25,8 +25,8 @@ get-single: |
               { "PhoneType": "FAX" }
             ],
           "UpdatedDateUTC": "\/Date(1518685950940+0000)\/",
-          "IsSupplier": "false",
-          "IsCustomer": "true"
+          "IsSupplier": false,
+          "IsCustomer": true
         },
         "Date": "\/Date(1518685950940+0000)\/",
         "DueDate": "\/Date(1518685950940+0000)\/",
@@ -38,10 +38,10 @@ get-single: |
           {
             "Description": "Onsite project management ",
             "Quantity": "1.0000",
-            "UnitAmount": "1800.00",
+            "UnitAmount": 1800.00,
             "TaxType": "OUTPUT",
-            "TaxAmount": "225.00",
-            "LineAmount": "1800.00",
+            "TaxAmount": 225.00,
+            "LineAmount": 1800.00,
             "AccountCode": "200",
             "Tracking": [
               {
@@ -53,9 +53,9 @@ get-single: |
             "LineItemID": "52208ff9-528a-4985-a9ad-b2b1d4210e38"
           }
         ],
-        "SubTotal": "1800.00",
-        "TotalTax": "225.00",
-        "Total": "2025.00",
+        "SubTotal": 1800.00,
+        "TotalTax": 225.00,
+        "Total": 2025.00,
         "UpdatedDateUTC": "\/Date(1518685950940+0000)\/",
         "CurrencyCode": "NZD",
         "InvoiceID": "243216c5-369e-4056-ac67-05388f86dc81",
@@ -63,13 +63,13 @@ get-single: |
         "Payments": [
           {
             "Date": "\/Date(1518685950940+0000)\/",
-            "Amount": "1000.00",
+            "Amount": 1000.00,
             "PaymentID": "0d666415-cf77-43fa-80c7-56775591d426"
           }
         ],
-        "AmountDue": "1025.00",
-        "AmountPaid": "1000.00",
-        "AmountCredited": "0.00"
+        "AmountDue": 1025.00,
+        "AmountPaid": 1000.00,
+        "AmountCredited": 0.00
       }
     ]
   }
