@@ -68,6 +68,39 @@ response-get: |
       }
     ]
   }
+response-actions-get: |
+  {
+   "Actions":[
+      {
+         "Name":"UseMulticurrency",
+         "Status":"ALLOWED"
+      },
+      {
+         "Name":"CreateApprovedBill",
+         "Status":"NOT-ALLOWED"
+      },
+      {
+         "Name":"CreateDraftBill",
+         "Status":"ALLOWED"
+      },
+      {
+         "Name":"CreateRepeatingBill",
+         "Status":"NOT-ALLOWED"
+      },
+      {
+         "Name":"CreateApprovedInvoice",
+         "Status":"ALLOWED"
+      },
+      {
+         "Name":"AttachFilesIntoInvoice",
+         "Status":"ALLOWED"
+      },
+      {
+         "Name":"CreateDraftInvoice",
+         "Status":"ALLOWED"
+      }
+    ]
+  }
 response-get-cis-settings: |
   {
     "CISContractorEnabled": true,
