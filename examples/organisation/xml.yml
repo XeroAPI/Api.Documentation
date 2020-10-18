@@ -68,6 +68,37 @@ response-get: |
       </Organisation>
     </Organisations>
   </Response>
+response-actions-get: |
+  <Actions>
+    <Action>
+      <Name>UseMulticurrency</Name>
+      <Status>ALLOWED</Status>
+    </Action>
+    <Action>
+      <Name>CreateApprovedBill</Name>
+      <Status>NOT-ALLOWED</Status>
+    </Action>
+    <Action>
+      <Name>CreateDraftBill</Name>
+      <Status>ALLOWED</Status>
+    </Action>
+    <Action>
+      <Name>CreateRepeatingBill</Name>
+      <Status>NOT-ALLOWED</Status>
+    </Action>
+    <Action>
+      <Name>CreateApprovedInvoice</Name>
+      <Status>ALLOWED</Status>
+    </Action>
+    <Action>
+      <Name>AttachFilesIntoInvoice</Name>
+      <Status>ALLOWED</Status>
+    </Action>
+    <Action>
+      <Name>CreateDraftInvoice</Name>
+      <Status>ALLOWED</Status>
+    </Action>
+  </Actions>
 response-get-cis-settings: |
   <Response>
     <CISSettings>
