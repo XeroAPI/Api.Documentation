@@ -1,4 +1,220 @@
 ---
+response-get-TenNinetyNine2019AndBefore: |
+ {
+   "Id": "8b474ddb-9ef4-457c-8640-1c0e3670ea0e",
+   "Status": "OK",
+   "ProviderName": "Java Public Example",
+   "DateTimeUTC": "/Date(1555968100978)/",
+   "Reports": [
+     {
+       "ReportName": "1099 report",
+       "ReportDate": "1 Jan 2016 to 31 Dec 2016",
+       "Fields": [],
+       "Contacts": [
+         {
+           "Box1": 0.0,
+           "Box2": 0.0,
+           "Box3": 1000.0,
+           "Box4": 0.0,
+           "Box5": 0.0,
+           "Box6": 0.0,
+           "Box7": 0.0,
+           "Box8": 0.0,
+           "Box9": 0.0,
+           "Box10": 0.0,
+           "Box11": 0.0,
+           "Box13": 0.0,
+           "Box14": 0.0,
+           "Name": "Bank West",
+           "FederalTaxIDType": "SSN",
+           "City": "Pinehaven",
+           "Zip": "12345",
+           "State": "CA",
+           "Email": "jack@bowest.com",
+           "StreetAddress": "Procurement Services\r\nGPO 1234\r\n\r\n\r\n",
+           "TaxID": "234-22-2223",
+           "ContactId": "81d5706a-8057-4338-8511-747cd85f4c68"
+         },
+         {
+           "Box1": 0.0,
+           "Box2": 0.0,
+           "Box3": 1000.0,
+           "Box4": 0.0,
+           "Box5": 0.0,
+           "Box6": 0.0,
+           "Box7": 0.0,
+           "Box8": 0.0,
+           "Box9": 0.0,
+           "Box10": 0.0,
+           "Box11": 0.0,
+           "Box13": 0.0,
+           "Box14": 0.0,
+           "Name": "Hoyt Productions",
+           "FederalTaxIDType": "SSN",
+           "City": "Oaktown",
+           "Zip": "45123",
+           "State": "NY",
+           "Email": "accounts@hoytmadeupdemo.com",
+           "StreetAddress": "100 Rusty Ridge Road\r\nSuite 100\r\n\r\n\r\n",
+           "TaxID": "123-45-6780",
+           "ContactId": "19732b6a-9a5c-4651-b33c-3f8f682e2a2b"
+         },
+         {
+           "Box1": 5543.75,
+           "Box2": 0.0,
+           "Box3": 0.0,
+           "Box4": 0.0,
+           "Box5": 0.0,
+           "Box6": 0.0,
+           "Box7": 0.0,
+           "Box8": 0.0,
+           "Box9": 0.0,
+           "Box10": 0.0,
+           "Box11": 0.0,
+           "Box13": 0.0,
+           "Box14": 0.0,
+           "Name": "Truxton Property Management",
+           "FederalTaxIDType": "EIN",
+           "City": "Coppertown",
+           "Zip": "21321",
+           "State": "FL",
+           "Email": "accounts@truxtonmadeupdemo.com",
+           "StreetAddress": "1000 Copper Avenue\r\nSuite 1000\r\n\r\n\r\n",
+           "TaxID": "33-3332233",
+           "ContactId": "018355fc-c67e-4352-b443-ef3873031983"
+         }
+       ]
+     }
+   ]
+ }
+response-get-TenNinetyNine2020AndAfter: |
+ {
+   "Id": "8b474ddb-9ef4-457c-8640-1c0e3670ea0e",
+   "Status": "OK",
+   "ProviderName": "Java Public Example",
+   "DateTimeUTC": "/Date(1555968100978)/",
+   "Reports": [
+     {
+       "ReportName": "1099-NEC report",
+       "ReportDate": "1 Jan 2020 to 31 Dec 2020",
+       "Fields": [],
+       "Contacts": [
+         {
+           "Box1": 0.0,
+           "Box4": 1000.0,
+           "Name": "Bank West",
+           "FederalTaxIDType": "SSN",
+           "City": "Pinehaven",
+           "Zip": "12345",
+           "State": "CA",
+           "Email": "jack@bowest.com",
+           "StreetAddress": "Procurement Services\r\nGPO 1234\r\n\r\n\r\n",
+           "TaxID": "234-22-2223",
+           "ContactId": "81d5706a-8057-4338-8511-747cd85f4c68"
+         },
+         {
+           "Box1": 0.0,
+           "Box4": 1000.0,
+           "Name": "Hoyt Productions",
+           "FederalTaxIDType": "SSN",
+           "City": "Oaktown",
+           "Zip": "45123",
+           "State": "NY",
+           "Email": "accounts@hoytmadeupdemo.com",
+           "StreetAddress": "100 Rusty Ridge Road\r\nSuite 100\r\n\r\n\r\n",
+           "TaxID": "123-45-6780",
+           "ContactId": "19732b6a-9a5c-4651-b33c-3f8f682e2a2b"
+         },
+         {
+           "Box1": 0.0,
+           "Box4": 1000.0,
+           "Name": "Truxton Property Management",
+           "FederalTaxIDType": "EIN",
+           "City": "Coppertown",
+           "Zip": "21321",
+           "State": "FL",
+           "Email": "accounts@truxtonmadeupdemo.com",
+           "StreetAddress": "1000 Copper Avenue\r\nSuite 1000\r\n\r\n\r\n",
+           "TaxID": "33-3332233",
+           "ContactId": "018355fc-c67e-4352-b443-ef3873031983"
+         }
+       ]
+     },
+     {
+       "ReportName": "1099-MISC report",
+       "ReportDate": "1 Jan 2020 to 31 Dec 2020",
+       "Fields": [],
+       "Contacts": [
+         {
+           "Box1": 5543.75,
+           "Box2": 0.0,
+           "Box3": 0.0,
+           "Box4": 0.0,
+           "Box5": 0.0,
+           "Box6": 0.0,
+           "Box7": 0.0,
+           "Box8": 0.0,
+           "Box9": 0.0,
+           "Box10": 0.0,
+           "Box13": 0.0,
+           "Name": "Bank West",
+           "FederalTaxIDType": "SSN",
+           "City": "Pinehaven",
+           "Zip": "12345",
+           "State": "CA",
+           "Email": "jack@bowest.com",
+           "StreetAddress": "Procurement Services\r\nGPO 1234\r\n\r\n\r\n",
+           "TaxID": "234-22-2223",
+           "ContactId": "81d5706a-8057-4338-8511-747cd85f4c68"
+         },
+         {
+           "Box1": 5543.75,
+           "Box2": 0.0,
+           "Box3": 0.0,
+           "Box4": 0.0,
+           "Box5": 0.0,
+           "Box6": 0.0,
+           "Box7": 0.0,
+           "Box8": 0.0,
+           "Box9": 0.0,
+           "Box10": 0.0,
+           "Box13": 0.0,
+           "Name": "Hoyt Productions",
+           "FederalTaxIDType": "SSN",
+           "City": "Oaktown",
+           "Zip": "45123",
+           "State": "NY",
+           "Email": "accounts@hoytmadeupdemo.com",
+           "StreetAddress": "100 Rusty Ridge Road\r\nSuite 100\r\n\r\n\r\n",
+           "TaxID": "123-45-6780",
+           "ContactId": "19732b6a-9a5c-4651-b33c-3f8f682e2a2b"
+         },
+         {
+           "Box1": 5543.75,
+           "Box2": 0.0,
+           "Box3": 0.0,
+           "Box4": 0.0,
+           "Box5": 0.0,
+           "Box6": 0.0,
+           "Box7": 0.0,
+           "Box8": 0.0,
+           "Box9": 0.0,
+           "Box10": 0.0,
+           "Box13": 0.0,
+           "Name": "Truxton Property Management",
+           "FederalTaxIDType": "EIN",
+           "City": "Coppertown",
+           "Zip": "21321",
+           "State": "FL",
+           "Email": "accounts@truxtonmadeupdemo.com",
+           "StreetAddress": "1000 Copper Avenue\r\nSuite 1000\r\n\r\n\r\n",
+           "TaxID": "33-3332233",
+           "ContactId": "018355fc-c67e-4352-b443-ef3873031983"
+         }
+       ]
+     }
+   ]
+ }
 response-get-agedpayables: |
   {
     "Reports": [
