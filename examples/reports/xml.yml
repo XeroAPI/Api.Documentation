@@ -1,4 +1,220 @@
 ---
+response-get-TenNinetyNine2019AndBefore: |
+ <Response>
+   <Id>8b474ddb-9ef4-457c-8640-1c0e3670ea0e</Id>
+   <Status>OK</Status>
+   <ProviderName>Java Public Example</ProviderName>
+   <DateTimeUTC>/Date(1555968100978)/</DateTimeUTC>
+   <Reports>
+     <Report>
+       <ReportName>1099 report</ReportName>
+       <ReportDate>1 Jan 2016 to 31 Dec 2016</ReportDate>
+       <Fields />
+       <Contacts>
+         <Contact>
+           <Box1>0.0</Box1>
+           <Box2>0.0</Box2>
+           <Box3>1000.0</Box3>
+           <Box4>0.0</Box4>
+           <Box5>0.0</Box5>
+           <Box6>0.0</Box6>
+           <Box7>0.0</Box7>
+           <Box8>0.0</Box8>
+           <Box9>0.0</Box9>
+           <Box10>0.0</Box10>
+           <Box11>0.0</Box11>
+           <Box13>0.0</Box13>
+           <Box14>0.0</Box14>
+           <Name>Bank West</Name>
+           <FederalTaxIDType>SSN</FederalTaxIDType>
+           <City>Pinehaven</City>
+           <Zip>12345</Zip>
+           <State>CA</State>
+           <Email>jack@bowest.com</Email>
+           <StreetAddress>Procurement Services, GPO 1234</StreetAddress>
+           <TaxID>234-22-2223</TaxID>
+           <ContactId>81d5706a-8057-4338-8511-747cd85f4c68</ContactId>
+         </Contact>
+         <Contact>
+           <Box1>0.0</Box1>
+           <Box2>0.0</Box2>
+           <Box3>1000.0</Box3>
+           <Box4>0.0</Box4>
+           <Box5>0.0</Box5>
+           <Box6>0.0</Box6>
+           <Box7>0.0</Box7>
+           <Box8>0.0</Box8>
+           <Box9>0.0</Box9>
+           <Box10>0.0</Box10>
+           <Box11>0.0</Box11>
+           <Box13>0.0</Box13>
+           <Box14>0.0</Box14>
+           <Name>Hoyt Productions</Name>
+           <FederalTaxIDType>SSN</FederalTaxIDType>
+           <City>Oaktown</City>
+           <Zip>45123</Zip>
+           <State>NY</State>
+           <Email>accounts@hoytmadeupdemo.com</Email>
+           <StreetAddress>100 Rusty Ridge Road</StreetAddress>
+           <TaxID>123-45-6780</TaxID>
+           <ContactId>19732b6a-9a5c-4651-b33c-3f8f682e2a2b</ContactId>
+         </Contact>
+         <Contact>
+           <Box1>5543.75</Box1>
+           <Box2>0.0</Box2>
+           <Box3>0.0</Box3>
+           <Box4>0.0</Box4>
+           <Box5>0.0</Box5>
+           <Box6>0.0</Box6>
+           <Box7>0.0</Box7>
+           <Box8>0.0</Box8>
+           <Box9>0.0</Box9>
+           <Box10>0.0</Box10>
+           <Box11>0.0</Box11>
+           <Box13>0.0</Box13>
+           <Box14>0.0</Box14>
+           <Name>Truxton Property Management</Name>
+           <FederalTaxIDType>EIN</FederalTaxIDType>
+           <City>Coppertown</City>
+           <Zip>21321</Zip>
+           <State>FL</State>
+           <Email>accounts@truxtonmadeupdemo.com</Email>
+           <StreetAddress>1000 Copper Avenue</StreetAddress>
+           <TaxID>33-3332233</TaxID>
+           <ContactId>018355fc-c67e-4352-b443-ef3873031983</ContactId>
+         </Contact>
+       </Contacts>
+     </Report>       
+   </Reports>
+ </Response>
+response-get-TenNinetyNine2020AndAfter: |
+ <Response>
+   <Id>8b474ddb-9ef4-457c-8640-1c0e3670ea0e</Id>
+   <Status>OK</Status>
+   <ProviderName>Java Public Example</ProviderName>
+   <DateTimeUTC>/Date(1555968100978)/</DateTimeUTC>
+   <Reports>
+     <Report>
+       <ReportName>1099-NEC report</ReportName>
+       <ReportDate>1 Jan 2020 to 31 Dec 2020</ReportDate>
+       <Fields />
+       <Contacts>
+         <Contact>
+           <Box1>0.0</Box1>
+           <Box4>1000.0</Box4>
+           <Name>Bank West</Name>
+           <FederalTaxIDType>SSN</FederalTaxIDType>
+           <City>Pinehaven</City>
+           <Zip>12345</Zip>
+           <State>CA</State>
+           <Email>jack@bowest.com</Email>
+           <StreetAddress>Procurement Services, GPO 1234</StreetAddress>
+           <TaxID>234-22-2223</TaxID>
+           <ContactId>81d5706a-8057-4338-8511-747cd85f4c68</ContactId> 
+         </Contact>
+         <Contact>
+           <Box1>0.0</Box1>
+           <Box4>1000.0</Box4>
+           <Name>Hoyt Productions</Name>
+           <FederalTaxIDType>SSN</FederalTaxIDType>
+           <City>Oaktown</City>
+           <Zip>45123</Zip>
+           <State>NY</State>
+           <Email>accounts@hoytmadeupdemo.com</Email>
+           <StreetAddress>100 Rusty Ridge Road, Suite 100</StreetAddress>
+           <TaxID>123-45-6780</TaxID>
+           <ContactId>19732b6a-9a5c-4651-b33c-3f8f682e2a2b</ContactId>
+         </Contact>
+         <Contact>
+           <Box1>0.0</Box1>
+           <Box4>1000.0</Box4>
+           <Name>Truxton Property Management</Name>
+           <FederalTaxIDType>EIN</FederalTaxIDType>
+           <City>Coppertown</City>
+           <Zip>21321</Zip>
+           <State>FL</State>
+           <Email>accounts@truxtonmadeupdemo.com</Email>
+           <StreetAddress>1000 Copper Avenue, Suite 1000</StreetAddress>
+           <TaxID>33-3332233</TaxID>
+           <ContactId>018355fc-c67e-4352-b443-ef3873031983</ContactId>
+         </Contact>
+       </Contacts>
+     </Report>
+     <Report>
+       <ReportName>1099-MISC report</ReportName>
+       <ReportDate>1 Jan 2020 to 31 Dec 2020</ReportDate>
+       <Fields />
+       <Contacts>
+         <Contact>
+           <Box1>5543.75</Box1>
+           <Box2>0.0</Box2>
+           <Box3>0.0</Box3>
+           <Box4>0.0</Box4>
+           <Box5>0.0</Box5>
+           <Box6>0.0</Box6>
+           <Box7>0.0</Box7>
+           <Box8>0.0</Box8>
+           <Box9>0.0</Box9>
+           <Box10>0.0</Box10>
+           <Box13>0.0</Box13>
+           <Name>Bank West</Name>
+           <FederalTaxIDType>SSN</FederalTaxIDType>
+           <City>Pinehaven</City>
+           <Zip>12345</Zip>
+           <State>CA</State>
+           <Email>jack@bowest.com</Email>
+           <StreetAddress>Procurement Services, GPO 1234</StreetAddress>
+           <TaxID>234-22-2223</TaxID>
+           <ContactId>81d5706a-8057-4338-8511-747cd85f4c68</ContactId>
+         </Contact>
+         <Contact>
+           <Box1>5543.75</Box1>
+           <Box2>0.0</Box2>
+           <Box3>0.0</Box3>
+           <Box4>0.0</Box4>
+           <Box5>0.0</Box5>
+           <Box6>0.0</Box6>
+           <Box7>0.0</Box7>
+           <Box8>0.0</Box8>
+           <Box9>0.0</Box9>
+           <Box10>0.0</Box10>
+           <Box13>0.0</Box13>
+           <Name>Hoyt Productions</Name>
+           <FederalTaxIDType>SSN</FederalTaxIDType>
+           <City>Oaktown</City>
+           <Zip>45123</Zip>
+           <State>NY</State>
+           <Email>accounts@hoytmadeupdemo.com</Email>
+           <StreetAddress>100 Rusty Ridge Road, Suite 100</StreetAddress>
+           <TaxID>123-45-6780</TaxID>
+           <ContactId>19732b6a-9a5c-4651-b33c-3f8f682e2a2b</ContactId>
+         </Contact>
+         <Contact>
+           <Box1>5543.75</Box1>
+           <Box2>0.0</Box2>
+           <Box3>0.0</Box3>
+           <Box4>0.0</Box4>
+           <Box5>0.0</Box5>
+           <Box6>0.0</Box6>
+           <Box7>0.0</Box7>
+           <Box8>0.0</Box8>
+           <Box9>0.0</Box9>
+           <Box10>0.0</Box10>
+           <Box13>0.0</Box13>
+           <Name>Truxton Property Management</Name>
+           <FederalTaxIDType>EIN</FederalTaxIDType>
+           <City>Coppertown</City>
+           <Zip>21321</Zip>
+           <State>FL</State>
+           <Email>accounts@truxtonmadeupdemo.com</Email>
+           <StreetAddress>1000 Copper Avenue, Suite 1000</StreetAddress>
+           <TaxID>33-3332233</TaxID>
+           <ContactId>018355fc-c67e-4352-b443-ef3873031983</ContactId>
+         </Contact>
+       </Contacts>
+     </Report>
+   </Reports>
+ </Response>
 response-get-agedpayables: |
   <Response>
     <Reports>
