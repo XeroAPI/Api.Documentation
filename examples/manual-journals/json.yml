@@ -84,10 +84,10 @@ request-add-draft-detailed: |
           "AccountCode": "489",
           "TaxType": "NONE",
           "Tracking": [
-              {
-                "Name": "Region",
-                "Option": "South"
-              }
+            {
+              "Name": "Region",
+              "Option": "South"
+            }
           ]
         },
         {
