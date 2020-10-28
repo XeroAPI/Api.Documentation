@@ -83,24 +83,24 @@ request-add-draft-detailed: |
           "LineAmount": -1000.00,
           "AccountCode": "489",
           "TaxType": "NONE",
-          "Tracking": {
-            "TrackingCategory": {
-              "Name": "Region",
-              "Option": "South"
-            }
-          }
+          "Tracking": [
+              {
+                "Name": "Region",
+                "Option": "South"
+              }
+          ]
         },
         {
           "Description": "Prepayment",
           "LineAmount": 1000.00,
           "AccountCode": "620",
           "TaxType": "NONE",
-          "Tracking": {
-            "TrackingCategory": {
+          "Tracking": [
+            {
               "Name": "Region",
-              "Option": "North"
+              "Option": "South"
             }
-          }
+          ]
         }
       ]
     },
