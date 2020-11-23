@@ -228,6 +228,7 @@ get-terminated-employees-payroll-au: |
 post-single-success-payroll-au: |
   [
     {
+      "EmployeeID": "1fc55e0d-6a2f-45bc-91a8-c805e201be7d",
       "FirstName": "Adam",
       "LastName": "Adamson",
       "DateOfBirth": "/Date(320284900000+0000)/",
