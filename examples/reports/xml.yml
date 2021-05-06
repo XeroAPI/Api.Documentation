@@ -101,6 +101,7 @@ response-get-TenNinetyNine2020AndAfter: |
        <Contacts>
          <Contact>
            <Box1>0.0</Box1>
+           <Box2>0.0</Box2>
            <Box4>1000.0</Box4>
            <Name>Bank West</Name>
            <FederalTaxIDType>SSN</FederalTaxIDType>
@@ -114,6 +115,7 @@ response-get-TenNinetyNine2020AndAfter: |
          </Contact>
          <Contact>
            <Box1>0.0</Box1>
+           <Box2>0.0</Box2>
            <Box4>1000.0</Box4>
            <Name>Hoyt Productions</Name>
            <FederalTaxIDType>SSN</FederalTaxIDType>
@@ -127,6 +129,7 @@ response-get-TenNinetyNine2020AndAfter: |
          </Contact>
          <Contact>
            <Box1>0.0</Box1>
+           <Box2>0.0</Box2>
            <Box4>1000.0</Box4>
            <Name>Truxton Property Management</Name>
            <FederalTaxIDType>EIN</FederalTaxIDType>
@@ -156,6 +159,7 @@ response-get-TenNinetyNine2020AndAfter: |
            <Box8>0.0</Box8>
            <Box9>0.0</Box9>
            <Box10>0.0</Box10>
+           <Box11>0.0</Box11>
            <Box13>0.0</Box13>
            <Name>Bank West</Name>
            <FederalTaxIDType>SSN</FederalTaxIDType>
@@ -178,6 +182,7 @@ response-get-TenNinetyNine2020AndAfter: |
            <Box8>0.0</Box8>
            <Box9>0.0</Box9>
            <Box10>0.0</Box10>
+           <Box11>0.0</Box11>
            <Box13>0.0</Box13>
            <Name>Hoyt Productions</Name>
            <FederalTaxIDType>SSN</FederalTaxIDType>
@@ -200,6 +205,7 @@ response-get-TenNinetyNine2020AndAfter: |
            <Box8>0.0</Box8>
            <Box9>0.0</Box9>
            <Box10>0.0</Box10>
+           <Box11>0.0</Box11>
            <Box13>0.0</Box13>
            <Name>Truxton Property Management</Name>
            <FederalTaxIDType>EIN</FederalTaxIDType>
