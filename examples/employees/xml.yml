@@ -251,6 +251,7 @@ get-terminated-employees-payroll-au: |
       <Status>TERMINATED</Status>
       <StartDate>2013-01-07T00:00:00</StartDate>
       <TerminationDate>2013-03-06T00:00:00</TerminationDate>
+      <TerminationReason>V</TerminationReason>
       <UpdatedDateUTC>2013-02-28T00:23:36</UpdatedDateUTC>
     </Employee>
   </Employees>
