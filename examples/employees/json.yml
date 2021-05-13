@@ -219,6 +219,7 @@ get-terminated-employees-payroll-au: |
         "DateOfBirth": "/Date(-786931200000+0000)/",
         "StartDate": "/Date(1527897600000+0000)/",
         "TerminationDate": "/Date(1572825600000+0000)/",
+        "TerminationReason": "V",
         "PayrollCalendarID": "d4a9437d-3b27-476c-ac15-db6439fac720",
         "UpdatedDateUTC": "/Date(1572911939000+0000)/"
       }
