@@ -18,7 +18,8 @@ response-get-single: |
         "LineAmount": "49.90",
         "AccountCode": "404",
         "Quantity": "1.0000",
-        "LineItemID": "52208ff9-528a-4985-a9ad-b2b1d4210e38"
+        "LineItemID": "52208ff9-528a-4985-a9ad-b2b1d4210e38",
+        "AccountID": "ebd06280-af70-4bed-97c6-7451a454ad85"
       }],
       "SubTotal": "49.90",
       "TotalTax": "0.00",
